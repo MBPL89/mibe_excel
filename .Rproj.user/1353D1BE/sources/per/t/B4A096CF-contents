@@ -1,0 +1,57 @@
+---
+title: "Lesson 1 - Working with Workbooks"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 1a
+
+{{< video https://youtu.be/_1CZ0xttxoQ title="Practice 1a" >}}
+
+## Answer key
+[Answer key](/_files/key_intromis-1-a_1.xlsx){target="_blank"}
+    
+# Instructions
+
+[Starter Workbook](/_files/starters/key_intromis-1-a_1PV_START.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  **Open a new Excel workbook.**
+2.  **Copy only the top 25 pizza companies from ["PizzaToday"](PizzaToday.qmd){target="_blank"}**
+    -   Make sure to include the header row of the table.\
+    -   Recommended: Use Chrome browser for copying.
+3.  **Place the data into *Sheet1* of the workbook, starting from cell A1.**
+4.  **Adjust the data after pasting:**
+    -   Remove the hyperlink for each company name in column B.
+    -   Fill missing values in column A by completing the ranking. *Use the drag handle, do not manually enter each number.*
+    -   Resize each column to make all contents visible.
+5.  **Format the worksheet:**
+    -   Apply the style from cell B2 to all text in columns B, D, and E (use Format Painter).
+    -   Set the header row as bold, font size 16 pt.
+    -   All other cells: Calibri font, size 12 pt.
+6.  **Create the date column:**
+    -   Type `Date` in cell H1, formatted like the other headers.
+    -   In H2, enter: `12/31/2015`
+    -   Use Autofill to generate the same date for all following rows.
+    -   Format the dates in column H to display: *Thursday, December 31, 2015*
+7.  **Save the file as `username_e1a.xlsx` and close it.**
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

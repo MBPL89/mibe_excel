@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "MIBE Excel Corner"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Class notes"
+        menu:
+        - Introduction.qmd
+        - Lesson1.qmd
+      - text: "Practice - Windows"
+        menu:
+        - Lesson1a-Win.qmd
+        - Lesson 1b.qmd
+        - Lesson 1c.qmd
+        - Lesson 1d.qmd
+      - text: "Practice - Mac"
+        menu:
+        - Lesson1a-Mac.qmd
+        - Lesson 1b.qmd
+        - Lesson 1c.qmd
+        - Lesson 1d.qmd
+        
+format:
+  html:
+    theme: minty
+    toc: true
+    toc-depth: 2
+
+editor: visual

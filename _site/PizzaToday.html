@@ -1,0 +1,2958 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PizzaToday – MIBE Excel Corner</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">MIBE Excel Corner</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-home" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Home</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-home">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">MIBE Excel Corner</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Beforewestart.html">
+ <span class="dropdown-text">Before we start</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 1</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-1">    
+        <li class="dropdown-header">Introduction to Formatting</li>
+        <li>
+    <a class="dropdown-item" href="./Lesson1.html">
+ <span class="dropdown-text">Lesson 1 - Introduction to Formatting</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Practice1a.html">
+ <span class="dropdown-text">Practice 1a - Data Import and Cleaning</span></a>
+  </li>  
+        <li class="dropdown-header">Lesson 1c.qmd</li>
+        <li class="dropdown-header">Lesson 1d.qmd</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 2</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-2">    
+        <li class="dropdown-header">Using Functions</li>
+        <li class="dropdown-header">Coming soon</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-3" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 3</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-3">    
+        <li class="dropdown-header">Worksheet and Workbook Management</li>
+        <li class="dropdown-header">Coming soon</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-4" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 4</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-4">    
+        <li class="dropdown-header">Visualize, Sort, and Filter Data</li>
+        <li class="dropdown-header">Coming soon</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-5" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 5</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-5">    
+        <li class="dropdown-header">Summarize the Data with Pivot Tables</li>
+        <li class="dropdown-header">Coming soon</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lesson-6" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lesson 6</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lesson-6">    
+        <li class="dropdown-header">Comprehensive Analysis</li>
+        <li class="dropdown-header">Coming soon</li>
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#pizza-today-top-100-pizza-companies-list" id="toc-pizza-today-top-100-pizza-companies-list" class="nav-link active" data-scroll-target="#pizza-today-top-100-pizza-companies-list">2015 Pizza Today Top 100 Pizza Companies List</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PizzaToday</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pizza-today-top-100-pizza-companies-list" class="level1">
+<h1>2015 Pizza Today Top 100 Pizza Companies List</h1>
+<p>By Pizza Today</p>
+<hr>
+<p>Below is a ranking of America’s 100 largest pizza chains. For more on Pizza Today’s pizza industry lists, visit: Rankings of America’s Top Pizza Companies and Independent Pizzerias.</p>
+<table>
+<thead>
+<tr>
+<th>
+2015
+</th>
+<th>
+Restaurant Name
+</th>
+<th>
+2014
+</th>
+<th>
+Principal Executive
+</th>
+<th>
+City &amp; State
+</th>
+<th>
+#Units
+</th>
+<th>
+2015 Gross Sales
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+1
+</td>
+<td>
+<a href="https://www.pizzahut.com/" target="_blank">Pizza Hut*</a>
+</td>
+<td>
+1
+</td>
+<td>
+David W. Gibbs
+</td>
+<td>
+Plano, TX
+</td>
+<td>
+15605
+</td>
+<td>
+$13,400,000,000
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+<a href="https://www.dominos.com/" target="_blank">Domino’s*</a>
+</td>
+<td>
+2
+</td>
+<td>
+J. Patrick Doyle
+</td>
+<td>
+Ann Arbor, MI
+</td>
+<td>
+11629
+</td>
+<td>
+$8,900,000,000
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+Little Caesars Pizza
+</td>
+<td>
+3
+</td>
+<td>
+Michael Ilitch
+</td>
+<td>
+Detroit, MI
+</td>
+<td>
+4059
+</td>
+<td>
+$3,400,000,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.papajohns.com/" target="_blank">Papa Johns’ International</a>
+</td>
+<td>
+4
+</td>
+<td>
+John Schnatter
+</td>
+<td>
+Louisville, KY
+</td>
+<td>
+4708
+</td>
+<td>
+$3,332,000,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.papamurphys.com/" target="_blank">Papa Murphy’s International*</a>
+</td>
+<td>
+5
+</td>
+<td>
+Ken Calwell
+</td>
+<td>
+Vancouver, WA
+</td>
+<td>
+1425
+</td>
+<td>
+$785,360,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.cpk.com/" target="_blank">California Pizza Kitchen*</a>
+</td>
+<td>
+6
+</td>
+<td>
+G.J. Hart
+</td>
+<td>
+Playa Vista, CA
+</td>
+<td>
+290
+</td>
+<td>
+$745,000,000
+</td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+<a href="https://sbarro.com/" target="_blank">Sbarro*</a>
+</td>
+<td>
+7
+</td>
+<td>
+J. David Karam
+</td>
+<td>
+Columbus, OH
+</td>
+<td>
+820
+</td>
+<td>
+$602,000,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.cicis.com/" target="_blank">CiCi’s Pizza*</a>
+</td>
+<td>
+8
+</td>
+<td>
+Darin Harris
+</td>
+<td>
+Coppell, TX
+</td>
+<td>
+519
+</td>
+<td>
+$475,000,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.chuckecheese.com/" target="_blank">Chuck E. Cheese’s*</a>
+</td>
+<td>
+9
+</td>
+<td>
+Thomas Leverton
+</td>
+<td>
+Irving, TX
+</td>
+<td>
+577
+</td>
+<td>
+$405,000,000
+</td>
+</tr>
+<tr>
+<td>
+.
+</td>
+<td>
+<a href="https://www.marcos.com/" target="_blank">Marco’s Pizza</a>
+</td>
+<td>
+12
+</td>
+<td>
+John Butorac
+</td>
+<td>
+Toledo, OH
+</td>
+<td>
+640
+</td>
+<td>
+$380,000,000
+</td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+<a href="https://roundtablepizza.com/" target="_blank">Round Table Pizza*</a>
+</td>
+<td>
+10
+</td>
+<td>
+Rob McCourt
+</td>
+<td>
+Concord, CA
+</td>
+<td>
+439
+</td>
+<td>
+$378,000,000
+</td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+<a href="https://www.jetspizza.com/" target="_blank">Jet’s Pizza</a>
+</td>
+<td>
+14
+</td>
+<td>
+John Jetts
+</td>
+<td>
+Sterling Heights, MI
+</td>
+<td>
+375
+</td>
+<td>
+$337,069,011
+</td>
+</tr>
+<tr>
+<td>
+13
+</td>
+<td>
+<a href="https://www.hungryhowies.com/" target="_blank">Hungry Howie’s Pizza</a>
+</td>
+<td>
+13
+</td>
+<td>
+Steven E. Jackson
+</td>
+<td>
+Madison Heights, MI
+</td>
+<td>
+351
+</td>
+<td>
+$337,069,011
+</td>
+</tr>
+<tr>
+<td>
+14
+</td>
+<td>
+<a href="https://www.godfathers.com/" target="_blank">Godfather’s Pizza*</a>
+</td>
+<td>
+11
+</td>
+<td>
+Robert Gartlan
+</td>
+<td>
+Omaha, NE
+</td>
+<td>
+620
+</td>
+<td>
+$325,600,000
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+<a href="https://oldchicago.com/" target="_blank">Old Chicago/Rock Bottom Restaurant*</a>
+</td>
+<td>
+15
+</td>
+<td>
+Mike Mrlik
+</td>
+<td>
+Louisville, CO
+</td>
+<td>
+96
+</td>
+<td>
+$320,200,000
+</td>
+</tr>
+<tr>
+<td>
+16
+</td>
+<td>
+<a href="https://pizzaranch.com/" target="_blank">Pizza Ranch</a>
+</td>
+<td>
+17
+</td>
+<td>
+Adrie Groeneweg
+</td>
+<td>
+Orange City, IA
+</td>
+<td>
+190
+</td>
+<td>
+$230,274,000
+</td>
+</tr>
+<tr>
+<td>
+17
+</td>
+<td>
+<a href="https://www.unos.com/" target="_blank">Uno Chicago Grill*</a>
+</td>
+<td>
+16
+</td>
+<td>
+Aaron D. Spencer
+</td>
+<td>
+West Roxbury, MA
+</td>
+<td>
+149
+</td>
+<td>
+$210,500,000
+</td>
+</tr>
+<tr>
+<td>
+18
+</td>
+<td>
+<a href="https://peterpiperpizza.com/" target="_blank">Peter Piper Pizza*</a>
+</td>
+<td>
+18
+</td>
+<td>
+Charles Bruce
+</td>
+<td>
+Phoenix, AZ
+</td>
+<td>
+142
+</td>
+<td>
+$198,000,000
+</td>
+</tr>
+<tr>
+<td>
+19
+</td>
+<td>
+<a href="https://mellowmushroom.com/" target="_blank">Mellow Mushroom*</a>
+</td>
+<td>
+19
+</td>
+<td>
+Richard Brasch
+</td>
+<td>
+Atlanta, GA
+</td>
+<td>
+175
+</td>
+<td>
+$191,000,000
+</td>
+</tr>
+<tr>
+<td>
+20
+</td>
+<td>
+<a href="https://bertuccis.com/" target="_blank">Bertucci’s Italian</a>
+</td>
+<td>
+21
+</td>
+<td>
+Stuart Davies
+</td>
+<td>
+Northborough, MA
+</td>
+<td>
+88
+</td>
+<td>
+$188,000,000
+</td>
+</tr>
+<tr>
+<td>
+21
+</td>
+<td>
+<a href="https://rosatispizza.com/" target="_blank">Rosati’s Pizza</a>
+</td>
+<td>
+20
+</td>
+<td>
+Marla Topliff
+</td>
+<td>
+Elgin, IL
+</td>
+<td>
+126
+</td>
+<td>
+$178,000,000
+</td>
+</tr>
+<tr>
+<td>
+22
+</td>
+<td>
+<a href="https://donatos.com/" target="_blank">Donatos Pizza</a>
+</td>
+<td>
+22
+</td>
+<td>
+Tom Krouse
+</td>
+<td>
+Columbus, OH
+</td>
+<td>
+153
+</td>
+<td>
+$157,000,000
+</td>
+</tr>
+<tr>
+<td>
+23
+</td>
+<td>
+<a href="https://www.gattispizza.com/" target="_blank">Gatti’s Pizza*</a>
+</td>
+<td>
+23
+</td>
+<td>
+Steve Burt
+</td>
+<td>
+Austin, TX
+</td>
+<td>
+66
+</td>
+<td>
+$143,599,000
+</td>
+</tr>
+<tr>
+<td>
+24
+</td>
+<td>
+<a href="https://www.larosaspizza.com/" target="_blank">LaRosa’s Pizzeria</a>
+</td>
+<td>
+24
+</td>
+<td>
+Michael LaRosa
+</td>
+<td>
+Cincinnati, OH
+</td>
+<td>
+66
+</td>
+<td>
+$143,599,000
+</td>
+</tr>
+<tr>
+<td>
+25
+</td>
+<td>
+<a href="https://foxspizzaden.com/" target="_blank">Fox’s Pizza Den</a>
+</td>
+<td>
+25
+</td>
+<td>
+James R. Fox
+</td>
+<td>
+Murrysville, PA
+</td>
+<td>
+250
+</td>
+<td>
+$131,250,000
+</td>
+</tr>
+<tr>
+<td>
+26
+</td>
+<td>
+<a href="https://sarpinos.com/" target="_blank">Sarpino’s Pizzeria</a>
+</td>
+<td>
+30
+</td>
+<td>
+Dmitri Bodrenko
+</td>
+<td>
+Skokie, IL
+</td>
+<td>
+61
+</td>
+<td>
+$43,600,000
+</td>
+</tr>
+<tr>
+<td>
+27
+</td>
+<td>
+<a href="https://pizzamyheart.com/" target="_blank">Pizza My Heart</a>
+</td>
+<td>
+31
+</td>
+<td>
+Chuck Hearn
+</td>
+<td>
+Santa Cruz, CA
+</td>
+<td>
+24
+</td>
+<td>
+$40,000,000
+</td>
+</tr>
+<tr>
+<td>
+28
+</td>
+<td>
+<a href="https://www.pizzaguys.com/" target="_blank">Pizza Guys</a>
+</td>
+<td>
+32
+</td>
+<td>
+Shahriar Nejad
+</td>
+<td>
+Rancho Cordova, CA
+</td>
+<td>
+76
+</td>
+<td>
+$36,000,000
+</td>
+</tr>
+<tr>
+<td>
+29
+</td>
+<td>
+<a href="https://www.pizzapatron.com/" target="_blank">Pizza Patron</a>
+</td>
+<td>
+29
+</td>
+<td>
+Antonio Swad
+</td>
+<td>
+Dallas, TX
+</td>
+<td>
+93
+</td>
+<td>
+$35,400,000
+</td>
+</tr>
+<tr>
+<td>
+30
+</td>
+<td>
+<a href="https://www.toppers.com/" target="_blank">Toppers Pizza</a>
+</td>
+<td>
+33
+</td>
+<td>
+Scott Gittrich
+</td>
+<td>
+Whitewater, WI
+</td>
+<td>
+66
+</td>
+<td>
+$34,500,000
+</td>
+</tr>
+<tr>
+<td>
+31
+</td>
+<td>
+Pizza Factory
+</td>
+<td>
+36
+</td>
+<td>
+Mary Jane Rhoades
+</td>
+<td>
+Oakhurst, CA
+</td>
+<td>
+110
+</td>
+<td>
+$33,700,000
+</td>
+</tr>
+<tr>
+<td>
+32
+</td>
+<td>
+Straw Hat Pizza
+</td>
+<td>
+35
+</td>
+<td>
+Sal Lista
+</td>
+<td>
+Brentwood, CA
+</td>
+<td>
+31
+</td>
+<td>
+$32,600,000
+</td>
+</tr>
+<tr>
+<td>
+33
+</td>
+<td>
+Cottage Inn Pizza
+</td>
+<td>
+34
+</td>
+<td>
+Guy L. Lumsden
+</td>
+<td>
+Ann Arbor, MI
+</td>
+<td>
+52
+</td>
+<td>
+$32,000,000
+</td>
+</tr>
+<tr>
+<td>
+34
+</td>
+<td>
+Pizza Pit
+</td>
+<td>
+37
+</td>
+<td>
+Tom Harelson
+</td>
+<td>
+Madison, WI
+</td>
+<td>
+15
+</td>
+<td>
+$31,000,000
+</td>
+</tr>
+<tr>
+<td>
+35
+</td>
+<td>
+Big Cheese Pizza
+</td>
+<td>
+38
+</td>
+<td>
+Bill Gray
+</td>
+<td>
+Spokane, WA
+</td>
+<td>
+16
+</td>
+<td>
+$30,000,000
+</td>
+</tr>
+<tr>
+<td>
+36
+</td>
+<td>
+Pizzaville
+</td>
+<td>
+39
+</td>
+<td>
+Angelo Fodera
+</td>
+<td>
+Toronto, ON
+</td>
+<td>
+74
+</td>
+<td>
+$29,500,000
+</td>
+</tr>
+<tr>
+<td>
+37
+</td>
+<td>
+Topper’s Pizza
+</td>
+<td>
+40
+</td>
+<td>
+Keith Wagner
+</td>
+<td>
+Barrie, ON
+</td>
+<td>
+34
+</td>
+<td>
+$28,500,000
+</td>
+</tr>
+<tr>
+<td>
+38
+</td>
+<td>
+PizzaRev
+</td>
+<td>
+41
+</td>
+<td>
+Nicholas Eckerman
+</td>
+<td>
+Los Angeles, CA
+</td>
+<td>
+38
+</td>
+<td>
+$28,000,000
+</td>
+</tr>
+<tr>
+<td>
+39
+</td>
+<td>
+Rocky Rococo Pizza &amp; Pasta
+</td>
+<td>
+42
+</td>
+<td>
+Charlie Burzynski
+</td>
+<td>
+Middleton, WI
+</td>
+<td>
+35
+</td>
+<td>
+$28,000,000
+</td>
+</tr>
+<tr>
+<td>
+40
+</td>
+<td>
+Hungry Howie’s Pizza
+</td>
+<td>
+43
+</td>
+<td>
+Steve Jackson
+</td>
+<td>
+Madison Heights, MI
+</td>
+<td>
+42
+</td>
+<td>
+$27,500,000
+</td>
+</tr>
+<tr>
+<td>
+41
+</td>
+<td>
+Uncle Maddio’s Pizza Joint
+</td>
+<td>
+44
+</td>
+<td>
+Matt Andrew
+</td>
+<td>
+Atlanta, GA
+</td>
+<td>
+43
+</td>
+<td>
+$27,200,000
+</td>
+</tr>
+<tr>
+<td>
+42
+</td>
+<td>
+Pizza Luce
+</td>
+<td>
+45
+</td>
+<td>
+Scott Nelson
+</td>
+<td>
+Minneapolis, MN
+</td>
+<td>
+8
+</td>
+<td>
+$27,000,000
+</td>
+</tr>
+<tr>
+<td>
+43
+</td>
+<td>
+East of Chicago Pizza
+</td>
+<td>
+46
+</td>
+<td>
+David Bailey
+</td>
+<td>
+Willard, OH
+</td>
+<td>
+103
+</td>
+<td>
+$26,500,000
+</td>
+</tr>
+<tr>
+<td>
+44
+</td>
+<td>
+Mr.&nbsp;Gatti’s Pizza
+</td>
+<td>
+47
+</td>
+<td>
+Michael Poates
+</td>
+<td>
+Fort Worth, TX
+</td>
+<td>
+441
+</td>
+<td>
+$26,200,000
+</td>
+</tr>
+<tr>
+<td>
+45
+</td>
+<td>
+Pizza Inn
+</td>
+<td>
+48
+</td>
+<td>
+Joe P. Caruso
+</td>
+<td>
+The Colony, TX
+</td>
+<td>
+154
+</td>
+<td>
+$26,000,000
+</td>
+</tr>
+<tr>
+<td>
+46
+</td>
+<td>
+Pizza Pipeline
+</td>
+<td>
+49
+</td>
+<td>
+Kevin Doolan
+</td>
+<td>
+Spokane, WA
+</td>
+<td>
+13
+</td>
+<td>
+$25,900,000
+</td>
+</tr>
+<tr>
+<td>
+47
+</td>
+<td>
+Ledo Pizza
+</td>
+<td>
+50
+</td>
+<td>
+James Fox
+</td>
+<td>
+Annapolis, MD
+</td>
+<td>
+103
+</td>
+<td>
+$25,850,000
+</td>
+</tr>
+<tr>
+<td>
+48
+</td>
+<td>
+Pizza Schmizza
+</td>
+<td>
+51
+</td>
+<td>
+Andre Jehan
+</td>
+<td>
+Beaverton, OR
+</td>
+<td>
+24
+</td>
+<td>
+$25,800,000
+</td>
+</tr>
+<tr>
+<td>
+49
+</td>
+<td>
+Sammy’s Woodfired Pizza
+</td>
+<td>
+52
+</td>
+<td>
+Sami Ladeki
+</td>
+<td>
+San Diego, CA
+</td>
+<td>
+19
+</td>
+<td>
+$25,700,000
+</td>
+</tr>
+<tr>
+<td>
+50
+</td>
+<td>
+Stone Oven Pizza
+</td>
+<td>
+53
+</td>
+<td>
+Edward Kloppenburg
+</td>
+<td>
+Overland Park, KS
+</td>
+<td>
+11
+</td>
+<td>
+$25,500,000
+</td>
+</tr>
+<tr>
+<td>
+51
+</td>
+<td>
+Zio’s Pizzeria
+</td>
+<td>
+54
+</td>
+<td>
+Sam Spomer
+</td>
+<td>
+Omaha, NE
+</td>
+<td>
+5
+</td>
+<td>
+$25,400,000
+</td>
+</tr>
+<tr>
+<td>
+52
+</td>
+<td>
+Pizza Box
+</td>
+<td>
+55
+</td>
+<td>
+Nick Capra
+</td>
+<td>
+Dallas, TX
+</td>
+<td>
+10
+</td>
+<td>
+$25,000,000
+</td>
+</tr>
+<tr>
+<td>
+53
+</td>
+<td>
+Pizza Street
+</td>
+<td>
+56
+</td>
+<td>
+Kevin Harris
+</td>
+<td>
+Grand Prairie, TX
+</td>
+<td>
+17
+</td>
+<td>
+$24,800,000
+</td>
+</tr>
+<tr>
+<td>
+54
+</td>
+<td>
+Monical’s Pizza
+</td>
+<td>
+57
+</td>
+<td>
+Mike Monical
+</td>
+<td>
+Bradley, IL
+</td>
+<td>
+60
+</td>
+<td>
+$24,600,000
+</td>
+</tr>
+<tr>
+<td>
+55
+</td>
+<td>
+Mazzio’s Italian Eatery
+</td>
+<td>
+58
+</td>
+<td>
+Greg Lippert
+</td>
+<td>
+Tulsa, OK
+</td>
+<td>
+150
+</td>
+<td>
+$24,300,000
+</td>
+</tr>
+<tr>
+<td>
+56
+</td>
+<td>
+Aurelio’s Pizza
+</td>
+<td>
+59
+</td>
+<td>
+Joe Aurelio
+</td>
+<td>
+Homewood, IL
+</td>
+<td>
+39
+</td>
+<td>
+$24,000,000
+</td>
+</tr>
+<tr>
+<td>
+57
+</td>
+<td>
+Pizza Fusion
+</td>
+<td>
+60
+</td>
+<td>
+Mark Begelman
+</td>
+<td>
+Boca Raton, FL
+</td>
+<td>
+15
+</td>
+<td>
+$23,900,000
+</td>
+</tr>
+<tr>
+<td>
+58
+</td>
+<td>
+Anthony’s Coal Fired Pizza
+</td>
+<td>
+61
+</td>
+<td>
+Anthony Bruno
+</td>
+<td>
+Fort Lauderdale, FL
+</td>
+<td>
+49
+</td>
+<td>
+$23,700,000
+</td>
+</tr>
+<tr>
+<td>
+59
+</td>
+<td>
+Tino’s Italian Eats
+</td>
+<td>
+62
+</td>
+<td>
+John Dimeo
+</td>
+<td>
+Houston, TX
+</td>
+<td>
+20
+</td>
+<td>
+$23,500,000
+</td>
+</tr>
+<tr>
+<td>
+60
+</td>
+<td>
+East Coast Pizza
+</td>
+<td>
+63
+</td>
+<td>
+Frank Spinelli
+</td>
+<td>
+Denver, CO
+</td>
+<td>
+7
+</td>
+<td>
+$23,400,000
+</td>
+</tr>
+<tr>
+<td>
+61
+</td>
+<td>
+Pizza House
+</td>
+<td>
+64
+</td>
+<td>
+Mary Ann Altman
+</td>
+<td>
+Ann Arbor, MI
+</td>
+<td>
+3
+</td>
+<td>
+$23,000,000
+</td>
+</tr>
+<tr>
+<td>
+62
+</td>
+<td>
+Pizza Castle
+</td>
+<td>
+65
+</td>
+<td>
+Steve Carlucci
+</td>
+<td>
+Miami, FL
+</td>
+<td>
+8
+</td>
+<td>
+$22,900,000
+</td>
+</tr>
+<tr>
+<td>
+63
+</td>
+<td>
+Pizza Palace
+</td>
+<td>
+66
+</td>
+<td>
+Tony Parillo
+</td>
+<td>
+Knoxville, TN
+</td>
+<td>
+3
+</td>
+<td>
+$22,800,000
+</td>
+</tr>
+<tr>
+<td>
+64
+</td>
+<td>
+Pizza Bella
+</td>
+<td>
+67
+</td>
+<td>
+Vince Rossi
+</td>
+<td>
+San Diego, CA
+</td>
+<td>
+4
+</td>
+<td>
+$22,700,000
+</td>
+</tr>
+<tr>
+<td>
+65
+</td>
+<td>
+Pizza Street
+</td>
+<td>
+68
+</td>
+<td>
+Kevin Harris
+</td>
+<td>
+Dallas, TX
+</td>
+<td>
+17
+</td>
+<td>
+$22,400,000
+</td>
+</tr>
+<tr>
+<td>
+66
+</td>
+<td>
+Gambino’s Pizza
+</td>
+<td>
+69
+</td>
+<td>
+Gary Gambino
+</td>
+<td>
+Branson, MO
+</td>
+<td>
+37
+</td>
+<td>
+$22,300,000
+</td>
+</tr>
+<tr>
+<td>
+67
+</td>
+<td>
+Westside Pizza
+</td>
+<td>
+70
+</td>
+<td>
+Brady Stover
+</td>
+<td>
+Seattle, WA
+</td>
+<td>
+33
+</td>
+<td>
+$22,100,000
+</td>
+</tr>
+<tr>
+<td>
+68
+</td>
+<td>
+Roscoe’s Pizza
+</td>
+<td>
+71
+</td>
+<td>
+Joe Roscoe
+</td>
+<td>
+Lexington, KY
+</td>
+<td>
+6
+</td>
+<td>
+$22,000,000
+</td>
+</tr>
+<tr>
+<td>
+69
+</td>
+<td>
+Pizza Place
+</td>
+<td>
+72
+</td>
+<td>
+Dave Garrison
+</td>
+<td>
+Tulsa, OK
+</td>
+<td>
+4
+</td>
+<td>
+$21,700,000
+</td>
+</tr>
+<tr>
+<td>
+70
+</td>
+<td>
+Pizza Ranch Express
+</td>
+<td>
+73
+</td>
+<td>
+Adrie Groeneweg
+</td>
+<td>
+Orange City, IA
+</td>
+<td>
+23
+</td>
+<td>
+$21,600,000
+</td>
+</tr>
+<tr>
+<td>
+71
+</td>
+<td>
+Pizza Joe’s
+</td>
+<td>
+74
+</td>
+<td>
+Joe Daddario
+</td>
+<td>
+New Castle, PA
+</td>
+<td>
+45
+</td>
+<td>
+$21,400,000
+</td>
+</tr>
+<tr>
+<td>
+72
+</td>
+<td>
+Pizza 73
+</td>
+<td>
+75
+</td>
+<td>
+Paul Goddard
+</td>
+<td>
+Edmonton, AB
+</td>
+<td>
+76
+</td>
+<td>
+$21,200,000
+</td>
+</tr>
+<tr>
+<td>
+73
+</td>
+<td>
+Mr.&nbsp;Pizza
+</td>
+<td>
+76
+</td>
+<td>
+Richard Kim
+</td>
+<td>
+Los Angeles, CA
+</td>
+<td>
+11
+</td>
+<td>
+$21,000,000
+</td>
+</tr>
+<tr>
+<td>
+74
+</td>
+<td>
+Amici’s East Coast Pizzeria
+</td>
+<td>
+77
+</td>
+<td>
+Peter Cooperstein
+</td>
+<td>
+San Mateo, CA
+</td>
+<td>
+13
+</td>
+<td>
+$21,000,000
+</td>
+</tr>
+<tr>
+<td>
+75
+</td>
+<td>
+Pizza Cottage
+</td>
+<td>
+78
+</td>
+<td>
+Matt McCurdy
+</td>
+<td>
+Buckeye Lake, OH
+</td>
+<td>
+8
+</td>
+<td>
+$20,800,000
+</td>
+</tr>
+<tr>
+<td>
+76
+</td>
+<td>
+Red’s Savoy Pizza
+</td>
+<td>
+79
+</td>
+<td>
+Scott Redler
+</td>
+<td>
+Saint Paul, MN
+</td>
+<td>
+14
+</td>
+<td>
+$20,600,000
+</td>
+</tr>
+<tr>
+<td>
+77
+</td>
+<td>
+Angelo’s Pizza
+</td>
+<td>
+80
+</td>
+<td>
+Mike Angelo
+</td>
+<td>
+Lakewood, OH
+</td>
+<td>
+2
+</td>
+<td>
+$20,400,000
+</td>
+</tr>
+<tr>
+<td>
+78
+</td>
+<td>
+Pizza Mia
+</td>
+<td>
+81
+</td>
+<td>
+Frank Soriano
+</td>
+<td>
+Binghamton, NY
+</td>
+<td>
+10
+</td>
+<td>
+$20,200,000
+</td>
+</tr>
+<tr>
+<td>
+79
+</td>
+<td>
+Pizza Villa
+</td>
+<td>
+82
+</td>
+<td>
+Rachel Hines
+</td>
+<td>
+Garland, TX
+</td>
+<td>
+3
+</td>
+<td>
+$20,000,000
+</td>
+</tr>
+<tr>
+<td>
+80
+</td>
+<td>
+Pizza City
+</td>
+<td>
+83
+</td>
+<td>
+Tony Caprio
+</td>
+<td>
+Chicago, IL
+</td>
+<td>
+4
+</td>
+<td>
+$19,900,000
+</td>
+</tr>
+<tr>
+<td>
+81
+</td>
+<td>
+Vito’s Pizza
+</td>
+<td>
+84
+</td>
+<td>
+Vito Capizzi
+</td>
+<td>
+St.&nbsp;Louis, MO
+</td>
+<td>
+5
+</td>
+<td>
+$19,800,000
+</td>
+</tr>
+<tr>
+<td>
+82
+</td>
+<td>
+Pizza Express
+</td>
+<td>
+85
+</td>
+<td>
+Alice Brown
+</td>
+<td>
+Hartford, CT
+</td>
+<td>
+7
+</td>
+<td>
+$19,700,000
+</td>
+</tr>
+<tr>
+<td>
+83
+</td>
+<td>
+Mario’s Pizzeria
+</td>
+<td>
+86
+</td>
+<td>
+Mario Gentile
+</td>
+<td>
+Rochester, NY
+</td>
+<td>
+5
+</td>
+<td>
+$19,500,000
+</td>
+</tr>
+<tr>
+<td>
+84
+</td>
+<td>
+Pizza Works
+</td>
+<td>
+87
+</td>
+<td>
+Jerry Works
+</td>
+<td>
+Baltimore, MD
+</td>
+<td>
+4
+</td>
+<td>
+$19,400,000
+</td>
+</tr>
+<tr>
+<td>
+85
+</td>
+<td>
+Pizza Roma
+</td>
+<td>
+88
+</td>
+<td>
+Marco Bianchi
+</td>
+<td>
+Phoenix, AZ
+</td>
+<td>
+3
+</td>
+<td>
+$19,200,000
+</td>
+</tr>
+<tr>
+<td>
+86
+</td>
+<td>
+Pizza Stop
+</td>
+<td>
+89
+</td>
+<td>
+Bethany Park
+</td>
+<td>
+Syracuse, NY
+</td>
+<td>
+5
+</td>
+<td>
+$19,000,000
+</td>
+</tr>
+<tr>
+<td>
+87
+</td>
+<td>
+Pizza Factory Express
+</td>
+<td>
+90
+</td>
+<td>
+Jane Reed
+</td>
+<td>
+Oakhurst, CA
+</td>
+<td>
+9
+</td>
+<td>
+$18,900,000
+</td>
+</tr>
+<tr>
+<td>
+88
+</td>
+<td>
+Pizza Universe
+</td>
+<td>
+91
+</td>
+<td>
+Adam Rizzo
+</td>
+<td>
+Jupiter, FL
+</td>
+<td>
+3
+</td>
+<td>
+$18,800,000
+</td>
+</tr>
+<tr>
+<td>
+89
+</td>
+<td>
+Pizza Junction
+</td>
+<td>
+92
+</td>
+<td>
+Richard Franks
+</td>
+<td>
+Toledo, OH
+</td>
+<td>
+4
+</td>
+<td>
+$18,600,000
+</td>
+</tr>
+<tr>
+<td>
+90
+</td>
+<td>
+Pizza Gyro
+</td>
+<td>
+93
+</td>
+<td>
+Mark Papadopoulos
+</td>
+<td>
+Denver, CO
+</td>
+<td>
+4
+</td>
+<td>
+$18,500,000
+</td>
+</tr>
+<tr>
+<td>
+91
+</td>
+<td>
+Pizza Parma
+</td>
+<td>
+94
+</td>
+<td>
+Carla Rossi
+</td>
+<td>
+Sacramento, CA
+</td>
+<td>
+3
+</td>
+<td>
+$18,400,000
+</td>
+</tr>
+<tr>
+<td>
+92
+</td>
+<td>
+Pizza Italiano
+</td>
+<td>
+95
+</td>
+<td>
+Giovanni Russo
+</td>
+<td>
+Las Vegas, NV
+</td>
+<td>
+5
+</td>
+<td>
+$18,300,000
+</td>
+</tr>
+<tr>
+<td>
+93
+</td>
+<td>
+Pizza Box Express
+</td>
+<td>
+96
+</td>
+<td>
+Sam Spomer
+</td>
+<td>
+Omaha, NE
+</td>
+<td>
+3
+</td>
+<td>
+$18,200,000
+</td>
+</tr>
+<tr>
+<td>
+94
+</td>
+<td>
+Pizza Supreme
+</td>
+<td>
+97
+</td>
+<td>
+Ken Cavanaugh
+</td>
+<td>
+Atlanta, GA
+</td>
+<td>
+4
+</td>
+<td>
+$18,100,000
+</td>
+</tr>
+<tr>
+<td>
+95
+</td>
+<td>
+Pizza King
+</td>
+<td>
+98
+</td>
+<td>
+Steve King
+</td>
+<td>
+Indianapolis, IN
+</td>
+<td>
+8
+</td>
+<td>
+$18,000,000
+</td>
+</tr>
+<tr>
+<td>
+96
+</td>
+<td>
+Pizza World
+</td>
+<td>
+99
+</td>
+<td>
+Tom Gordon
+</td>
+<td>
+Nashville, TN
+</td>
+<td>
+4
+</td>
+<td>
+$17,900,000
+</td>
+</tr>
+<tr>
+<td>
+97
+</td>
+<td>
+Pizza Masters
+</td>
+<td>
+100
+</td>
+<td>
+Mike Masters
+</td>
+<td>
+Seattle, WA
+</td>
+<td>
+2
+</td>
+<td>
+$17,800,000
+</td>
+</tr>
+<tr>
+<td>
+98
+</td>
+<td>
+Pizza Town
+</td>
+<td>
+—
+</td>
+<td>
+Angela Romano
+</td>
+<td>
+Paterson, NJ
+</td>
+<td>
+3
+</td>
+<td>
+$17,600,000
+</td>
+</tr>
+<tr>
+<td>
+99
+</td>
+<td>
+Pizza Giant
+</td>
+<td>
+—
+</td>
+<td>
+Don Harris
+</td>
+<td>
+Houston, TX
+</td>
+<td>
+7
+</td>
+<td>
+$17,400,000
+</td>
+</tr>
+<tr>
+<td>
+100
+</td>
+<td>
+Pizza Wagon
+</td>
+<td>
+—
+</td>
+<td>
+Tom Carter
+</td>
+<td>
+Brooklyn, NY
+</td>
+<td>
+3
+</td>
+<td>
+$17,200,000
+</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,69 @@
+---
+title: "Practice 1c - Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 1c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/WViZyw3gIGc title="Practice 1c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/3gqe5DoZeZk title="Practice 1c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-1-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/key_intromis-1-c_1.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.	Download and open the starter file.
+2.	In cell F27, use the function SUM to compute the total of column F. [Mac](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89) [Win](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
+3.	In cell G27, calculate the total of column G. Use AutoSum to complete this task. [Mac](https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca) [Win](https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca)
+4.	Copy, simultaneously, the headers and data in columns B, F and G (do not copy the total, just the data and column headers).
+  - Paste the copied data in cell A1 of Sheet2. [Mac](https://support.microsoft.com/en-us/office/move-or-copy-worksheets-or-worksheet-data-47207967-bbb2-4e95-9b5c-3c174aa69328#id0ebbf=macos) [Win](https://support.microsoft.com/en-us/office/move-or-copy-worksheets-or-worksheet-data-47207967-bbb2-4e95-9b5c-3c174aa69328)
+  - Resize the columns to show all content.
+  - Rename Sheet1 as Data and Sheet2 as Calculations. [Mac](https://support.microsoft.com/en-us/office/rename-a-worksheet-3f1f7148-ee83-404d-8ef0-9ff99fbad1f9) [Win](https://support.microsoft.com/en-us/office/rename-a-worksheet-3f1f7148-ee83-404d-8ef0-9ff99fbad1f9)
+  - Make sure the sheets are in the correct order. The first one is the Data worksheet, the second is the Calculations worksheet.
+5.	In column D of the Calculations worksheet compute the Gross Sales per unit as: Gross Sales divided by Units.
+  - The column header should read: Unit Sales.
+  - Make sure the heading is formatted consistently with the other ones.
+  - Notice that in this case relative references are sufficient to compute the result for each row (be efficient, drag the formula). [Mac](https://support.microsoft.com/en-us/office/copy-a-formula-by-dragging-the-fill-handle-in-excel-for-mac-dd928259-622b-473f-9a33-83aa1a63e218) [Mac](https://support.microsoft.com/en-us/office/switch-between-relative-and-absolute-references-981f5871-7864-42cc-b3f0-41ffa10cc6fc) [Win](https://support.microsoft.com/en-us/office/switch-between-relative-absolute-and-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9)
+6.	In the Calculations worksheet type Total in A27 and Average in A28.
+  - Format both cells in bold.
+  - Copy the formula from cell F27 in the Data worksheet and paste it into cell B27 of the Calculations worksheet.
+  - Copy the formula from cell G27 in the Data worksheet and paste it into cell C27 of the Calculations worksheet.
+  - Make sure the results are based on the data available in the Calculations worksheet. Delete the total from the Data worksheet. If you have used the correct pasting option, you will not see any error in the Calculations worksheet. Congratulations!!
+7.	Calculate the Average number of units (column B) and the Average gross sales (column C). Use AutoSum. [Mac](https://support.microsoft.com/en-us/office/calculate-an-average-c68b2803-c6d8-4faf-bea4-02b7c55fe768) [Win](https://support.microsoft.com/en-us/office/calculate-the-average-of-a-group-of-numbers-e158ef61-421c-4839-8290-34d7b1e68283)
+8.	Use a Top Border to visually separate the totals from the data. Make sure to apply the border only to cells A27:C27. [Mac](https://support.microsoft.com/en-us/office/change-the-format-of-a-cell-0a45ff85-ee24-4276-94e8-aed6083e8050) [Win](https://support.microsoft.com/en-us/office/change-the-format-of-a-cell-0a45ff85-ee24-4276-94e8-aed6083e8050)
+9.	In column E of the Calculations worksheet calculate the gross sales proportion of each restaurant chain over the total gross sales for all chains (Gross Sales divided by Total).
+  - The column header should read: Sales Percentage. It should be consistently formatted with the other ones.
+  - Make sure to correctly use relative references and absolute references.
+  - Format the data using the Percent style with no decimal value. [Mac](https://support.microsoft.com/en-us/office/format-numbers-as-percentages-in-excel-de49167b-d603-4450-bcaa-31fba6c7b6b4) [Win](https://support.microsoft.com/en-us/office/format-numbers-as-percentages-in-excel-de49167b-d603-4450-bcaa-31fba6c7b6b4)
+10.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

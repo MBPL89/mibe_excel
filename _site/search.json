@@ -1,0 +1,646 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MIBE Excel Corner",
+    "section": "",
+    "text": "Welcome to the MIBE Excel Corner! This page is dedicated to all the key concepts, notes, and resources you need for mastering the basics of MS Excel in the Business Analytics with Excel course. Whether you’re just starting or refining your skills, you’ll find everything you need.\nThere are two types of pages here: - Class Notes containing explanation of the main concepts, links to official documentation, and use cases. - Exercise Instructions containing videos and step-by-step instructions to practice each week’s topics.\n\n\nThe skills presented in this portion of the class form the foundation of effective Excel usage for business students and professionals. Mastering these fundamental techniques enables users to work more efficiently with data, reducing time spent on repetitive tasks while improving accuracy and presentation quality.\n\n\n\nExcel proficiency is essential in modern business environments where data-driven decision-making dominates. The skills demonstrated in these videos address core business needs: data collection and organization, numerical analysis, visual presentation, and efficient workflow management. Business students who master these techniques gain the ability to analyze financial data, create professional reports, manage large datasets, and communicate insights effectively through visual formatting.\n\n\n\n\nThe techniques covered in this class dramatically reduce manual work. Instead of typing the same data 25 times or formatting cells individually, you will learn to leverage Excel’s built-in automation features. These time-saving methods will allow you to focus on analysis and interpretation rather than data entry and formatting.\n\n\n\n\nBeyond efficiency, these skills enable users to create visually appealing, easy-to-interpret spreadsheets. Conditional formatting and data bars transform raw numbers into visual insights that stakeholders can quickly understand. Professional formatting enhances credibility and makes complex data more accessible to non-technical audiences.\nLet’s dive in and sharpen those Excel skills!\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Lesson1a-Mac.html",
+    "href": "Lesson1a-Mac.html",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Lesson1.html",
+    "href": "Lesson1.html",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Microsoft Excel is the most widely used data-processing application in the world, and its influence in organizations continues to grow. There is a good reason for this as Excel is extremely powerful - if you know how to use it. In all but a few professions your employer will expect you to be comfortable analyzing data using Microsoft Excel. If you join any kind of business your Excel skills will set you apart - for better or worse! You are taking this course to become a sophisticated end-user. Thus, mastery, rather than familiarity, should be your goal. Mastery should be your focus for two reasons. Philosophically, if you are going to do something you should do it well. Pragmatically, you realize that the competencies you acquire in Excel will very much influence the level of success you will achieve in your career. Let’s roll up our sleeves and get started!"
+  },
+  {
+    "objectID": "PizzaToday.html",
+    "href": "PizzaToday.html",
+    "title": "PizzaToday",
+    "section": "",
+    "text": "2015 Pizza Today Top 100 Pizza Companies List\nBy Pizza Today\n\nBelow is a ranking of America’s 100 largest pizza chains. For more on Pizza Today’s pizza industry lists, visit: Rankings of America’s Top Pizza Companies and Independent Pizzerias.\n\n\n\n\n2015\n\n\nRestaurant Name\n\n\n2014\n\n\nPrincipal Executive\n\n\nCity & State\n\n\n#Units\n\n\n2015 Gross Sales\n\n\n\n\n\n\n1\n\n\nPizza Hut*\n\n\n1\n\n\nDavid W. Gibbs\n\n\nPlano, TX\n\n\n15605\n\n\n$13,400,000,000\n\n\n\n\n2\n\n\nDomino’s*\n\n\n2\n\n\nJ. Patrick Doyle\n\n\nAnn Arbor, MI\n\n\n11629\n\n\n$8,900,000,000\n\n\n\n\n3\n\n\nLittle Caesars Pizza\n\n\n3\n\n\nMichael Ilitch\n\n\nDetroit, MI\n\n\n4059\n\n\n$3,400,000,000\n\n\n\n\n.\n\n\nPapa Johns’ International\n\n\n4\n\n\nJohn Schnatter\n\n\nLouisville, KY\n\n\n4708\n\n\n$3,332,000,000\n\n\n\n\n.\n\n\nPapa Murphy’s International*\n\n\n5\n\n\nKen Calwell\n\n\nVancouver, WA\n\n\n1425\n\n\n$785,360,000\n\n\n\n\n.\n\n\nCalifornia Pizza Kitchen*\n\n\n6\n\n\nG.J. Hart\n\n\nPlaya Vista, CA\n\n\n290\n\n\n$745,000,000\n\n\n\n\n7\n\n\nSbarro*\n\n\n7\n\n\nJ. David Karam\n\n\nColumbus, OH\n\n\n820\n\n\n$602,000,000\n\n\n\n\n.\n\n\nCiCi’s Pizza*\n\n\n8\n\n\nDarin Harris\n\n\nCoppell, TX\n\n\n519\n\n\n$475,000,000\n\n\n\n\n.\n\n\nChuck E. Cheese’s*\n\n\n9\n\n\nThomas Leverton\n\n\nIrving, TX\n\n\n577\n\n\n$405,000,000\n\n\n\n\n.\n\n\nMarco’s Pizza\n\n\n12\n\n\nJohn Butorac\n\n\nToledo, OH\n\n\n640\n\n\n$380,000,000\n\n\n\n\n11\n\n\nRound Table Pizza*\n\n\n10\n\n\nRob McCourt\n\n\nConcord, CA\n\n\n439\n\n\n$378,000,000\n\n\n\n\n12\n\n\nJet’s Pizza\n\n\n14\n\n\nJohn Jetts\n\n\nSterling Heights, MI\n\n\n375\n\n\n$337,069,011\n\n\n\n\n13\n\n\nHungry Howie’s Pizza\n\n\n13\n\n\nSteven E. Jackson\n\n\nMadison Heights, MI\n\n\n351\n\n\n$337,069,011\n\n\n\n\n14\n\n\nGodfather’s Pizza*\n\n\n11\n\n\nRobert Gartlan\n\n\nOmaha, NE\n\n\n620\n\n\n$325,600,000\n\n\n\n\n15\n\n\nOld Chicago/Rock Bottom Restaurant*\n\n\n15\n\n\nMike Mrlik\n\n\nLouisville, CO\n\n\n96\n\n\n$320,200,000\n\n\n\n\n16\n\n\nPizza Ranch\n\n\n17\n\n\nAdrie Groeneweg\n\n\nOrange City, IA\n\n\n190\n\n\n$230,274,000\n\n\n\n\n17\n\n\nUno Chicago Grill*\n\n\n16\n\n\nAaron D. Spencer\n\n\nWest Roxbury, MA\n\n\n149\n\n\n$210,500,000\n\n\n\n\n18\n\n\nPeter Piper Pizza*\n\n\n18\n\n\nCharles Bruce\n\n\nPhoenix, AZ\n\n\n142\n\n\n$198,000,000\n\n\n\n\n19\n\n\nMellow Mushroom*\n\n\n19\n\n\nRichard Brasch\n\n\nAtlanta, GA\n\n\n175\n\n\n$191,000,000\n\n\n\n\n20\n\n\nBertucci’s Italian\n\n\n21\n\n\nStuart Davies\n\n\nNorthborough, MA\n\n\n88\n\n\n$188,000,000\n\n\n\n\n21\n\n\nRosati’s Pizza\n\n\n20\n\n\nMarla Topliff\n\n\nElgin, IL\n\n\n126\n\n\n$178,000,000\n\n\n\n\n22\n\n\nDonatos Pizza\n\n\n22\n\n\nTom Krouse\n\n\nColumbus, OH\n\n\n153\n\n\n$157,000,000\n\n\n\n\n23\n\n\nGatti’s Pizza*\n\n\n23\n\n\nSteve Burt\n\n\nAustin, TX\n\n\n66\n\n\n$143,599,000\n\n\n\n\n24\n\n\nLaRosa’s Pizzeria\n\n\n24\n\n\nMichael LaRosa\n\n\nCincinnati, OH\n\n\n66\n\n\n$143,599,000\n\n\n\n\n25\n\n\nFox’s Pizza Den\n\n\n25\n\n\nJames R. Fox\n\n\nMurrysville, PA\n\n\n250\n\n\n$131,250,000\n\n\n\n\n26\n\n\nSarpino’s Pizzeria\n\n\n30\n\n\nDmitri Bodrenko\n\n\nSkokie, IL\n\n\n61\n\n\n$43,600,000\n\n\n\n\n27\n\n\nPizza My Heart\n\n\n31\n\n\nChuck Hearn\n\n\nSanta Cruz, CA\n\n\n24\n\n\n$40,000,000\n\n\n\n\n28\n\n\nPizza Guys\n\n\n32\n\n\nShahriar Nejad\n\n\nRancho Cordova, CA\n\n\n76\n\n\n$36,000,000\n\n\n\n\n29\n\n\nPizza Patron\n\n\n29\n\n\nAntonio Swad\n\n\nDallas, TX\n\n\n93\n\n\n$35,400,000\n\n\n\n\n30\n\n\nToppers Pizza\n\n\n33\n\n\nScott Gittrich\n\n\nWhitewater, WI\n\n\n66\n\n\n$34,500,000\n\n\n\n\n31\n\n\nPizza Factory\n\n\n36\n\n\nMary Jane Rhoades\n\n\nOakhurst, CA\n\n\n110\n\n\n$33,700,000\n\n\n\n\n32\n\n\nStraw Hat Pizza\n\n\n35\n\n\nSal Lista\n\n\nBrentwood, CA\n\n\n31\n\n\n$32,600,000\n\n\n\n\n33\n\n\nCottage Inn Pizza\n\n\n34\n\n\nGuy L. Lumsden\n\n\nAnn Arbor, MI\n\n\n52\n\n\n$32,000,000\n\n\n\n\n34\n\n\nPizza Pit\n\n\n37\n\n\nTom Harelson\n\n\nMadison, WI\n\n\n15\n\n\n$31,000,000\n\n\n\n\n35\n\n\nBig Cheese Pizza\n\n\n38\n\n\nBill Gray\n\n\nSpokane, WA\n\n\n16\n\n\n$30,000,000\n\n\n\n\n36\n\n\nPizzaville\n\n\n39\n\n\nAngelo Fodera\n\n\nToronto, ON\n\n\n74\n\n\n$29,500,000\n\n\n\n\n37\n\n\nTopper’s Pizza\n\n\n40\n\n\nKeith Wagner\n\n\nBarrie, ON\n\n\n34\n\n\n$28,500,000\n\n\n\n\n38\n\n\nPizzaRev\n\n\n41\n\n\nNicholas Eckerman\n\n\nLos Angeles, CA\n\n\n38\n\n\n$28,000,000\n\n\n\n\n39\n\n\nRocky Rococo Pizza & Pasta\n\n\n42\n\n\nCharlie Burzynski\n\n\nMiddleton, WI\n\n\n35\n\n\n$28,000,000\n\n\n\n\n40\n\n\nHungry Howie’s Pizza\n\n\n43\n\n\nSteve Jackson\n\n\nMadison Heights, MI\n\n\n42\n\n\n$27,500,000\n\n\n\n\n41\n\n\nUncle Maddio’s Pizza Joint\n\n\n44\n\n\nMatt Andrew\n\n\nAtlanta, GA\n\n\n43\n\n\n$27,200,000\n\n\n\n\n42\n\n\nPizza Luce\n\n\n45\n\n\nScott Nelson\n\n\nMinneapolis, MN\n\n\n8\n\n\n$27,000,000\n\n\n\n\n43\n\n\nEast of Chicago Pizza\n\n\n46\n\n\nDavid Bailey\n\n\nWillard, OH\n\n\n103\n\n\n$26,500,000\n\n\n\n\n44\n\n\nMr. Gatti’s Pizza\n\n\n47\n\n\nMichael Poates\n\n\nFort Worth, TX\n\n\n441\n\n\n$26,200,000\n\n\n\n\n45\n\n\nPizza Inn\n\n\n48\n\n\nJoe P. Caruso\n\n\nThe Colony, TX\n\n\n154\n\n\n$26,000,000\n\n\n\n\n46\n\n\nPizza Pipeline\n\n\n49\n\n\nKevin Doolan\n\n\nSpokane, WA\n\n\n13\n\n\n$25,900,000\n\n\n\n\n47\n\n\nLedo Pizza\n\n\n50\n\n\nJames Fox\n\n\nAnnapolis, MD\n\n\n103\n\n\n$25,850,000\n\n\n\n\n48\n\n\nPizza Schmizza\n\n\n51\n\n\nAndre Jehan\n\n\nBeaverton, OR\n\n\n24\n\n\n$25,800,000\n\n\n\n\n49\n\n\nSammy’s Woodfired Pizza\n\n\n52\n\n\nSami Ladeki\n\n\nSan Diego, CA\n\n\n19\n\n\n$25,700,000\n\n\n\n\n50\n\n\nStone Oven Pizza\n\n\n53\n\n\nEdward Kloppenburg\n\n\nOverland Park, KS\n\n\n11\n\n\n$25,500,000\n\n\n\n\n51\n\n\nZio’s Pizzeria\n\n\n54\n\n\nSam Spomer\n\n\nOmaha, NE\n\n\n5\n\n\n$25,400,000\n\n\n\n\n52\n\n\nPizza Box\n\n\n55\n\n\nNick Capra\n\n\nDallas, TX\n\n\n10\n\n\n$25,000,000\n\n\n\n\n53\n\n\nPizza Street\n\n\n56\n\n\nKevin Harris\n\n\nGrand Prairie, TX\n\n\n17\n\n\n$24,800,000\n\n\n\n\n54\n\n\nMonical’s Pizza\n\n\n57\n\n\nMike Monical\n\n\nBradley, IL\n\n\n60\n\n\n$24,600,000\n\n\n\n\n55\n\n\nMazzio’s Italian Eatery\n\n\n58\n\n\nGreg Lippert\n\n\nTulsa, OK\n\n\n150\n\n\n$24,300,000\n\n\n\n\n56\n\n\nAurelio’s Pizza\n\n\n59\n\n\nJoe Aurelio\n\n\nHomewood, IL\n\n\n39\n\n\n$24,000,000\n\n\n\n\n57\n\n\nPizza Fusion\n\n\n60\n\n\nMark Begelman\n\n\nBoca Raton, FL\n\n\n15\n\n\n$23,900,000\n\n\n\n\n58\n\n\nAnthony’s Coal Fired Pizza\n\n\n61\n\n\nAnthony Bruno\n\n\nFort Lauderdale, FL\n\n\n49\n\n\n$23,700,000\n\n\n\n\n59\n\n\nTino’s Italian Eats\n\n\n62\n\n\nJohn Dimeo\n\n\nHouston, TX\n\n\n20\n\n\n$23,500,000\n\n\n\n\n60\n\n\nEast Coast Pizza\n\n\n63\n\n\nFrank Spinelli\n\n\nDenver, CO\n\n\n7\n\n\n$23,400,000\n\n\n\n\n61\n\n\nPizza House\n\n\n64\n\n\nMary Ann Altman\n\n\nAnn Arbor, MI\n\n\n3\n\n\n$23,000,000\n\n\n\n\n62\n\n\nPizza Castle\n\n\n65\n\n\nSteve Carlucci\n\n\nMiami, FL\n\n\n8\n\n\n$22,900,000\n\n\n\n\n63\n\n\nPizza Palace\n\n\n66\n\n\nTony Parillo\n\n\nKnoxville, TN\n\n\n3\n\n\n$22,800,000\n\n\n\n\n64\n\n\nPizza Bella\n\n\n67\n\n\nVince Rossi\n\n\nSan Diego, CA\n\n\n4\n\n\n$22,700,000\n\n\n\n\n65\n\n\nPizza Street\n\n\n68\n\n\nKevin Harris\n\n\nDallas, TX\n\n\n17\n\n\n$22,400,000\n\n\n\n\n66\n\n\nGambino’s Pizza\n\n\n69\n\n\nGary Gambino\n\n\nBranson, MO\n\n\n37\n\n\n$22,300,000\n\n\n\n\n67\n\n\nWestside Pizza\n\n\n70\n\n\nBrady Stover\n\n\nSeattle, WA\n\n\n33\n\n\n$22,100,000\n\n\n\n\n68\n\n\nRoscoe’s Pizza\n\n\n71\n\n\nJoe Roscoe\n\n\nLexington, KY\n\n\n6\n\n\n$22,000,000\n\n\n\n\n69\n\n\nPizza Place\n\n\n72\n\n\nDave Garrison\n\n\nTulsa, OK\n\n\n4\n\n\n$21,700,000\n\n\n\n\n70\n\n\nPizza Ranch Express\n\n\n73\n\n\nAdrie Groeneweg\n\n\nOrange City, IA\n\n\n23\n\n\n$21,600,000\n\n\n\n\n71\n\n\nPizza Joe’s\n\n\n74\n\n\nJoe Daddario\n\n\nNew Castle, PA\n\n\n45\n\n\n$21,400,000\n\n\n\n\n72\n\n\nPizza 73\n\n\n75\n\n\nPaul Goddard\n\n\nEdmonton, AB\n\n\n76\n\n\n$21,200,000\n\n\n\n\n73\n\n\nMr. Pizza\n\n\n76\n\n\nRichard Kim\n\n\nLos Angeles, CA\n\n\n11\n\n\n$21,000,000\n\n\n\n\n74\n\n\nAmici’s East Coast Pizzeria\n\n\n77\n\n\nPeter Cooperstein\n\n\nSan Mateo, CA\n\n\n13\n\n\n$21,000,000\n\n\n\n\n75\n\n\nPizza Cottage\n\n\n78\n\n\nMatt McCurdy\n\n\nBuckeye Lake, OH\n\n\n8\n\n\n$20,800,000\n\n\n\n\n76\n\n\nRed’s Savoy Pizza\n\n\n79\n\n\nScott Redler\n\n\nSaint Paul, MN\n\n\n14\n\n\n$20,600,000\n\n\n\n\n77\n\n\nAngelo’s Pizza\n\n\n80\n\n\nMike Angelo\n\n\nLakewood, OH\n\n\n2\n\n\n$20,400,000\n\n\n\n\n78\n\n\nPizza Mia\n\n\n81\n\n\nFrank Soriano\n\n\nBinghamton, NY\n\n\n10\n\n\n$20,200,000\n\n\n\n\n79\n\n\nPizza Villa\n\n\n82\n\n\nRachel Hines\n\n\nGarland, TX\n\n\n3\n\n\n$20,000,000\n\n\n\n\n80\n\n\nPizza City\n\n\n83\n\n\nTony Caprio\n\n\nChicago, IL\n\n\n4\n\n\n$19,900,000\n\n\n\n\n81\n\n\nVito’s Pizza\n\n\n84\n\n\nVito Capizzi\n\n\nSt. Louis, MO\n\n\n5\n\n\n$19,800,000\n\n\n\n\n82\n\n\nPizza Express\n\n\n85\n\n\nAlice Brown\n\n\nHartford, CT\n\n\n7\n\n\n$19,700,000\n\n\n\n\n83\n\n\nMario’s Pizzeria\n\n\n86\n\n\nMario Gentile\n\n\nRochester, NY\n\n\n5\n\n\n$19,500,000\n\n\n\n\n84\n\n\nPizza Works\n\n\n87\n\n\nJerry Works\n\n\nBaltimore, MD\n\n\n4\n\n\n$19,400,000\n\n\n\n\n85\n\n\nPizza Roma\n\n\n88\n\n\nMarco Bianchi\n\n\nPhoenix, AZ\n\n\n3\n\n\n$19,200,000\n\n\n\n\n86\n\n\nPizza Stop\n\n\n89\n\n\nBethany Park\n\n\nSyracuse, NY\n\n\n5\n\n\n$19,000,000\n\n\n\n\n87\n\n\nPizza Factory Express\n\n\n90\n\n\nJane Reed\n\n\nOakhurst, CA\n\n\n9\n\n\n$18,900,000\n\n\n\n\n88\n\n\nPizza Universe\n\n\n91\n\n\nAdam Rizzo\n\n\nJupiter, FL\n\n\n3\n\n\n$18,800,000\n\n\n\n\n89\n\n\nPizza Junction\n\n\n92\n\n\nRichard Franks\n\n\nToledo, OH\n\n\n4\n\n\n$18,600,000\n\n\n\n\n90\n\n\nPizza Gyro\n\n\n93\n\n\nMark Papadopoulos\n\n\nDenver, CO\n\n\n4\n\n\n$18,500,000\n\n\n\n\n91\n\n\nPizza Parma\n\n\n94\n\n\nCarla Rossi\n\n\nSacramento, CA\n\n\n3\n\n\n$18,400,000\n\n\n\n\n92\n\n\nPizza Italiano\n\n\n95\n\n\nGiovanni Russo\n\n\nLas Vegas, NV\n\n\n5\n\n\n$18,300,000\n\n\n\n\n93\n\n\nPizza Box Express\n\n\n96\n\n\nSam Spomer\n\n\nOmaha, NE\n\n\n3\n\n\n$18,200,000\n\n\n\n\n94\n\n\nPizza Supreme\n\n\n97\n\n\nKen Cavanaugh\n\n\nAtlanta, GA\n\n\n4\n\n\n$18,100,000\n\n\n\n\n95\n\n\nPizza King\n\n\n98\n\n\nSteve King\n\n\nIndianapolis, IN\n\n\n8\n\n\n$18,000,000\n\n\n\n\n96\n\n\nPizza World\n\n\n99\n\n\nTom Gordon\n\n\nNashville, TN\n\n\n4\n\n\n$17,900,000\n\n\n\n\n97\n\n\nPizza Masters\n\n\n100\n\n\nMike Masters\n\n\nSeattle, WA\n\n\n2\n\n\n$17,800,000\n\n\n\n\n98\n\n\nPizza Town\n\n\n—\n\n\nAngela Romano\n\n\nPaterson, NJ\n\n\n3\n\n\n$17,600,000\n\n\n\n\n99\n\n\nPizza Giant\n\n\n—\n\n\nDon Harris\n\n\nHouston, TX\n\n\n7\n\n\n$17,400,000\n\n\n\n\n100\n\n\nPizza Wagon\n\n\n—\n\n\nTom Carter\n\n\nBrooklyn, NY\n\n\n3\n\n\n$17,200,000"
+  },
+  {
+    "objectID": "PizzaToday.html#by-pizza-today",
+    "href": "PizzaToday.html#by-pizza-today",
+    "title": "PizzaToday",
+    "section": "",
+    "text": "Below is a ranking of America’s 100 largest pizza chains. For more on Pizza Today’s pizza industry lists, visit: Rankings of America’s Top Pizza Companies and Independent Pizzerias.\n\n\n\n\n2015\n\n\nRestaurant Name\n\n\n2014\n\n\nPrincipal Executive\n\n\nCity & State\n\n\n#Units\n\n\n2015 Gross Sales\n\n\n\n\n\n\n1\n\n\nPizza Hut\n\n\n1\n\n\nDavid W. Gibbs\n\n\nPlano, TX\n\n\n15605\n\n\n$13,400,000,000\n\n\n\n\n2\n\n\nDomino’s\n\n\n2\n\n\nJ. Patrick Doyle\n\n\nAnn Arbor, MI\n\n\n11629\n\n\n$8,900,000,000\n\n\n\n\n3\n\n\nLittle Caesars Pizza\n\n\n3\n\n\nMichael Ilitch\n\n\nDetroit, MI\n\n\n4059\n\n\n$3,400,000,000\n\n\n\n\n4\n\n\nPapa Johns’ International\n\n\n4\n\n\nJohn Schnatter\n\n\nLouisville, KY\n\n\n4708\n\n\n$3,332,000,000\n\n\n\n\n5\n\n\nPapa Murphy’s International\n\n\n5\n\n\nKen Calwell\n\n\nVancouver, WA\n\n\n1425\n\n\n$785,360,000\n\n\n\n\n6\n\n\nCalifornia Pizza Kitchen\n\n\n6\n\n\nG.J. Hart\n\n\nPlaya Vista, CA\n\n\n290\n\n\n$745,000,000\n\n\n\n\n7\n\n\nSbarro\n\n\n7\n\n\nJ. David Karam\n\n\nColumbus, OH\n\n\n820\n\n\n$602,000,000\n\n\n\n\n8\n\n\nCiCi’s Pizza\n\n\n8\n\n\nDarin Harris\n\n\nCoppell, TX\n\n\n519\n\n\n$475,000,000\n\n\n\n\n9\n\n\nChuck E. Cheese’s\n\n\n9\n\n\nThomas Leverton\n\n\nIrving, TX\n\n\n577\n\n\n$405,000,000\n\n\n\n\n10\n\n\nMarco’s Pizza\n\n\n12\n\n\nJohn Butorac\n\n\nToledo, OH\n\n\n640\n\n\n$380,000,000\n\n\n\n\n11\n\n\nRound Table Pizza\n\n\n10\n\n\nRob McCourt\n\n\nConcord, CA\n\n\n439\n\n\n$378,000,000\n\n\n\n\n12\n\n\nJet’s Pizza\n\n\n14\n\n\nJohn Jetts\n\n\nSterling Heights, MI\n\n\n375\n\n\n$337,069,011\n\n\n\n\n13\n\n\nHungry Howie’s Pizza\n\n\n13\n\n\nSteven E. Jackson\n\n\nMadison Heights, MI\n\n\n351\n\n\n$337,069,011\n\n\n\n\n14\n\n\nGodfather’s Pizza\n\n\n11\n\n\nRobert Gartlan\n\n\nOmaha, NE\n\n\n620\n\n\n$325,600,000\n\n\n\n\n15\n\n\nOld Chicago/Rock Bottom Restaurant\n\n\n15\n\n\nMike Mrlik\n\n\nLouisville, CO\n\n\n96\n\n\n$320,200,000\n\n\n\n\n16\n\n\nPizza Ranch\n\n\n17\n\n\nAdrie Groeneweg\n\n\nOrange City, IA\n\n\n190\n\n\n$230,274,000\n\n\n\n\n17\n\n\nUno Chicago Grill\n\n\n16\n\n\nAaron D. Spencer\n\n\nWest Roxbury, MA\n\n\n149\n\n\n$210,500,000\n\n\n\n\n18\n\n\nPeter Piper Pizza\n\n\n18\n\n\nCharles Bruce\n\n\nPhoenix, AZ\n\n\n142\n\n\n$198,000,000\n\n\n\n\n19\n\n\nMellow Mushroom\n\n\n19\n\n\nRichard Brasch\n\n\nAtlanta, GA\n\n\n175\n\n\n$191,000,000\n\n\n\n\n20\n\n\nBertucci’s Italian\n\n\n21\n\n\nStuart Davies\n\n\nNorthborough, MA\n\n\n88\n\n\n$188,000,000\n\n\n\n\n21\n\n\nRosati’s Pizza\n\n\n20\n\n\nMarla Topliff\n\n\nElgin, IL\n\n\n126\n\n\n$178,000,000\n\n\n\n\n22\n\n\nDonatos Pizza\n\n\n22\n\n\nTom Krouse\n\n\nColumbus, OH\n\n\n153\n\n\n$157,000,000\n\n\n\n\n23\n\n\nGatti’s Pizza\n\n\n23\n\n\nSteve Burt\n\n\nAustin, TX\n\n\n66\n\n\n$143,599,000\n\n\n\n\n24\n\n\nLaRosa’s Pizzeria\n\n\n24\n\n\nMichael LaRosa\n\n\nCincinnati, OH\n\n\n66\n\n\n$143,599,000\n\n\n\n\n25\n\n\nFox’s Pizza Den\n\n\n25\n\n\nJames R. Fox\n\n\nMurrysville, PA\n\n\n250\n\n\n$131,250,000\n\n\n\n\n26\n\n\nSarpino’s Pizzeria\n\n\n30\n\n\nDmitri Bodrenko\n\n\nSkokie, IL\n\n\n61\n\n\n$43,600,000\n\n\n\n\n27\n\n\nPizza My Heart\n\n\n31\n\n\nChuck Hearn\n\n\nSanta Cruz, CA\n\n\n24\n\n\n$40,000,000\n\n\n\n\n28\n\n\nPizza Guys\n\n\n32\n\n\nShahriar Nejad\n\n\nRancho Cordova, CA\n\n\n76\n\n\n$36,000,000\n\n\n\n\n29\n\n\nPizza Patron\n\n\n29\n\n\nAntonio Swad\n\n\nDallas, TX\n\n\n93\n\n\n$35,400,000\n\n\n\n\n30\n\n\nToppers Pizza\n\n\n33\n\n\nScott Gittrich\n\n\nWhitewater, WI\n\n\n66\n\n\n$34,500,000\n\n\n\n\n31\n\n\nPizza Factory\n\n\n36\n\n\nMary Jane Rhoades\n\n\nOakhurst, CA\n\n\n110\n\n\n$33,700,000\n\n\n\n\n32\n\n\nStraw Hat Pizza\n\n\n35\n\n\nSal Lista\n\n\nBrentwood, CA\n\n\n31\n\n\n$32,600,000\n\n\n\n\n33\n\n\nCottage Inn Pizza\n\n\n34\n\n\nGuy L. Lumsden\n\n\nAnn Arbor, MI\n\n\n52\n\n\n$32,000,000\n\n\n\n\n34\n\n\nPizza Pit\n\n\n37\n\n\nTom Harelson\n\n\nMadison, WI\n\n\n15\n\n\n$31,000,000\n\n\n\n\n35\n\n\nBig Cheese Pizza\n\n\n38\n\n\nBill Gray\n\n\nSpokane, WA\n\n\n16\n\n\n$30,000,000\n\n\n\n\n36\n\n\nPizzaville\n\n\n39\n\n\nAngelo Fodera\n\n\nToronto, ON\n\n\n74\n\n\n$29,500,000\n\n\n\n\n37\n\n\nTopper’s Pizza\n\n\n40\n\n\nKeith Wagner\n\n\nBarrie, ON\n\n\n34\n\n\n$28,500,000\n\n\n\n\n38\n\n\nPizzaRev\n\n\n41\n\n\nNicholas Eckerman\n\n\nLos Angeles, CA\n\n\n38\n\n\n$28,000,000\n\n\n\n\n39\n\n\nRocky Rococo Pizza & Pasta\n\n\n42\n\n\nCharlie Burzynski\n\n\nMiddleton, WI\n\n\n35\n\n\n$28,000,000\n\n\n\n\n40\n\n\nHungry Howie’s Pizza\n\n\n43\n\n\nSteve Jackson\n\n\nMadison Heights, MI\n\n\n42\n\n\n$27,500,000\n\n\n\n\n41\n\n\nUncle Maddio’s Pizza Joint\n\n\n44\n\n\nMatt Andrew\n\n\nAtlanta, GA\n\n\n43\n\n\n$27,200,000\n\n\n\n\n42\n\n\nPizza Luce\n\n\n45\n\n\nScott Nelson\n\n\nMinneapolis, MN\n\n\n8\n\n\n$27,000,000\n\n\n\n\n43\n\n\nEast of Chicago Pizza\n\n\n46\n\n\nDavid Bailey\n\n\nWillard, OH\n\n\n103\n\n\n$26,500,000\n\n\n\n\n44\n\n\nMr. Gatti’s Pizza\n\n\n47\n\n\nMichael Poates\n\n\nFort Worth, TX\n\n\n441\n\n\n$26,200,000\n\n\n\n\n45\n\n\nPizza Inn\n\n\n48\n\n\nJoe P. Caruso\n\n\nThe Colony, TX\n\n\n154\n\n\n$26,000,000\n\n\n\n\n46\n\n\nPizza Pipeline\n\n\n49\n\n\nKevin Doolan\n\n\nSpokane, WA\n\n\n13\n\n\n$25,900,000\n\n\n\n\n47\n\n\nLedo Pizza\n\n\n50\n\n\nJames Fox\n\n\nAnnapolis, MD\n\n\n103\n\n\n$25,850,000\n\n\n\n\n48\n\n\nPizza Schmizza\n\n\n51\n\n\nAndre Jehan\n\n\nBeaverton, OR\n\n\n24\n\n\n$25,800,000\n\n\n\n\n49\n\n\nSammy’s Woodfired Pizza\n\n\n52\n\n\nSami Ladeki\n\n\nSan Diego, CA\n\n\n19\n\n\n$25,700,000\n\n\n\n\n50\n\n\nStone Oven Pizza\n\n\n53\n\n\nEdward Kloppenburg\n\n\nOverland Park, KS\n\n\n11\n\n\n$25,500,000\n\n\n\n\n51\n\n\nZio’s Pizzeria\n\n\n54\n\n\nSam Spomer\n\n\nOmaha, NE\n\n\n5\n\n\n$25,400,000\n\n\n\n\n52\n\n\nPizza Box\n\n\n55\n\n\nNick Capra\n\n\nDallas, TX\n\n\n10\n\n\n$25,000,000\n\n\n\n\n53\n\n\nPizza Street\n\n\n56\n\n\nKevin Harris\n\n\nGrand Prairie, TX\n\n\n17\n\n\n$24,800,000\n\n\n\n\n54\n\n\nMonical’s Pizza\n\n\n57\n\n\nMike Monical\n\n\nBradley, IL\n\n\n60\n\n\n$24,600,000\n\n\n\n\n55\n\n\nMazzio’s Italian Eatery\n\n\n58\n\n\nGreg Lippert\n\n\nTulsa, OK\n\n\n150\n\n\n$24,300,000\n\n\n\n\n56\n\n\nAurelio’s Pizza\n\n\n59\n\n\nJoe Aurelio\n\n\nHomewood, IL\n\n\n39\n\n\n$24,000,000\n\n\n\n\n57\n\n\nPizza Fusion\n\n\n60\n\n\nMark Begelman\n\n\nBoca Raton, FL\n\n\n15\n\n\n$23,900,000\n\n\n\n\n58\n\n\nAnthony’s Coal Fired Pizza\n\n\n61\n\n\nAnthony Bruno\n\n\nFort Lauderdale, FL\n\n\n49\n\n\n$23,700,000\n\n\n\n\n59\n\n\nTino’s Italian Eats\n\n\n62\n\n\nJohn Dimeo\n\n\nHouston, TX\n\n\n20\n\n\n$23,500,000\n\n\n\n\n60\n\n\nEast Coast Pizza\n\n\n63\n\n\nFrank Spinelli\n\n\nDenver, CO\n\n\n7\n\n\n$23,400,000\n\n\n\n\n61\n\n\nPizza House\n\n\n64\n\n\nMary Ann Altman\n\n\nAnn Arbor, MI\n\n\n3\n\n\n$23,000,000\n\n\n\n\n62\n\n\nPizza Castle\n\n\n65\n\n\nSteve Carlucci\n\n\nMiami, FL\n\n\n8\n\n\n$22,900,000\n\n\n\n\n63\n\n\nPizza Palace\n\n\n66\n\n\nTony Parillo\n\n\nKnoxville, TN\n\n\n3\n\n\n$22,800,000\n\n\n\n\n64\n\n\nPizza Bella\n\n\n67\n\n\nVince Rossi\n\n\nSan Diego, CA\n\n\n4\n\n\n$22,700,000\n\n\n\n\n65\n\n\nPizza Street\n\n\n68\n\n\nKevin Harris\n\n\nDallas, TX\n\n\n17\n\n\n$22,400,000\n\n\n\n\n66\n\n\nGambino’s Pizza\n\n\n69\n\n\nGary Gambino\n\n\nBranson, MO\n\n\n37\n\n\n$22,300,000\n\n\n\n\n67\n\n\nWestside Pizza\n\n\n70\n\n\nBrady Stover\n\n\nSeattle, WA\n\n\n33\n\n\n$22,100,000\n\n\n\n\n68\n\n\nRoscoe’s Pizza\n\n\n71\n\n\nJoe Roscoe\n\n\nLexington, KY\n\n\n6\n\n\n$22,000,000\n\n\n\n\n69\n\n\nPizza Place\n\n\n72\n\n\nDave Garrison\n\n\nTulsa, OK\n\n\n4\n\n\n$21,700,000\n\n\n\n\n70\n\n\nPizza Ranch Express\n\n\n73\n\n\nAdrie Groeneweg\n\n\nOrange City, IA\n\n\n23\n\n\n$21,600,000\n\n\n\n\n71\n\n\nPizza Joe’s\n\n\n74\n\n\nJoe Daddario\n\n\nNew Castle, PA\n\n\n45\n\n\n$21,400,000\n\n\n\n\n72\n\n\nPizza 73\n\n\n75\n\n\nPaul Goddard\n\n\nEdmonton, AB\n\n\n76\n\n\n$21,200,000\n\n\n\n\n73\n\n\nMr. Pizza\n\n\n76\n\n\nRichard Kim\n\n\nLos Angeles, CA\n\n\n11\n\n\n$21,000,000\n\n\n\n\n74\n\n\nAmici’s East Coast Pizzeria\n\n\n77\n\n\nPeter Cooperstein\n\n\nSan Mateo, CA\n\n\n13\n\n\n$21,000,000\n\n\n\n\n75\n\n\nPizza Cottage\n\n\n78\n\n\nMatt McCurdy\n\n\nBuckeye Lake, OH\n\n\n8\n\n\n$20,800,000\n\n\n\n\n76\n\n\nRed’s Savoy Pizza\n\n\n79\n\n\nScott Redler\n\n\nSaint Paul, MN\n\n\n14\n\n\n$20,600,000\n\n\n\n\n77\n\n\nAngelo’s Pizza\n\n\n80\n\n\nMike Angelo\n\n\nLakewood, OH\n\n\n2\n\n\n$20,400,000\n\n\n\n\n78\n\n\nPizza Mia\n\n\n81\n\n\nFrank Soriano\n\n\nBinghamton, NY\n\n\n10\n\n\n$20,200,000\n\n\n\n\n79\n\n\nPizza Villa\n\n\n82\n\n\nRachel Hines\n\n\nGarland, TX\n\n\n3\n\n\n$20,000,000\n\n\n\n\n80\n\n\nPizza City\n\n\n83\n\n\nTony Caprio\n\n\nChicago, IL\n\n\n4\n\n\n$19,900,000\n\n\n\n\n81\n\n\nVito’s Pizza\n\n\n84\n\n\nVito Capizzi\n\n\nSt. Louis, MO\n\n\n5\n\n\n$19,800,000\n\n\n\n\n82\n\n\nPizza Express\n\n\n85\n\n\nAlice Brown\n\n\nHartford, CT\n\n\n7\n\n\n$19,700,000\n\n\n\n\n83\n\n\nMario’s Pizzeria\n\n\n86\n\n\nMario Gentile\n\n\nRochester, NY\n\n\n5\n\n\n$19,500,000\n\n\n\n\n84\n\n\nPizza Works\n\n\n87\n\n\nJerry Works\n\n\nBaltimore, MD\n\n\n4\n\n\n$19,400,000\n\n\n\n\n85\n\n\nPizza Roma\n\n\n88\n\n\nMarco Bianchi\n\n\nPhoenix, AZ\n\n\n3\n\n\n$19,200,000\n\n\n\n\n86\n\n\nPizza Stop\n\n\n89\n\n\nBethany Park\n\n\nSyracuse, NY\n\n\n5\n\n\n$19,000,000\n\n\n\n\n87\n\n\nPizza Factory Express\n\n\n90\n\n\nJane Reed\n\n\nOakhurst, CA\n\n\n9\n\n\n$18,900,000\n\n\n\n\n88\n\n\nPizza Universe\n\n\n91\n\n\nAdam Rizzo\n\n\nJupiter, FL\n\n\n3\n\n\n$18,800,000\n\n\n\n\n89\n\n\nPizza Junction\n\n\n92\n\n\nRichard Franks\n\n\nToledo, OH\n\n\n4\n\n\n$18,600,000\n\n\n\n\n90\n\n\nPizza Gyro\n\n\n93\n\n\nMark Papadopoulos\n\n\nDenver, CO\n\n\n4\n\n\n$18,500,000\n\n\n\n\n91\n\n\nPizza Parma\n\n\n94\n\n\nCarla Rossi\n\n\nSacramento, CA\n\n\n3\n\n\n$18,400,000\n\n\n\n\n92\n\n\nPizza Italiano\n\n\n95\n\n\nGiovanni Russo\n\n\nLas Vegas, NV\n\n\n5\n\n\n$18,300,000\n\n\n\n\n93\n\n\nPizza Box Express\n\n\n96\n\n\nSam Spomer\n\n\nOmaha, NE\n\n\n3\n\n\n$18,200,000\n\n\n\n\n94\n\n\nPizza Supreme\n\n\n97\n\n\nKen Cavanaugh\n\n\nAtlanta, GA\n\n\n4\n\n\n$18,100,000\n\n\n\n\n95\n\n\nPizza King\n\n\n98\n\n\nSteve King\n\n\nIndianapolis, IN\n\n\n8\n\n\n$18,000,000\n\n\n\n\n96\n\n\nPizza World\n\n\n99\n\n\nTom Gordon\n\n\nNashville, TN\n\n\n4\n\n\n$17,900,000\n\n\n\n\n97\n\n\nPizza Masters\n\n\n100\n\n\nMike Masters\n\n\nSeattle, WA\n\n\n2\n\n\n$17,800,000\n\n\n\n\n98\n\n\nPizza Town\n\n\n—\n\n\nAngela Romano\n\n\nPaterson, NJ\n\n\n3\n\n\n$17,600,000\n\n\n\n\n99\n\n\nPizza Giant\n\n\n—\n\n\nDon Harris\n\n\nHouston, TX\n\n\n7\n\n\n$17,400,000\n\n\n\n\n100\n\n\nPizza Wagon\n\n\n—\n\n\nTom Carter\n\n\nBrooklyn, NY\n\n\n3\n\n\n$17,200,000"
+  },
+  {
+    "objectID": "Lesson1a-Mac.html#tasks-and-steps",
+    "href": "Lesson1a-Mac.html#tasks-and-steps",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nOpen a new Excel workbook.\nCopy only the top 25 pizza companies from “PizzaToday”\n\nMake sure to include the header row of the table.\n\nRecommended: Use Chrome browser for copying.\n\nPlace the data into Sheet1 of the workbook, starting from cell A1.\nAdjust the data after pasting:\n\nRemove the hyperlink for each company name in column B.\nFill missing values in column A by completing the ranking. Use the drag handle, do not manually enter each number.\nResize each column to make all contents visible.\n\nFormat the worksheet:\n\nApply the style from cell B2 to all text in columns B, D, and E (use Format Painter).\nSet the header row as bold, font size 16 pt.\nAll other cells: Calibri font, size 12 pt.\n\nCreate the date column:\n\nType Date in cell H1, formatted like the other headers.\nIn H2, enter: 12/31/2015\nUse Autofill to generate the same date for all following rows.\nFormat the dates in column H to display: Thursday, December 31, 2015\n\nSave the file as username_e1a.xlsx and close it.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "index.html#being-proficient-with-excel",
+    "href": "index.html#being-proficient-with-excel",
+    "title": "MIBE Excel Corner",
+    "section": "",
+    "text": "The skills presented in this portion of the class form the foundation of effective Excel usage for business students and professionals. Mastering these fundamental techniques enables users to work more efficiently with data, reducing time spent on repetitive tasks while improving accuracy and presentation quality."
+  },
+  {
+    "objectID": "index.html#why-these-skills-matter-for-business-students",
+    "href": "index.html#why-these-skills-matter-for-business-students",
+    "title": "MIBE Excel Corner",
+    "section": "",
+    "text": "Excel proficiency is essential in modern business environments where data-driven decision-making dominates. The skills demonstrated in these videos address core business needs: data collection and organization, numerical analysis, visual presentation, and efficient workflow management. Business students who master these techniques gain the ability to analyze financial data, create professional reports, manage large datasets, and communicate insights effectively through visual formatting."
+  },
+  {
+    "objectID": "index.html#efficiency-and-productivity-benefits",
+    "href": "index.html#efficiency-and-productivity-benefits",
+    "title": "MIBE Excel Corner",
+    "section": "",
+    "text": "The techniques covered in this class dramatically reduce manual work. Instead of typing the same data 25 times or formatting cells individually, you will learn to leverage Excel’s built-in automation features. These time-saving methods will allow you to focus on analysis and interpretation rather than data entry and formatting."
+  },
+  {
+    "objectID": "index.html#professional-presentation",
+    "href": "index.html#professional-presentation",
+    "title": "MIBE Excel Corner",
+    "section": "",
+    "text": "Beyond efficiency, these skills enable users to create visually appealing, easy-to-interpret spreadsheets. Conditional formatting and data bars transform raw numbers into visual insights that stakeholders can quickly understand. Professional formatting enhances credibility and makes complex data more accessible to non-technical audiences.\nLet’s dive in and sharpen those Excel skills!\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1a-Win.html#tasks-and-steps",
+    "href": "Lesson1a-Win.html#tasks-and-steps",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nOpen the Starter workbook.\nCopy only the top 25 pizza companies from “PizzaToday”\n\nMake sure to include the header row of the table.\nRecommended: Use Chrome browser for copying.\n\nPlace the data into Sheet1 of the workbook, starting from cell A1.\nAdjust the data after pasting:\n\nRemove the hyperlink for each company name in column B.\nFill missing values in column A by completing the ranking. Use the drag handle, do not manually enter each number.\nResize each column to make all contents visible.\n\nFormat the worksheet:\n\nApply the style from cell B2 to all text in columns B, D, and E (use Format Painter).\nSet the header row as bold, font size 16 pt.\nAll other cells: Calibri font, size 12 pt.\n\nCreate the date column:\n\nType Date in cell H1, formatted like the other headers.\nIn H2, enter: 12/31/2015\nUse Autofill to generate the same date for all following rows.\nFormat the dates in column H to display: Thursday, December 31, 2015\n\nSave the file as username_e1a.xlsx and close it.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1.html#main-concepts",
+    "href": "Lesson1.html#main-concepts",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you’re working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.\nOfficial documentation: Basic tasks in Excel\n\n\n\n\nA cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.\nOfficial documentation: - Cell basics - Create or change a cell reference - CELL function\n\n\n\n\nRows run horizontally (numbered 1, 2, 3…), columns vertically (labeled A, B, C…). The intersection point is a cell.\nOfficial documentation: Refer to Rows and Columns\n\n\n\n\nCtrl+C copies selected content; Ctrl+V pastes it. Works across Excel and most software.\nOfficial documentation: Keyboard shortcuts in Excel\n\n\n\n\nHyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → “Remove Hyperlink”.\nOfficial documentation: Remove or turn off hyperlinks\n\n\n\n\nAutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.\nOfficial documentation: Fill data automatically in worksheet cells\n\n\n\n\nCopies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.\nOfficial documentation: Use Format Painter\n\n\n\n\nFont formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.\nOfficial documentation: Format cells\n\n\n\n\nExcel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.\n\nOfficial documentation: - Format numbers as dates - Number format codes\n\n\n\n\nCtrl+S saves the workbook. If new, prompts for file name/location.\nOfficial documentation: Save your workbook\n\n\n\n\nPaste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.\nOfficial documentation: - Paste Special - Paste options\n\n\n\n\nAdds a range of cells, e.g., =SUM(A1:A10). Can also sum multiple separate cells or ranges.\nOfficial documentation: SUM function\n\n\n\n\nAutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=\nOfficial documentation: Use AutoSum to sum numbers\n\n\n\n\nA sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.\nOfficial documentation: - Select worksheets - Insert or delete a worksheet\n\n\n\n\nRelative references (e.g., A1) shift automatically when formulas are copied to new locations.\nOfficial documentation: Switch between relative, absolute, and mixed references\n\n\n\n\nAbsolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.\nOfficial documentation: Switch between relative, absolute, and mixed references\n\n\n\n\nThe bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.\nOfficial documentation: Overview of formulas in Excel\n\n\n\n\nCalculates the arithmetic mean of specified numbers/range.\nOfficial documentation: AVERAGE function\n\n\n\n\nAdd lines around cells to improve visual organization (no effect on calculations).\nOfficial documentation: Apply or remove cell borders\n\n\n\n\nDisplays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.\nOfficial documentation: Format numbers as percentages\n\n\n\n\nOrganize files in folders, use clear names, move from Downloads, and save frequently.\nOfficial documentation: Save your workbook\n\n\n\n\nApply color, icons, or data bars to cells automatically based on rules (e.g., highlight values &gt;100).\nOfficial documentation: Use conditional formatting\n\n\n\n\nConditional formatting presets to highlight cells &gt;, &lt;, =, text contains, or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\nConditional formatting rules can be managed, edited, or cleared using the Rules Manager.\nOfficial documentation: Manage rule precedence\n\n\n\n\nVisually represent values using horizontal bars inside cells—a quick way to compare values.\nOfficial documentation: Use data bars\n\n\n\n\nHighlight top/bottom items, top/bottom %, above/below average.\nOfficial documentation: Use conditional formatting\n\n\n\n\nHighlight repeated values within a range—useful for identifying data entry errors or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\nLocate and replace text or values across cells/workbook. Shortcut: Ctrl+H.\nOfficial documentation: Find or replace text and numbers\n\n\n\n\nUse formatting, colors, and graphics to make data patterns and trends visible for quick insights.\nOfficial documentation: Use conditional formatting\n\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1.html#workbook",
+    "href": "Lesson1.html#workbook",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you’re working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.\nOfficial documentation: Basic tasks in Excel"
+  },
+  {
+    "objectID": "Lesson1.html#cells-and-cell-references",
+    "href": "Lesson1.html#cells-and-cell-references",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "A cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.\nOfficial documentation: - Cell basics - Create or change a cell reference - CELL function"
+  },
+  {
+    "objectID": "Lesson1.html#rows-and-columns",
+    "href": "Lesson1.html#rows-and-columns",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Rows run horizontally (numbered 1, 2, 3…), columns vertically (labeled A, B, C…). The intersection point is a cell.\nOfficial documentation: Refer to Rows and Columns"
+  },
+  {
+    "objectID": "Lesson1.html#copy-and-paste-ctrlc-and-ctrlv",
+    "href": "Lesson1.html#copy-and-paste-ctrlc-and-ctrlv",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Ctrl+C copies selected content; Ctrl+V pastes it. Works across Excel and most software.\nOfficial documentation: Keyboard shortcuts in Excel"
+  },
+  {
+    "objectID": "Lesson1.html#hyperlinks",
+    "href": "Lesson1.html#hyperlinks",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Hyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → “Remove Hyperlink”.\nOfficial documentation: Remove or turn off hyperlinks"
+  },
+  {
+    "objectID": "Lesson1.html#autofill-and-series",
+    "href": "Lesson1.html#autofill-and-series",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "AutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.\nOfficial documentation: Fill data automatically in worksheet cells"
+  },
+  {
+    "objectID": "Lesson1.html#format-painter",
+    "href": "Lesson1.html#format-painter",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Copies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.\nOfficial documentation: Use Format Painter"
+  },
+  {
+    "objectID": "Lesson1.html#font-formatting-bold-font-size",
+    "href": "Lesson1.html#font-formatting-bold-font-size",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Font formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.\nOfficial documentation: Format cells"
+  },
+  {
+    "objectID": "Lesson1.html#date-formatting",
+    "href": "Lesson1.html#date-formatting",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Excel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.\n\nOfficial documentation: - Format numbers as dates - Number format codes"
+  },
+  {
+    "objectID": "Lesson1.html#keyboard-shortcuts-ctrls-save",
+    "href": "Lesson1.html#keyboard-shortcuts-ctrls-save",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Ctrl+S saves the workbook. If new, prompts for file name/location.\nOfficial documentation: Save your workbook"
+  },
+  {
+    "objectID": "Lesson1.html#paste-special",
+    "href": "Lesson1.html#paste-special",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Paste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.\nOfficial documentation: - Paste Special - Paste options"
+  },
+  {
+    "objectID": "Lesson1.html#sum-function",
+    "href": "Lesson1.html#sum-function",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Adds a range of cells, e.g., =SUM(A1:A10). Can also sum multiple separate cells or ranges.\nOfficial documentation: SUM function"
+  },
+  {
+    "objectID": "Lesson1.html#autosum",
+    "href": "Lesson1.html#autosum",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "AutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=\nOfficial documentation: Use AutoSum to sum numbers"
+  },
+  {
+    "objectID": "Lesson1.html#worksheets-tabs",
+    "href": "Lesson1.html#worksheets-tabs",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "A sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.\nOfficial documentation: - Select worksheets - Insert or delete a worksheet"
+  },
+  {
+    "objectID": "Lesson1.html#relative-cell-references",
+    "href": "Lesson1.html#relative-cell-references",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Relative references (e.g., A1) shift automatically when formulas are copied to new locations.\nOfficial documentation: Switch between relative, absolute, and mixed references"
+  },
+  {
+    "objectID": "Lesson1.html#absolute-cell-references",
+    "href": "Lesson1.html#absolute-cell-references",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Absolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.\nOfficial documentation: Switch between relative, absolute, and mixed references"
+  },
+  {
+    "objectID": "Lesson1.html#formula-bar",
+    "href": "Lesson1.html#formula-bar",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "The bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.\nOfficial documentation: Overview of formulas in Excel"
+  },
+  {
+    "objectID": "Lesson1.html#average-function",
+    "href": "Lesson1.html#average-function",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Calculates the arithmetic mean of specified numbers/range.\nOfficial documentation: AVERAGE function"
+  },
+  {
+    "objectID": "Lesson1.html#borders",
+    "href": "Lesson1.html#borders",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Add lines around cells to improve visual organization (no effect on calculations).\nOfficial documentation: Apply or remove cell borders"
+  },
+  {
+    "objectID": "Lesson1.html#percentage-formatting",
+    "href": "Lesson1.html#percentage-formatting",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Displays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.\nOfficial documentation: Format numbers as percentages"
+  },
+  {
+    "objectID": "Lesson1.html#file-management",
+    "href": "Lesson1.html#file-management",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Organize files in folders, use clear names, move from Downloads, and save frequently.\nOfficial documentation: Save your workbook"
+  },
+  {
+    "objectID": "Lesson1.html#conditional-formatting",
+    "href": "Lesson1.html#conditional-formatting",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Apply color, icons, or data bars to cells automatically based on rules (e.g., highlight values &gt;100).\nOfficial documentation: Use conditional formatting\n\n\n\nConditional formatting presets to highlight cells &gt;, &lt;, =, text contains, or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\nConditional formatting rules can be managed, edited, or cleared using the Rules Manager.\nOfficial documentation: Manage rule precedence\n\n\n\n\nVisually represent values using horizontal bars inside cells—a quick way to compare values.\nOfficial documentation: Use data bars\n\n\n\n\nHighlight top/bottom items, top/bottom %, above/below average.\nOfficial documentation: Use conditional formatting\n\n\n\n\nHighlight repeated values within a range—useful for identifying data entry errors or duplicates.\nOfficial documentation: Use conditional formatting"
+  },
+  {
+    "objectID": "Lesson1.html#find-and-replace",
+    "href": "Lesson1.html#find-and-replace",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Locate and replace text or values across cells/workbook. Shortcut: Ctrl+H.\nOfficial documentation: Find or replace text and numbers"
+  },
+  {
+    "objectID": "Lesson1.html#visual-data-analysis",
+    "href": "Lesson1.html#visual-data-analysis",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Use formatting, colors, and graphics to make data patterns and trends visible for quick insights.\nOfficial documentation: Use conditional formatting\n\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1a-Win.html",
+    "href": "Lesson1a-Win.html",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Microsoft Excel is the most widely used data-processing application in the world, and its influence in organizations continues to grow. There is a good reason for this as Excel is extremely powerful - if you know how to use it. In all but a few professions your employer will expect you to be comfortable analyzing data using Microsoft Excel. If you join any kind of business your Excel skills will set you apart - for better or worse! You are taking this course to become a sophisticated end-user. Thus, mastery, rather than familiarity, should be your goal. Mastery should be your focus for two reasons. Philosophically, if you are going to do something you should do it well. Pragmatically, you realize that the competencies you acquire in Excel will very much influence the level of success you will achieve in your career. Let’s roll up our sleeves and get started!\n\n\n\nBe efficient – Get stuff done quickly\nBe effective – Use the right skills for the right tasks Skills\nCreate new Excel workbooks and work on multiple worksheets\nInsert data in Excel and perform basic calculations\nFormat cells according to their contents\nUse absolute, relative, and mixed referencing\nUse conditional formatting\nFind and replace content in your worksheet\n\n\n\n\nBeing efficient in Excel will save you a significant amount of time over the duration of your career. If you have ever opened Excel you know that the application presents a big canvas of rows and columns to you. This is both a blessing and a curse. On the one hand, you have full control and lots of freedom to perform your analysis. On the other hand, as with any programming task, there many different ways to perform an analysis and it is critical that you spend time up front designing an efficient approach to it. That means that learning Excel is not just about learning where to click, rather it is about learning how to create structured solutions to analytical problems.\nInsights\n\nIt is likely that if you ask ten different people to perform an analysis in Excel, they will come up with ten different procedures to achieve it. Such variability is possible because Excel provides an incredible number of features – most of which basic users will never hear about. Efficiently using the available instruments in Excel is critical. While you will develop your unique style as an analyst, efficiency should always drive the design of your workbooks. As a general rule, you want to perform analyses that are parsimonious and dynamic.\n\nYour analysis is parsimonious when you minimize the number of calculations and activities.\nYour analysis is dynamic when your workbook is not specific to your data but it is robust to data changes. That is, it will not stop working abruptly if the data changes.\n\nA critical differentiator between sophisticated and unsophisticated Excel users is the habit to always use keyboard shortcuts. The earlier you pick up this habit, the better it is. Here are the shortcuts for your platform. Mac Win\nThere are some important functionalities that are only accessible through shortcuts. In addition to keyboard shortcuts, Excel offers plenty of mouse shortcuts such as auto-fill series and auto columns adjustment. Over the following sessions, we will highlight the most important ones. However, as a general rule, any time that you find yourself performing a repetitive task (like manually input the days of the week) find out the efficient approach. We guarantee you that it exists!\nCreating an Excel worksheet is like programming. The idea of a ‘variable’ is central. Variables are the backbone of any program and application, and Excel is no exemption. In simple terms, a variable is a way to store information for later use. Every cell in Excel is basically a variable. You reference it by its column name and row number (e.g., A3).\n\n\n\n\nIn your professional life, you will often be asked to perform analyses to share with your employees, colleagues or the boss. Creating professional documents is not only visually appealing, but it is also critical for communication. Creating professional documents is critical to convey the results of complex analyses. Well-formatted, professional spreadsheets get your point across – and they look good doing it! As the designer of the workbook you will have great flexibility, it will be your call whether to present data as a plain table, a colorful one, or a compelling graph. Remember at all times that the design choices you make when sharing your analysis will impact your reader’s opinion of your content (and of your abilities).\nInsights\n\nOnce you share a report with a colleague or boss you lose control of it. It might happen that, especially if it is an important analysis, your colleagues will share it themselves with other colleagues, and your results might end up in a PowerPoint presentation of a different department. If you are good at what you do, then many people will see that. If you are not that good, well, they will know.\nUltimately your peers will judge you based on the quality of what you produce. This means that you need to deliver reliable analyses presented in a manner that is easily understandable by others. Note that, while a quality presentation does not make up for errors in your data and results, a poor presentation devalues the best of insights. Don’t be your own worst enemy by doing sloppy work or by using the wrong instruments.\nYou might still think that Excel is just an instrument to perform calculations. In this course, you will see that Excel is much more. It is an instrument for ‘Data Storytelling’ and persuasion. When you enter the job market, as a knowledge worker, you will be expected to explain, enlighten, and engage your audience by providing compelling ‘data driven’ stories.\n\n\n\n\nObjective In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.\nScenario The idea came to you last semester. As you were cramming hard for your finals, the though hit you – Pizza Delivery by Drones, that could be a real business! You don’t know how it came to you. Maybe it’s because you had a passion for airplanes since you were a kid. Maybe it’s because you have owned all of the DJI quadcopters since the Phantom 1. Or maybe just because you were very hungry and had very little time to spare during finals week. You even have a name in mind for your firm: Papa Drones.\nOver the holiday break you saw your older cousing Anna, who is a partner at a large San Francisco based venture capital firm. You told her you wanted to ask your Information Systems professor for some help, but she told you that no serious person would listen to you before you did some preliminary analysis. Anna was intrigued by the idea and was willing to help you a bit in her spare time. She said:\n“if you are serious about this idea Microsoft Excel is the instrument of choice to do the analysis.”\n“Of course!” you responded.\nIn this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario."
+  },
+  {
+    "objectID": "Lesson1a-Win.html#answer-key",
+    "href": "Lesson1a-Win.html#answer-key",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Answer key",
+    "text": "Answer key\nAnswer key"
+  },
+  {
+    "objectID": "Lesson1a-Mac.html#answer-key",
+    "href": "Lesson1a-Mac.html#answer-key",
+    "title": "Lesson 1 - Working with Workbooks",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Lesson1a-Win.html#concepts",
+    "href": "Lesson1a-Win.html#concepts",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Be efficient – Get stuff done quickly\nBe effective – Use the right skills for the right tasks Skills\nCreate new Excel workbooks and work on multiple worksheets\nInsert data in Excel and perform basic calculations\nFormat cells according to their contents\nUse absolute, relative, and mixed referencing\nUse conditional formatting\nFind and replace content in your worksheet"
+  },
+  {
+    "objectID": "Lesson1a-Win.html#be-efficient---get-stuff-done-quickly",
+    "href": "Lesson1a-Win.html#be-efficient---get-stuff-done-quickly",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Being efficient in Excel will save you a significant amount of time over the duration of your career. If you have ever opened Excel you know that the application presents a big canvas of rows and columns to you. This is both a blessing and a curse. On the one hand, you have full control and lots of freedom to perform your analysis. On the other hand, as with any programming task, there many different ways to perform an analysis and it is critical that you spend time up front designing an efficient approach to it. That means that learning Excel is not just about learning where to click, rather it is about learning how to create structured solutions to analytical problems.\nInsights\n\nIt is likely that if you ask ten different people to perform an analysis in Excel, they will come up with ten different procedures to achieve it. Such variability is possible because Excel provides an incredible number of features – most of which basic users will never hear about. Efficiently using the available instruments in Excel is critical. While you will develop your unique style as an analyst, efficiency should always drive the design of your workbooks. As a general rule, you want to perform analyses that are parsimonious and dynamic.\n\nYour analysis is parsimonious when you minimize the number of calculations and activities.\nYour analysis is dynamic when your workbook is not specific to your data but it is robust to data changes. That is, it will not stop working abruptly if the data changes.\n\nA critical differentiator between sophisticated and unsophisticated Excel users is the habit to always use keyboard shortcuts. The earlier you pick up this habit, the better it is. Here are the shortcuts for your platform. Mac Win\nThere are some important functionalities that are only accessible through shortcuts. In addition to keyboard shortcuts, Excel offers plenty of mouse shortcuts such as auto-fill series and auto columns adjustment. Over the following sessions, we will highlight the most important ones. However, as a general rule, any time that you find yourself performing a repetitive task (like manually input the days of the week) find out the efficient approach. We guarantee you that it exists!\nCreating an Excel worksheet is like programming. The idea of a ‘variable’ is central. Variables are the backbone of any program and application, and Excel is no exemption. In simple terms, a variable is a way to store information for later use. Every cell in Excel is basically a variable. You reference it by its column name and row number (e.g., A3)."
+  },
+  {
+    "objectID": "Lesson1a-Win.html#be-effective---get-stuff-done-right",
+    "href": "Lesson1a-Win.html#be-effective---get-stuff-done-right",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "In your professional life, you will often be asked to perform analyses to share with your employees, colleagues or the boss. Creating professional documents is not only visually appealing, but it is also critical for communication. Creating professional documents is critical to convey the results of complex analyses. Well-formatted, professional spreadsheets get your point across – and they look good doing it! As the designer of the workbook you will have great flexibility, it will be your call whether to present data as a plain table, a colorful one, or a compelling graph. Remember at all times that the design choices you make when sharing your analysis will impact your reader’s opinion of your content (and of your abilities).\nInsights\n\nOnce you share a report with a colleague or boss you lose control of it. It might happen that, especially if it is an important analysis, your colleagues will share it themselves with other colleagues, and your results might end up in a PowerPoint presentation of a different department. If you are good at what you do, then many people will see that. If you are not that good, well, they will know.\nUltimately your peers will judge you based on the quality of what you produce. This means that you need to deliver reliable analyses presented in a manner that is easily understandable by others. Note that, while a quality presentation does not make up for errors in your data and results, a poor presentation devalues the best of insights. Don’t be your own worst enemy by doing sloppy work or by using the wrong instruments.\nYou might still think that Excel is just an instrument to perform calculations. In this course, you will see that Excel is much more. It is an instrument for ‘Data Storytelling’ and persuasion. When you enter the job market, as a knowledge worker, you will be expected to explain, enlighten, and engage your audience by providing compelling ‘data driven’ stories."
+  },
+  {
+    "objectID": "Lesson1a-Win.html#exercise-overview",
+    "href": "Lesson1a-Win.html#exercise-overview",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Objective In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.\nScenario The idea came to you last semester. As you were cramming hard for your finals, the though hit you – Pizza Delivery by Drones, that could be a real business! You don’t know how it came to you. Maybe it’s because you had a passion for airplanes since you were a kid. Maybe it’s because you have owned all of the DJI quadcopters since the Phantom 1. Or maybe just because you were very hungry and had very little time to spare during finals week. You even have a name in mind for your firm: Papa Drones.\nOver the holiday break you saw your older cousing Anna, who is a partner at a large San Francisco based venture capital firm. You told her you wanted to ask your Information Systems professor for some help, but she told you that no serious person would listen to you before you did some preliminary analysis. Anna was intrigued by the idea and was willing to help you a bit in her spare time. She said:\n“if you are serious about this idea Microsoft Excel is the instrument of choice to do the analysis.”\n“Of course!” you responded.\nIn this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario."
+  },
+  {
+    "objectID": "Beforewestart.html",
+    "href": "Beforewestart.html",
+    "title": "Before we start",
+    "section": "",
+    "text": "A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you’re working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.\nOfficial documentation: Basic tasks in Excel\n\n\n\n\nA cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.\nOfficial documentation: - Cell basics - Create or change a cell reference - CELL function\n\n\n\n\nRows run horizontally (numbered 1, 2, 3…), columns vertically (labeled A, B, C…). The intersection point is a cell.\nOfficial documentation: Refer to Rows and Columns\n\n\n\n\nCtrl+C copies selected content; Ctrl+V pastes it. Works across Excel and most software.\nOfficial documentation: Keyboard shortcuts in Excel\n\n\n\n\nHyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → “Remove Hyperlink”.\nOfficial documentation: Remove or turn off hyperlinks\n\n\n\n\nAutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.\nOfficial documentation: Fill data automatically in worksheet cells\n\n\n\n\nCopies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.\nOfficial documentation: Use Format Painter\n\n\n\n\nFont formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.\nOfficial documentation: Format cells\n\n\n\n\nExcel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.\n\nOfficial documentation: - Format numbers as dates - Number format codes\n\n\n\n\nCtrl+S saves the workbook. If new, prompts for file name/location.\nOfficial documentation: Save your workbook\n\n\n\n\nPaste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.\nOfficial documentation: - Paste Special - Paste options\n\n\n\n\nAdds a range of cells, e.g., =SUM(A1:A10). Can also sum multiple separate cells or ranges.\nOfficial documentation: SUM function\n\n\n\n\nAutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=\nOfficial documentation: Use AutoSum to sum numbers\n\n\n\n\nA sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.\nOfficial documentation: - Select worksheets - Insert or delete a worksheet\n\n\n\n\nRelative references (e.g., A1) shift automatically when formulas are copied to new locations.\nOfficial documentation: Switch between relative, absolute, and mixed references\n\n\n\n\nAbsolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.\nOfficial documentation: Switch between relative, absolute, and mixed references\n\n\n\n\nThe bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.\nOfficial documentation: Overview of formulas in Excel\n\n\n\n\nCalculates the arithmetic mean of specified numbers/range.\nOfficial documentation: AVERAGE function\n\n\n\n\nAdd lines around cells to improve visual organization (no effect on calculations).\nOfficial documentation: Apply or remove cell borders\n\n\n\n\nDisplays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.\nOfficial documentation: Format numbers as percentages\n\n\n\n\nOrganize files in folders, use clear names, move from Downloads, and save frequently.\nOfficial documentation: Save your workbook\n\n\n\n\nApply color, icons, or data bars to cells automatically based on rules (e.g., highlight values &gt;100).\nOfficial documentation: Use conditional formatting\n\n\n\nConditional formatting presets to highlight cells &gt;, &lt;, =, text contains, or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\nConditional formatting rules can be managed, edited, or cleared using the Rules Manager.\nOfficial documentation: Manage rule precedence\n\n\n\n\nVisually represent values using horizontal bars inside cells—a quick way to compare values.\nOfficial documentation: Use data bars\n\n\n\n\nHighlight top/bottom items, top/bottom %, above/below average.\nOfficial documentation: Use conditional formatting\n\n\n\n\nHighlight repeated values within a range—useful for identifying data entry errors or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\n\nLocate and replace text or values across cells/workbook. Shortcut: Ctrl+H.\nOfficial documentation: Find or replace text and numbers\n\n\n\n\nUse formatting, colors, and graphics to make data patterns and trends visible for quick insights.\nOfficial documentation: Use conditional formatting\n\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Beforewestart.html#workbook",
+    "href": "Beforewestart.html#workbook",
+    "title": "Before we start",
+    "section": "",
+    "text": "A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you’re working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.\nOfficial documentation: Basic tasks in Excel"
+  },
+  {
+    "objectID": "Beforewestart.html#cells-and-cell-references",
+    "href": "Beforewestart.html#cells-and-cell-references",
+    "title": "Before we start",
+    "section": "",
+    "text": "A cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.\nOfficial documentation: - Cell basics - Create or change a cell reference - CELL function"
+  },
+  {
+    "objectID": "Beforewestart.html#rows-and-columns",
+    "href": "Beforewestart.html#rows-and-columns",
+    "title": "Before we start",
+    "section": "",
+    "text": "Rows run horizontally (numbered 1, 2, 3…), columns vertically (labeled A, B, C…). The intersection point is a cell.\nOfficial documentation: Refer to Rows and Columns"
+  },
+  {
+    "objectID": "Beforewestart.html#copy-and-paste-ctrlc-and-ctrlv",
+    "href": "Beforewestart.html#copy-and-paste-ctrlc-and-ctrlv",
+    "title": "Before we start",
+    "section": "",
+    "text": "Ctrl+C copies selected content; Ctrl+V pastes it. Works across Excel and most software.\nOfficial documentation: Keyboard shortcuts in Excel"
+  },
+  {
+    "objectID": "Beforewestart.html#hyperlinks",
+    "href": "Beforewestart.html#hyperlinks",
+    "title": "Before we start",
+    "section": "",
+    "text": "Hyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → “Remove Hyperlink”.\nOfficial documentation: Remove or turn off hyperlinks"
+  },
+  {
+    "objectID": "Beforewestart.html#autofill-and-series",
+    "href": "Beforewestart.html#autofill-and-series",
+    "title": "Before we start",
+    "section": "",
+    "text": "AutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.\nOfficial documentation: Fill data automatically in worksheet cells"
+  },
+  {
+    "objectID": "Beforewestart.html#format-painter",
+    "href": "Beforewestart.html#format-painter",
+    "title": "Before we start",
+    "section": "",
+    "text": "Copies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.\nOfficial documentation: Use Format Painter"
+  },
+  {
+    "objectID": "Beforewestart.html#font-formatting-bold-font-size",
+    "href": "Beforewestart.html#font-formatting-bold-font-size",
+    "title": "Before we start",
+    "section": "",
+    "text": "Font formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.\nOfficial documentation: Format cells"
+  },
+  {
+    "objectID": "Beforewestart.html#date-formatting",
+    "href": "Beforewestart.html#date-formatting",
+    "title": "Before we start",
+    "section": "",
+    "text": "Excel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.\n\nOfficial documentation: - Format numbers as dates - Number format codes"
+  },
+  {
+    "objectID": "Beforewestart.html#keyboard-shortcuts-ctrls-save",
+    "href": "Beforewestart.html#keyboard-shortcuts-ctrls-save",
+    "title": "Before we start",
+    "section": "",
+    "text": "Ctrl+S saves the workbook. If new, prompts for file name/location.\nOfficial documentation: Save your workbook"
+  },
+  {
+    "objectID": "Beforewestart.html#paste-special",
+    "href": "Beforewestart.html#paste-special",
+    "title": "Before we start",
+    "section": "",
+    "text": "Paste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.\nOfficial documentation: - Paste Special - Paste options"
+  },
+  {
+    "objectID": "Beforewestart.html#sum-function",
+    "href": "Beforewestart.html#sum-function",
+    "title": "Before we start",
+    "section": "",
+    "text": "Adds a range of cells, e.g., =SUM(A1:A10). Can also sum multiple separate cells or ranges.\nOfficial documentation: SUM function"
+  },
+  {
+    "objectID": "Beforewestart.html#autosum",
+    "href": "Beforewestart.html#autosum",
+    "title": "Before we start",
+    "section": "",
+    "text": "AutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=\nOfficial documentation: Use AutoSum to sum numbers"
+  },
+  {
+    "objectID": "Beforewestart.html#worksheets-tabs",
+    "href": "Beforewestart.html#worksheets-tabs",
+    "title": "Before we start",
+    "section": "",
+    "text": "A sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.\nOfficial documentation: - Select worksheets - Insert or delete a worksheet"
+  },
+  {
+    "objectID": "Beforewestart.html#relative-cell-references",
+    "href": "Beforewestart.html#relative-cell-references",
+    "title": "Before we start",
+    "section": "",
+    "text": "Relative references (e.g., A1) shift automatically when formulas are copied to new locations.\nOfficial documentation: Switch between relative, absolute, and mixed references"
+  },
+  {
+    "objectID": "Beforewestart.html#absolute-cell-references",
+    "href": "Beforewestart.html#absolute-cell-references",
+    "title": "Before we start",
+    "section": "",
+    "text": "Absolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.\nOfficial documentation: Switch between relative, absolute, and mixed references"
+  },
+  {
+    "objectID": "Beforewestart.html#formula-bar",
+    "href": "Beforewestart.html#formula-bar",
+    "title": "Before we start",
+    "section": "",
+    "text": "The bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.\nOfficial documentation: Overview of formulas in Excel"
+  },
+  {
+    "objectID": "Beforewestart.html#average-function",
+    "href": "Beforewestart.html#average-function",
+    "title": "Before we start",
+    "section": "",
+    "text": "Calculates the arithmetic mean of specified numbers/range.\nOfficial documentation: AVERAGE function"
+  },
+  {
+    "objectID": "Beforewestart.html#borders",
+    "href": "Beforewestart.html#borders",
+    "title": "Before we start",
+    "section": "",
+    "text": "Add lines around cells to improve visual organization (no effect on calculations).\nOfficial documentation: Apply or remove cell borders"
+  },
+  {
+    "objectID": "Beforewestart.html#percentage-formatting",
+    "href": "Beforewestart.html#percentage-formatting",
+    "title": "Before we start",
+    "section": "",
+    "text": "Displays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.\nOfficial documentation: Format numbers as percentages"
+  },
+  {
+    "objectID": "Beforewestart.html#file-management",
+    "href": "Beforewestart.html#file-management",
+    "title": "Before we start",
+    "section": "",
+    "text": "Organize files in folders, use clear names, move from Downloads, and save frequently.\nOfficial documentation: Save your workbook"
+  },
+  {
+    "objectID": "Beforewestart.html#conditional-formatting",
+    "href": "Beforewestart.html#conditional-formatting",
+    "title": "Before we start",
+    "section": "",
+    "text": "Apply color, icons, or data bars to cells automatically based on rules (e.g., highlight values &gt;100).\nOfficial documentation: Use conditional formatting\n\n\n\nConditional formatting presets to highlight cells &gt;, &lt;, =, text contains, or duplicates.\nOfficial documentation: Use conditional formatting\n\n\n\n\nConditional formatting rules can be managed, edited, or cleared using the Rules Manager.\nOfficial documentation: Manage rule precedence\n\n\n\n\nVisually represent values using horizontal bars inside cells—a quick way to compare values.\nOfficial documentation: Use data bars\n\n\n\n\nHighlight top/bottom items, top/bottom %, above/below average.\nOfficial documentation: Use conditional formatting\n\n\n\n\nHighlight repeated values within a range—useful for identifying data entry errors or duplicates.\nOfficial documentation: Use conditional formatting"
+  },
+  {
+    "objectID": "Beforewestart.html#find-and-replace",
+    "href": "Beforewestart.html#find-and-replace",
+    "title": "Before we start",
+    "section": "",
+    "text": "Locate and replace text or values across cells/workbook. Shortcut: Ctrl+H.\nOfficial documentation: Find or replace text and numbers"
+  },
+  {
+    "objectID": "Beforewestart.html#visual-data-analysis",
+    "href": "Beforewestart.html#visual-data-analysis",
+    "title": "Before we start",
+    "section": "",
+    "text": "Use formatting, colors, and graphics to make data patterns and trends visible for quick insights.\nOfficial documentation: Use conditional formatting\n\n\n\nImages and GIFs Disclaimer: Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1a.html",
+    "href": "Lesson1a.html",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "",
+    "text": "Microsoft Excel is the most widely used data-processing application in the world, and its influence in organizations continues to grow. There is a good reason for this as Excel is extremely powerful - if you know how to use it. In all but a few professions your employer will expect you to be comfortable analyzing data using Microsoft Excel. If you join any kind of business your Excel skills will set you apart - for better or worse! You are taking this course to become a sophisticated end-user. Thus, mastery, rather than familiarity, should be your goal. Mastery should be your focus for two reasons. Philosophically, if you are going to do something you should do it well. Pragmatically, you realize that the competencies you acquire in Excel will very much influence the level of success you will achieve in your career. Let’s roll up our sleeves and get started!"
+  },
+  {
+    "objectID": "Lesson1a.html#concepts",
+    "href": "Lesson1a.html#concepts",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Concepts",
+    "text": "Concepts\n\nBe efficient – Get stuff done quickly\nBe effective – Use the right skills for the right tasks Skills\nCreate new Excel workbooks and work on multiple worksheets\nInsert data in Excel and perform basic calculations\nFormat cells according to their contents\nUse absolute, relative, and mixed referencing\nUse conditional formatting\nFind and replace content in your worksheet"
+  },
+  {
+    "objectID": "Lesson1a.html#be-efficient---get-stuff-done-quickly",
+    "href": "Lesson1a.html#be-efficient---get-stuff-done-quickly",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Be Efficient - Get stuff done quickly",
+    "text": "Be Efficient - Get stuff done quickly\nBeing efficient in Excel will save you a significant amount of time over the duration of your career. If you have ever opened Excel you know that the application presents a big canvas of rows and columns to you. This is both a blessing and a curse. On the one hand, you have full control and lots of freedom to perform your analysis. On the other hand, as with any programming task, there many different ways to perform an analysis and it is critical that you spend time up front designing an efficient approach to it. That means that learning Excel is not just about learning where to click, rather it is about learning how to create structured solutions to analytical problems.\nInsights\n\nIt is likely that if you ask ten different people to perform an analysis in Excel, they will come up with ten different procedures to achieve it. Such variability is possible because Excel provides an incredible number of features – most of which basic users will never hear about. Efficiently using the available instruments in Excel is critical. While you will develop your unique style as an analyst, efficiency should always drive the design of your workbooks. As a general rule, you want to perform analyses that are parsimonious and dynamic.\n\nYour analysis is parsimonious when you minimize the number of calculations and activities.\nYour analysis is dynamic when your workbook is not specific to your data but it is robust to data changes. That is, it will not stop working abruptly if the data changes.\n\nA critical differentiator between sophisticated and unsophisticated Excel users is the habit to always use keyboard shortcuts. The earlier you pick up this habit, the better it is. Here are the shortcuts for your platform. Mac Win\nThere are some important functionalities that are only accessible through shortcuts. In addition to keyboard shortcuts, Excel offers plenty of mouse shortcuts such as auto-fill series and auto columns adjustment. Over the following sessions, we will highlight the most important ones. However, as a general rule, any time that you find yourself performing a repetitive task (like manually input the days of the week) find out the efficient approach. We guarantee you that it exists!\nCreating an Excel worksheet is like programming. The idea of a ‘variable’ is central. Variables are the backbone of any program and application, and Excel is no exemption. In simple terms, a variable is a way to store information for later use. Every cell in Excel is basically a variable. You reference it by its column name and row number (e.g., A3)."
+  },
+  {
+    "objectID": "Lesson1a.html#be-effective---get-stuff-done-right",
+    "href": "Lesson1a.html#be-effective---get-stuff-done-right",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Be Effective - Get stuff done right",
+    "text": "Be Effective - Get stuff done right\nIn your professional life, you will often be asked to perform analyses to share with your employees, colleagues or the boss. Creating professional documents is not only visually appealing, but it is also critical for communication. Creating professional documents is critical to convey the results of complex analyses. Well-formatted, professional spreadsheets get your point across – and they look good doing it! As the designer of the workbook you will have great flexibility, it will be your call whether to present data as a plain table, a colorful one, or a compelling graph. Remember at all times that the design choices you make when sharing your analysis will impact your reader’s opinion of your content (and of your abilities).\nInsights\n\nOnce you share a report with a colleague or boss you lose control of it. It might happen that, especially if it is an important analysis, your colleagues will share it themselves with other colleagues, and your results might end up in a PowerPoint presentation of a different department. If you are good at what you do, then many people will see that. If you are not that good, well, they will know.\nUltimately your peers will judge you based on the quality of what you produce. This means that you need to deliver reliable analyses presented in a manner that is easily understandable by others. Note that, while a quality presentation does not make up for errors in your data and results, a poor presentation devalues the best of insights. Don’t be your own worst enemy by doing sloppy work or by using the wrong instruments.\nYou might still think that Excel is just an instrument to perform calculations. In this course, you will see that Excel is much more. It is an instrument for ‘Data Storytelling’ and persuasion. When you enter the job market, as a knowledge worker, you will be expected to explain, enlighten, and engage your audience by providing compelling ‘data driven’ stories."
+  },
+  {
+    "objectID": "Lesson1a.html#exercise-overview",
+    "href": "Lesson1a.html#exercise-overview",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Exercise Overview",
+    "text": "Exercise Overview\nObjective In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.\nScenario The idea came to you last semester. As you were cramming hard for your finals, the though hit you – Pizza Delivery by Drones, that could be a real business! You don’t know how it came to you. Maybe it’s because you had a passion for airplanes since you were a kid. Maybe it’s because you have owned all of the DJI quadcopters since the Phantom 1. Or maybe just because you were very hungry and had very little time to spare during finals week. You even have a name in mind for your firm: Papa Drones.\nOver the holiday break you saw your older cousing Anna, who is a partner at a large San Francisco based venture capital firm. You told her you wanted to ask your Information Systems professor for some help, but she told you that no serious person would listen to you before you did some preliminary analysis. Anna was intrigued by the idea and was willing to help you a bit in her spare time. She said:\n“if you are serious about this idea Microsoft Excel is the instrument of choice to do the analysis.”\n“Of course!” you responded.\nIn this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario."
+  },
+  {
+    "objectID": "Lesson1a.html#answer-key",
+    "href": "Lesson1a.html#answer-key",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Answer key",
+    "text": "Answer key\nAnswer key"
+  },
+  {
+    "objectID": "Lesson1a.html#tasks-and-steps",
+    "href": "Lesson1a.html#tasks-and-steps",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nOpen the Starter workbook.\nCopy only the top 25 pizza companies from “PizzaToday”\n\nMake sure to include the header row of the table.\nRecommended: Use Chrome browser for copying.\n\nPlace the data into Sheet1 of the workbook, starting from cell A1.\nAdjust the data after pasting:\n\nRemove the hyperlink for each company name in column B.\nFill missing values in column A by completing the ranking. Use the drag handle, do not manually enter each number.\nResize each column to make all contents visible.\n\nFormat the worksheet:\n\nApply the style from cell B2 to all text in columns B, D, and E (use Format Painter).\nSet the header row as bold, font size 16 pt.\nAll other cells: Calibri font, size 12 pt.\n\nCreate the date column:\n\nType Date in cell H1, formatted like the other headers.\nIn H2, enter: 12/31/2015\nUse Autofill to generate the same date for all following rows.\nFormat the dates in column H to display: Thursday, December 31, 2015\n\nSave the file as username_e1a.xlsx and close it.\n\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Lesson1.html#concepts",
+    "href": "Lesson1.html#concepts",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Concepts",
+    "text": "Concepts\n\nBe efficient – Get stuff done quickly\nBe effective – Use the right skills for the right tasks Skills\nCreate new Excel workbooks and work on multiple worksheets\nInsert data in Excel and perform basic calculations\nFormat cells according to their contents\nUse absolute, relative, and mixed referencing\nUse conditional formatting\nFind and replace content in your worksheet"
+  },
+  {
+    "objectID": "Lesson1.html#be-efficient---get-stuff-done-quickly",
+    "href": "Lesson1.html#be-efficient---get-stuff-done-quickly",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Be Efficient - Get stuff done quickly",
+    "text": "Be Efficient - Get stuff done quickly\nBeing efficient in Excel will save you a significant amount of time over the duration of your career. If you have ever opened Excel you know that the application presents a big canvas of rows and columns to you. This is both a blessing and a curse. On the one hand, you have full control and lots of freedom to perform your analysis. On the other hand, as with any programming task, there many different ways to perform an analysis and it is critical that you spend time up front designing an efficient approach to it. That means that learning Excel is not just about learning where to click, rather it is about learning how to create structured solutions to analytical problems.\nInsights\n\nIt is likely that if you ask ten different people to perform an analysis in Excel, they will come up with ten different procedures to achieve it. Such variability is possible because Excel provides an incredible number of features – most of which basic users will never hear about. Efficiently using the available instruments in Excel is critical. While you will develop your unique style as an analyst, efficiency should always drive the design of your workbooks. As a general rule, you want to perform analyses that are parsimonious and dynamic.\n\nYour analysis is parsimonious when you minimize the number of calculations and activities.\nYour analysis is dynamic when your workbook is not specific to your data but it is robust to data changes. That is, it will not stop working abruptly if the data changes.\n\nA critical differentiator between sophisticated and unsophisticated Excel users is the habit to always use keyboard shortcuts. The earlier you pick up this habit, the better it is. Here are the shortcuts for your platform. Mac Win\nThere are some important functionalities that are only accessible through shortcuts. In addition to keyboard shortcuts, Excel offers plenty of mouse shortcuts such as auto-fill series and auto columns adjustment. Over the following sessions, we will highlight the most important ones. However, as a general rule, any time that you find yourself performing a repetitive task (like manually input the days of the week) find out the efficient approach. We guarantee you that it exists!\nCreating an Excel worksheet is like programming. The idea of a ‘variable’ is central. Variables are the backbone of any program and application, and Excel is no exemption. In simple terms, a variable is a way to store information for later use. Every cell in Excel is basically a variable. You reference it by its column name and row number (e.g., A3)."
+  },
+  {
+    "objectID": "Lesson1.html#be-effective---get-stuff-done-right",
+    "href": "Lesson1.html#be-effective---get-stuff-done-right",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Be Effective - Get stuff done right",
+    "text": "Be Effective - Get stuff done right\nIn your professional life, you will often be asked to perform analyses to share with your employees, colleagues or the boss. Creating professional documents is not only visually appealing, but it is also critical for communication. Creating professional documents is critical to convey the results of complex analyses. Well-formatted, professional spreadsheets get your point across – and they look good doing it! As the designer of the workbook you will have great flexibility, it will be your call whether to present data as a plain table, a colorful one, or a compelling graph. Remember at all times that the design choices you make when sharing your analysis will impact your reader’s opinion of your content (and of your abilities).\nInsights\n\nOnce you share a report with a colleague or boss you lose control of it. It might happen that, especially if it is an important analysis, your colleagues will share it themselves with other colleagues, and your results might end up in a PowerPoint presentation of a different department. If you are good at what you do, then many people will see that. If you are not that good, well, they will know.\nUltimately your peers will judge you based on the quality of what you produce. This means that you need to deliver reliable analyses presented in a manner that is easily understandable by others. Note that, while a quality presentation does not make up for errors in your data and results, a poor presentation devalues the best of insights. Don’t be your own worst enemy by doing sloppy work or by using the wrong instruments.\nYou might still think that Excel is just an instrument to perform calculations. In this course, you will see that Excel is much more. It is an instrument for ‘Data Storytelling’ and persuasion. When you enter the job market, as a knowledge worker, you will be expected to explain, enlighten, and engage your audience by providing compelling ‘data driven’ stories."
+  },
+  {
+    "objectID": "Lesson1.html#exercise-overview",
+    "href": "Lesson1.html#exercise-overview",
+    "title": "Lesson 1 - Introduction to Formatting",
+    "section": "Exercise Overview",
+    "text": "Exercise Overview\nObjective In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.\nScenario The idea came to you last semester. As you were cramming hard for your finals, the though hit you – Pizza Delivery by Drones, that could be a real business! You don’t know how it came to you. Maybe it’s because you had a passion for airplanes since you were a kid. Maybe it’s because you have owned all of the DJI quadcopters since the Phantom 1. Or maybe just because you were very hungry and had very little time to spare during finals week. You even have a name in mind for your firm: Papa Drones.\nOver the holiday break you saw your older cousing Anna, who is a partner at a large San Francisco based venture capital firm. You told her you wanted to ask your Information Systems professor for some help, but she told you that no serious person would listen to you before you did some preliminary analysis. Anna was intrigued by the idea and was willing to help you a bit in her spare time. She said:\n“if you are serious about this idea Microsoft Excel is the instrument of choice to do the analysis.”\n“Of course!” you responded.\nIn this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.\n\n\n\n\n\n  \n  \n    © 2025. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice1a.html",
+    "href": "Practice1a.html",
+    "title": "Practice 1a - Data Import and Cleaning",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice1a.html#answer-key",
+    "href": "Practice1a.html#answer-key",
+    "title": "Practice 1a - Data Import and Cleaning",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice1a.html#tasks-and-steps",
+    "href": "Practice1a.html#tasks-and-steps",
+    "title": "Practice 1a - Data Import and Cleaning",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nCopy only the top 25 pizza companies available in the list from: “PizzaToday”. Make sure to include the header row of the table. We recommend using Chrome as the browser for this task.\nPlace the data in Sheet1 of the workbook, starting from the first cell (A1). Mac Win\nAs you notice after pasting, the data needs some adjusting.\n\n\nRemove the hyperlink for each company in column B. Mac Win\nInsert in column A the missing values by completing the ranking. Complete this task by dragging the right values from the above cells, don’t manually insert the number. Do you understand why the drag works?\nResize each column in order to make visible all the contents. Mac Win\n\n\nFormat:\n\n\nAll the text in column B, D and E like the text in cell B2. Use the Format Painter tool. Mac Win\nThe header as bold and font size to 16 points.\nThe font in all the other cells should be: Calibri 12 points.\n\n\nType Date in H1, make sure the text is formatted like the other headers.\n\n\nIn the second row (H2) insert the following: 12/31/2015.\nUse Autofill to generate the same date for all the following rows. Mac Win\nFormat the date in column H as: Thursday, December 31, 2015. Mac Win\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice1b.html",
+    "href": "Practice1b.html",
+    "title": "Practice 1b - Efficient data import and cleaning",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice1b.html#answer-key",
+    "href": "Practice1b.html#answer-key",
+    "title": "Practice 1b - Efficient data import and cleaning",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice1b.html#tasks-and-steps",
+    "href": "Practice1b.html#tasks-and-steps",
+    "title": "Practice 1b - Efficient data import and cleaning",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nCopy only the top 25 pizza companies available in the list from: “PizzaToday”. Make sure to include the header row of the table. We recommend using Chrome as the browser for this task.\nPlace the data in Sheet1 of the workbook, starting from the first cell (A1). Mac Win\nThis time you don’t need to adjust the text. All you need is to complete the missing values in column A.\nResize each column in order to make all content visible.\nFormat the header as bold and font size to 16 points.\nType Date in H1, make sure the text is formatted like the other headers.\n\n\nIn the second row (H2) insert the following: 12/31/2015.\nUse Autofill to generate the same date for all the following rows. Mac Win\nFormat the date in column H as: Thursday, December 31, 2015. Mac Win\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice1d.html",
+    "href": "Practice1d.html",
+    "title": "Practice 1d - Conditional formatting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice1d.html#answer-key",
+    "href": "Practice1d.html#answer-key",
+    "title": "Practice 1d - Conditional formatting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice1d.html#tasks-and-steps",
+    "href": "Practice1d.html#tasks-and-steps",
+    "title": "Practice 1d - Conditional formatting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nAn important Excel feature is Conditional Formatting. Mac Win It is a powerful functionality to highlight relevant information. For example, in the Calculations worksheet:\n\n\nHighlight in red all the chains that have more than 100 units (column B).\nHighlight in green all the chains that have more than 100,000,000 dollars in gross sales (column C).\nHighlight in yellow all the dates that are a duplicate (column F). A duplicate is a value that appears more than once in the column.\n\n\nAfter you apply the above steps you realize that too much conditional formatting is hampering your design. You basically, end up not highlighting anything when everything is highlighted. You can resolve this problem:\n\n\nModify the conditional formatting in column B. Use 500 the threshold (i.e., the number of units above which you apply the formatting).\nModify the conditional formatting of column C. Update the gross sales amount to 500,000,000 dollars. What did you notice?\nClear the conditional formatting for the dates (column F). They are all the same.\n\n\nOn the Calculations worksheet do the following:\n\n\nFormat column D using blue Data Bars (select the Solid Fill option).\nFormat column E using a Top/bottom rule that highlights only the values above the average (use green as the color). Mac Win\n\n\nUse find and replace to change all dates to 01/01/2016. Try to perform this step using the keyboard shortcuts and updating all the dates simultaneously. Mac Win\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice1c.html",
+    "href": "Practice1c.html",
+    "title": "Practice 1c - Data Import and Cleaning",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice1c.html#answer-key",
+    "href": "Practice1c.html#answer-key",
+    "title": "Practice 1c - Data Import and Cleaning",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice1c.html#tasks-and-steps",
+    "href": "Practice1c.html#tasks-and-steps",
+    "title": "Practice 1c - Data Import and Cleaning",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nIn cell F27, use the function SUM to compute the total of column F. Mac Win\nIn cell G27, calculate the total of column G. Use AutoSum to complete this task. Mac Win\nCopy, simultaneously, the headers and data in columns B, F and G (do not copy the total, just the data and column headers).\n\n\nPaste the copied data in cell A1 of Sheet2. Mac Win\nResize the columns to show all content.\nRename Sheet1 as Data and Sheet2 as Calculations. Mac Win\nMake sure the sheets are in the correct order. The first one is the Data worksheet, the second is the Calculations worksheet.\n\n\nIn column D of the Calculations worksheet compute the Gross Sales per unit as: Gross Sales divided by Units.\n\n\nThe column header should read: Unit Sales.\nMake sure the heading is formatted consistently with the other ones.\nNotice that in this case relative references are sufficient to compute the result for each row (be efficient, drag the formula). Mac Mac Win\n\n\nIn the Calculations worksheet type Total in A27 and Average in A28.\n\n\nFormat both cells in bold.\nCopy the formula from cell F27 in the Data worksheet and paste it into cell B27 of the Calculations worksheet.\nCopy the formula from cell G27 in the Data worksheet and paste it into cell C27 of the Calculations worksheet.\nMake sure the results are based on the data available in the Calculations worksheet. Delete the total from the Data worksheet. If you have used the correct pasting option, you will not see any error in the Calculations worksheet. Congratulations!!\n\n\nCalculate the Average number of units (column B) and the Average gross sales (column C). Use AutoSum. Mac Win\nUse a Top Border to visually separate the totals from the data. Make sure to apply the border only to cells A27:C27. Mac Win\nIn column E of the Calculations worksheet calculate the gross sales proportion of each restaurant chain over the total gross sales for all chains (Gross Sales divided by Total).\n\n\nThe column header should read: Sales Percentage. It should be consistently formatted with the other ones.\nMake sure to correctly use relative references and absolute references.\nFormat the data using the Percent style with no decimal value. Mac Win\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  }
+]

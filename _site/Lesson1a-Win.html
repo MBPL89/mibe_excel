@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Bartosiak">
+
+<title>Lesson 1 - Introduction to Formatting – MIBE Excel Corner</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">MIBE Excel Corner</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-class-notes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Class notes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-class-notes">    
+        <li class="dropdown-header">Introduction.qmd</li>
+        <li>
+    <a class="dropdown-item" href="./Lesson1.html">
+ <span class="dropdown-text">Lesson 1 - Working with Workbooks</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-practice---windows" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Practice - Windows</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-practice---windows">    
+        <li>
+    <a class="dropdown-item" href="./Lesson1a-Win.html">
+ <span class="dropdown-text">Lesson 1 - Introduction to Formatting</span></a>
+  </li>  
+        <li class="dropdown-header">Lesson 1b.qmd</li>
+        <li class="dropdown-header">Lesson 1c.qmd</li>
+        <li class="dropdown-header">Lesson 1d.qmd</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-practice---mac" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Practice - Mac</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-practice---mac">    
+        <li>
+    <a class="dropdown-item" href="./Lesson1a-Mac.html">
+ <span class="dropdown-text">Lesson 1 - Working with Workbooks</span></a>
+  </li>  
+        <li class="dropdown-header">Lesson 1b.qmd</li>
+        <li class="dropdown-header">Lesson 1c.qmd</li>
+        <li class="dropdown-header">Lesson 1d.qmd</li>
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#lesson-1---introduction-to-formatting" id="toc-lesson-1---introduction-to-formatting" class="nav-link active" data-scroll-target="#lesson-1---introduction-to-formatting">Lesson 1 - Introduction to Formatting</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#be-efficient---get-stuff-done-quickly" id="toc-be-efficient---get-stuff-done-quickly" class="nav-link" data-scroll-target="#be-efficient---get-stuff-done-quickly">Be Efficient - Get stuff done quickly</a></li>
+  <li><a href="#be-effective---get-stuff-done-right" id="toc-be-effective---get-stuff-done-right" class="nav-link" data-scroll-target="#be-effective---get-stuff-done-right">Be Effective - Get stuff done right</a></li>
+  <li><a href="#exercise-overview" id="toc-exercise-overview" class="nav-link" data-scroll-target="#exercise-overview">Exercise Overview</a></li>
+  </ul></li>
+  <li><a href="#practie-video-1a" id="toc-practie-video-1a" class="nav-link" data-scroll-target="#practie-video-1a">Practie video 1a</a>
+  <ul class="collapse">
+  <li><a href="#answer-key" id="toc-answer-key" class="nav-link" data-scroll-target="#answer-key">Answer key</a></li>
+  </ul></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
+  <ul class="collapse">
+  <li><a href="#tasks-and-steps" id="toc-tasks-and-steps" class="nav-link" data-scroll-target="#tasks-and-steps">Tasks and Steps</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lesson 1 - Introduction to Formatting</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Bartosiak </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="lesson-1---introduction-to-formatting" class="level1">
+<h1>Lesson 1 - Introduction to Formatting</h1>
+<p>Microsoft Excel is the most widely used data-processing application in the world, and its influence in organizations continues to grow. There is a good reason for this as Excel is extremely powerful - if you know how to use it. In all but a few professions your employer will expect you to be comfortable analyzing data using Microsoft Excel. If you join any kind of business your Excel skills will set you apart - for better or worse! You are taking this course to become a sophisticated end-user. Thus, mastery, rather than familiarity, should be your goal. Mastery should be your focus for two reasons. Philosophically, if you are going to do something you should do it well. Pragmatically, you realize that the competencies you acquire in Excel will very much influence the level of success you will achieve in your career. Let’s roll up our sleeves and get started!</p>
+<section id="concepts" class="level2">
+<h2 class="anchored" data-anchor-id="concepts">Concepts</h2>
+<ul>
+<li>Be efficient – Get stuff done quickly</li>
+<li>Be effective – Use the right skills for the right tasks Skills</li>
+<li>Create new Excel workbooks and work on multiple worksheets</li>
+<li>Insert data in Excel and perform basic calculations</li>
+<li>Format cells according to their contents</li>
+<li>Use absolute, relative, and mixed referencing</li>
+<li>Use conditional formatting</li>
+<li>Find and replace content in your worksheet</li>
+</ul>
+</section>
+<section id="be-efficient---get-stuff-done-quickly" class="level2">
+<h2 class="anchored" data-anchor-id="be-efficient---get-stuff-done-quickly">Be Efficient - Get stuff done quickly</h2>
+<p>Being efficient in Excel will save you a significant amount of time over the duration of your career. If you have ever opened Excel you know that the application presents a big canvas of rows and columns to you. This is both a blessing and a curse. On the one hand, you have full control and lots of freedom to perform your analysis. On the other hand, as with any programming task, there many different ways to perform an analysis and it is critical that you spend time up front designing an efficient approach to it. That means that learning Excel is not just about learning where to click, rather it is about learning how to create structured solutions to analytical problems.</p>
+<p>Insights</p>
+<ul>
+<li>It is likely that if you ask ten different people to perform an analysis in Excel, they will come up with ten different procedures to achieve it. Such variability is possible because Excel provides an incredible number of features – most of which basic users will never hear about. Efficiently using the available instruments in Excel is critical. While you will develop your unique style as an analyst, efficiency should always drive the design of your workbooks. As a general rule, you want to perform analyses that are parsimonious and dynamic.
+<ol type="1">
+<li>Your analysis is parsimonious when you minimize the number of calculations and activities.</li>
+<li>Your analysis is dynamic when your workbook is not specific to your data but it is robust to data changes. That is, it will not stop working abruptly if the data changes.</li>
+</ol></li>
+<li>A critical differentiator between sophisticated and unsophisticated Excel users is the habit to always use keyboard shortcuts. The earlier you pick up this habit, the better it is. Here are the shortcuts for your platform. <a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f#picktab=macos">Mac</a> <a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=en-US&amp;rs=en-US&amp;ad=US">Win</a></li>
+<li>There are some important functionalities that are only accessible through shortcuts. In addition to keyboard shortcuts, Excel offers plenty of mouse shortcuts such as auto-fill series and auto columns adjustment. Over the following sessions, we will highlight the most important ones. However, as a general rule, any time that you find yourself performing a repetitive task (like manually input the days of the week) find out the efficient approach. We guarantee you that it exists!</li>
+<li>Creating an Excel worksheet is like programming. The idea of a ‘variable’ is central. Variables are the backbone of any program and application, and Excel is no exemption. In simple terms, a variable is a way to store information for later use. Every cell in Excel is basically a variable. You reference it by its column name and row number (e.g., A3).</li>
+</ul>
+</section>
+<section id="be-effective---get-stuff-done-right" class="level2">
+<h2 class="anchored" data-anchor-id="be-effective---get-stuff-done-right">Be Effective - Get stuff done right</h2>
+<p>In your professional life, you will often be asked to perform analyses to share with your employees, colleagues or the boss. Creating professional documents is not only visually appealing, but it is also critical for communication. Creating professional documents is critical to convey the results of complex analyses. Well-formatted, professional spreadsheets get your point across – and they look good doing it! As the designer of the workbook you will have great flexibility, it will be your call whether to present data as a plain table, a colorful one, or a compelling graph. Remember at all times that the design choices you make when sharing your analysis will impact your reader’s opinion of your content (and of your abilities).</p>
+<p>Insights</p>
+<ul>
+<li><p>Once you share a report with a colleague or boss you lose control of it. It might happen that, especially if it is an important analysis, your colleagues will share it themselves with other colleagues, and your results might end up in a PowerPoint presentation of a different department. If you are good at what you do, then many people will see that. If you are not that good, well, they will know.</p></li>
+<li><p>Ultimately your peers will judge you based on the quality of what you produce. This means that you need to deliver reliable analyses presented in a manner that is easily understandable by others. Note that, while a quality presentation does not make up for errors in your data and results, a poor presentation devalues the best of insights. Don’t be your own worst enemy by doing sloppy work or by using the wrong instruments.</p></li>
+<li><p>You might still think that Excel is just an instrument to perform calculations. In this course, you will see that Excel is much more. It is an instrument for ‘Data Storytelling’ and persuasion. When you enter the job market, as a knowledge worker, you will be expected to explain, enlighten, and engage your audience by providing compelling ‘data driven’ stories.</p></li>
+</ul>
+</section>
+<section id="exercise-overview" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-overview">Exercise Overview</h2>
+<p>Objective In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.</p>
+<p>Scenario The idea came to you last semester. As you were cramming hard for your finals, the though hit you – Pizza Delivery by Drones, that could be a real business! You don’t know how it came to you. Maybe it’s because you had a passion for airplanes since you were a kid. Maybe it’s because you have owned all of the DJI quadcopters since the Phantom 1. Or maybe just because you were very hungry and had very little time to spare during finals week. You even have a name in mind for your firm: Papa Drones.</p>
+<p>Over the holiday break you saw your older cousing Anna, who is a partner at a large San Francisco based venture capital firm. You told her you wanted to ask your Information Systems professor for some help, but she told you that no serious person would listen to you before you did some preliminary analysis. Anna was intrigued by the idea and was willing to help you a bit in her spare time. She said:</p>
+<p>“if you are serious about this idea Microsoft Excel is the instrument of choice to do the analysis.”</p>
+<p>“Of course!” you responded.</p>
+<p>In this module, we start using Excel. Before learning its advanced functionalities, it is necessary that you are efficient and effective with the basics. To give continuity to the learning we will use an ongoing scenario.</p>
+</section>
+</section>
+<section id="practie-video-1a" class="level1">
+<h1>Practie video 1a</h1>
+<div class="callout callout-style-default callout-tip callout-titled" title="Windows">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Windows
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yhmIkQGgB_Y" title="Practice 1a Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Mac">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Mac
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/_1CZ0xttxoQ?si=_r-cTKaPCsxY-Tqv" title="Practice 1a Mac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+</div>
+<section id="answer-key" class="level2">
+<h2 class="anchored" data-anchor-id="answer-key">Answer key</h2>
+<p><a href="./_files/keys/key_intromis-1-a_1.xlsx" target="_blank">Answer key</a></p>
+</section>
+</section>
+<section id="instructions" class="level1">
+<h1>Instructions</h1>
+<p><a href="./_files/starters/key_intromis-1-a_1.xlsx" target="_blank">Starter Workbook</a></p>
+<section id="tasks-and-steps" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-and-steps">Tasks and Steps</h2>
+<ol type="1">
+<li><strong>Open the Starter workbook.</strong></li>
+<li><strong>Copy only the top 25 pizza companies from <a href="./PizzaToday.html" target="_blank">“PizzaToday”</a></strong>
+<ul>
+<li>Make sure to include the header row of the table.</li>
+<li>Recommended: Use Chrome browser for copying.</li>
+</ul></li>
+<li><strong>Place the data into <em>Sheet1</em> of the workbook, starting from cell A1.</strong></li>
+<li><strong>Adjust the data after pasting:</strong>
+<ul>
+<li>Remove the hyperlink for each company name in column B.</li>
+<li>Fill missing values in column A by completing the ranking. <em>Use the drag handle, do not manually enter each number.</em></li>
+<li>Resize each column to make all contents visible.</li>
+</ul></li>
+<li><strong>Format the worksheet:</strong>
+<ul>
+<li>Apply the style from cell B2 to all text in columns B, D, and E (use Format Painter).</li>
+<li>Set the header row as bold, font size 16 pt.</li>
+<li>All other cells: Calibri font, size 12 pt.</li>
+</ul></li>
+<li><strong>Create the date column:</strong>
+<ul>
+<li>Type <code>Date</code> in cell H1, formatted like the other headers.</li>
+<li>In H2, enter: <code>12/31/2015</code></li>
+<li>Use Autofill to generate the same date for all following rows.</li>
+<li>Format the dates in column H to display: <em>Thursday, December 31, 2015</em></li>
+</ul></li>
+<li><strong>Save the file as <code>username_e1a.xlsx</code> and close it.</strong></li>
+</ol>
+<hr>
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+<div>
+<!-- Footer Section -->
+<div style="
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+">
+  <!-- Left-aligned -->
+  <div style="text-align: left; font-size: 16px;">
+    © 2025. All Rights Reserved.
+  </div>
+  
+
+  <!-- Right-aligned -->
+  <div style="text-align: right; font-size: 16px;">
+    Enabled by Dr. Marcin Bartosiak
+  </div>
+</div>
+
+<!-- Mobile Responsiveness -->
+<style>
+  @media screen and (max-width: 768px) {
+    div[style*="width: 100vw"] {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 15px;
+    }
+    
+    div[style*="width: 100vw"] > div {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+</style>
+
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

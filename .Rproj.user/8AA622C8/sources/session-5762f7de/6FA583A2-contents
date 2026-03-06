@@ -1,0 +1,57 @@
+---
+title: "Practice 1b - Efficient data import and cleaning"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 1b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/029UrhGwG4g title="Practice 1b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/JcvB3rBhFf8 title="Practice 1b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-1-b.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/key_intromis-1-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.  Copy only the top 25 pizza companies available in the list from: ["PizzaToday"](PizzaToday.qmd){target="_blank"}. Make sure to include the header row of the table. We recommend using Chrome as the browser for this task.
+3.  Place the data in Sheet1 of the workbook, starting from the first cell (A1). [Mac](https://support.microsoft.com/en-us/office/copy-and-paste-specific-cell-content-in-excel-for-mac-a956b1c3-cd5a-4245-852c-42e8f83ffe71) [Win](https://support.microsoft.com/en-us/office/move-or-copy-cells-rows-and-columns-3ebbcafd-8566-42d8-8023-a2ec62746cfc)
+4.	This time you don’t need to adjust the text. All you need is to complete the missing values in column A.
+5.	Resize each column in order to make all content visible.
+6.	Format the header as bold and font size to 16 points.
+7.  Type Date in H1, make sure the text is formatted like the other headers.
+  -   In the second row (H2) insert the following: 12/31/2015.
+  -   Use Autofill to generate the same date for all the following rows. [Mac](https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db) [Win](https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db)
+  -   Format the date in column H as: **Thursday, December 31, 2015**. [Mac](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e#__toc320186182=&id0ebbf=macos) [Win](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e#__toc320186182)
+
+8.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

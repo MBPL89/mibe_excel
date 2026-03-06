@@ -1,0 +1,61 @@
+---
+title: "Practice 1a - Data Import and Cleaning"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 1a
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/yhmIkQGgB_Y title="Practice 1a Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/_1CZ0xttxoQ?si=_r-cTKaPCsxY-Tqv title="Practice 1a Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-1-a.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/key_intromis-1-a.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.	Download and open the empty starter file.
+2.	Copy only the top 25 pizza companies available in the list from: ["PizzaToday"](PizzaToday.qmd){target="_blank"}. Make sure to include the header row of the table. We recommend using Chrome as the browser for this task.
+3.	Place the data in Sheet1 of the workbook, starting from the first cell (A1). [Mac](https://support.microsoft.com/en-us/office/copy-and-paste-specific-cell-content-in-excel-for-mac-a956b1c3-cd5a-4245-852c-42e8f83ffe71) [Win](https://support.microsoft.com/en-us/office/move-or-copy-cells-rows-and-columns-3ebbcafd-8566-42d8-8023-a2ec62746cfc)
+4.	As you notice after pasting, the data needs some adjusting.
+  - Remove the hyperlink for each company in column B. [Mac](https://support.microsoft.com/en-us/office/remove-or-turn-off-hyperlinks-027b4e8c-38f8-432c-b57f-6c8b67ebe3b0) [Win](https://support.microsoft.com/en-us/office/remove-or-turn-off-hyperlinks-027b4e8c-38f8-432c-b57f-6c8b67ebe3b0)
+  - Insert in column A the missing values by completing the ranking. Complete this task by dragging the right values from the above cells, don't manually insert the number. Do you understand why the drag works?
+  - Resize each column in order to make visible all the contents. [Mac](https://support.microsoft.com/en-us/office/change-the-column-width-and-row-height-72f5e3cc-994d-43e8-ae58-9774a0905f46) [Win](https://support.microsoft.com/en-us/office/change-the-column-width-and-row-height-72f5e3cc-994d-43e8-ae58-9774a0905f46)
+5.	Format:
+  - All the text in column B, D and E like the text in cell B2. Use the Format Painter tool. [Mac](https://support.microsoft.com/en-us/office/copy-cell-formatting-b9fe82ea-c0a0-41de-837b-d2f15dd41ea9#__toc307480774) [Win](https://support.microsoft.com/en-us/office/copy-cell-formatting-b9fe82ea-c0a0-41de-837b-d2f15dd41ea9#__toc307480774)
+  - The header as bold and font size to 16 points.
+  - The font in all the other cells should be: Calibri 12 points.
+6.	Type Date in H1, make sure the text is formatted like the other headers.
+  - In the second row (H2) insert the following: 12/31/2015.
+  - Use Autofill to generate the same date for all the following rows. [Mac](https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db) [Win](https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db)
+  - Format the date in column H as: **Thursday, December 31, 2015**. [Mac](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e#__toc320186182=&id0ebbf=macos) [Win](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e#__toc320186182)
+7.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "MIBE Excel Corner"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Class notes"
+        menu:
+        - Introduction.qmd
+        - Lesson1.qmd
+      - text: "Lesson 1 - Working with Workbooks"
+        menu:
+        - Lesson1a-Win.qmd
+        - Lesson 1b.qmd
+        - Lesson 1c.qmd
+        - Lesson 1d.qmd
+      - text: "Lesson 2"
+        menu:
+        - "Coming soon"
+      - text: "Lesson 3"
+        menu:
+        - "Coming soon"
+      - text: "Lesson 4"
+        menu:
+        - "Coming soon"
+      - text: "Lesson 5"
+        menu:
+        - "Coming soon"
+      - text: "Lesson 6 - Comprehensive Analysis"
+        menu:
+        - "Coming soon"
+        
+format:
+  html:
+    theme: minty
+    toc: true
+    toc-depth: 2
+
+editor: visual

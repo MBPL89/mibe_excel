@@ -1,0 +1,242 @@
+---
+title: "Lesson 1 - Working with Workbooks"
+author: "Dr. Bartosiak"
+---
+
+# Main Concepts
+
+## Workbook
+A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you're working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.
+
+**Official documentation:** [Basic tasks in Excel](https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca)
+
+---
+
+## Cells and Cell References
+A cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.
+
+**Official documentation:** 
+- [Cell basics](https://support.microsoft.com/en-us/office/select-cell-contents-in-excel-23f64223-2b6b-453a-8688-248355f10fa9)
+- [Create or change a cell reference](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa)
+- [CELL function](https://support.microsoft.com/en-us/office/cell-function-51bd39a5-f338-4dbe-a33f-955d67c2b2cf)
+
+---
+
+## Rows and Columns
+Rows run horizontally (numbered 1, 2, 3...), columns vertically (labeled A, B, C...). The intersection point is a cell.
+
+**Official documentation:** [Refer to Rows and Columns](https://learn.microsoft.com/en-us/office/vba/excel/concepts/cells-and-ranges/refer-to-rows-and-columns)
+
+---
+
+## Copy and Paste (Ctrl+C and Ctrl+V)
+**Ctrl+C** copies selected content; **Ctrl+V** pastes it. Works across Excel and most software.
+
+**Official documentation:** [Keyboard shortcuts in Excel](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+
+---
+
+## Hyperlinks
+Hyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → "Remove Hyperlink".
+
+**Official documentation:** [Remove or turn off hyperlinks](https://support.microsoft.com/en-us/office/remove-or-turn-off-hyperlinks-027b4e8c-38f8-432c-b57f-6c8b67ebe3b0)
+
+---
+
+## AutoFill and Series
+AutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.
+
+**Official documentation:** [Fill data automatically in worksheet cells](https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db)
+
+---
+
+## Format Painter
+Copies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.
+
+**Official documentation:** [Use Format Painter](https://support.microsoft.com/en-us/office/use-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40)
+
+---
+
+## Font Formatting (Bold, Font Size)
+Font formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.
+
+**Official documentation:** [Format cells](https://support.microsoft.com/en-us/office/format-cells-dialog-box-e5f4c1ec-8e2a-442e-bcaf-c51abf40e1e8)
+
+---
+
+## Date Formatting
+Excel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.
+
+![](_images/date_format.png)
+
+**Official documentation:** 
+- [Format numbers as dates](https://support.microsoft.com/en-us/office/format-numbers-as-dates-or-times-418bd3fe-0577-47c8-8caa-b4d30c528309)
+- [Number format codes](https://support.microsoft.com/en-us/office/number-format-codes-5026bbd6-04bc-48cd-bf33-80f18b4eae68)
+
+---
+
+## Keyboard Shortcuts: Ctrl+S (Save)
+Ctrl+S saves the workbook. If new, prompts for file name/location.
+
+**Official documentation:** [Save your workbook](https://support.microsoft.com/en-us/office/save-your-workbook-92e4aae0-452d-497f-a470-570610ff720a)
+
+---
+
+## Paste Special
+Paste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.
+
+**Official documentation:** 
+- [Paste Special](https://support.microsoft.com/en-us/office/paste-special-e03db6c7-8295-4529-957d-16ac8a778719)
+- [Paste options](https://support.microsoft.com/en-us/office/paste-options-8ea795b0-87cd-46af-9b59-ed4d8b1669ad)
+
+---
+
+## SUM Function
+Adds a range of cells, e.g., `=SUM(A1:A10)`. Can also sum multiple separate cells or ranges.
+
+**Official documentation:** [SUM function](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
+
+---
+
+## AutoSum
+AutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=
+
+**Official documentation:** [Use AutoSum to sum numbers](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-5f6f8a99-3dc5-4e4b-b5f3-ca4d917c9df4)
+
+---
+
+## Worksheets (Tabs)
+A sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.
+
+**Official documentation:** 
+- [Select worksheets](https://support.microsoft.com/en-us/office/select-worksheets-096b40c9-0ee7-4980-bac6-cc92aec7b266)
+- [Insert or delete a worksheet](https://support.microsoft.com/en-us/office/insert-or-delete-a-worksheet-19d3d21e-a3b3-4e13-a422-d1f43f1faaf2)
+
+---
+
+## Relative Cell References
+Relative references (e.g., A1) shift automatically when formulas are copied to new locations.
+
+**Official documentation:** [Switch between relative, absolute, and mixed references](https://support.microsoft.com/en-us/office/switch-between-relative-absolute-and-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9)
+
+---
+
+## Absolute Cell References
+Absolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.
+
+**Official documentation:** [Switch between relative, absolute, and mixed references](https://support.microsoft.com/en-us/office/switch-between-relative-absolute-and-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9)
+
+---
+
+## Formula Bar
+The bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.
+
+**Official documentation:** [Overview of formulas in Excel](https://support.microsoft.com/en-us/office/overview-of-formulas-in-excel-ecfdc708-9162-49e8-b993-c311f47ca173)
+
+---
+
+## AVERAGE Function
+Calculates the arithmetic mean of specified numbers/range.
+
+**Official documentation:** [AVERAGE function](https://support.microsoft.com/en-us/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)
+
+---
+
+## Borders
+Add lines around cells to improve visual organization (no effect on calculations).
+
+**Official documentation:** [Apply or remove cell borders](https://support.microsoft.com/en-us/office/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a)
+
+---
+
+## Percentage Formatting
+Displays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.
+
+**Official documentation:** [Format numbers as percentages](https://support.microsoft.com/en-us/office/format-numbers-as-percentages-de49167b-f603-4450-bcaa-1ab539c79c1a)
+
+---
+
+## File Management
+Organize files in folders, use clear names, move from Downloads, and save frequently.
+
+**Official documentation:** [Save your workbook](https://support.microsoft.com/en-us/office/save-your-workbook-92e4aae0-452d-497f-a470-570610ff720a)
+
+---
+
+## Conditional Formatting
+Apply color, icons, or data bars to cells automatically based on rules (e.g., highlight values >100).
+
+**Official documentation:** [Use conditional formatting](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+---
+
+### Highlight Cells Rules
+Conditional formatting presets to highlight cells >, <, =, text contains, or duplicates.
+
+**Official documentation:** [Use conditional formatting](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+---
+
+### Manage/Edit/Clear Rules
+Conditional formatting rules can be managed, edited, or cleared using the Rules Manager.
+
+**Official documentation:** [Manage rule precedence](https://support.microsoft.com/en-us/office/manage-conditional-formatting-rule-precedence-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+---
+
+### Data Bars
+Visually represent values using horizontal bars inside cells—a quick way to compare values.
+
+**Official documentation:** [Use data bars](https://support.microsoft.com/en-us/office/use-data-bars-color-scales-and-icon-sets-to-highlight-data-f118d0a6-5921-4e2e-905b-fe00f3378fb9)
+
+---
+
+### Top/Bottom Rules
+Highlight top/bottom items, top/bottom %, above/below average.
+
+**Official documentation:** [Use conditional formatting](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+---
+
+### Duplicate Values
+Highlight repeated values within a range—useful for identifying data entry errors or duplicates.
+
+**Official documentation:** [Use conditional formatting](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+---
+
+## Find and Replace
+Locate and replace text or values across cells/workbook. Shortcut: Ctrl+H.
+
+**Official documentation:** [Find or replace text and numbers](https://support.microsoft.com/en-us/office/find-or-replace-text-and-numbers-on-a-worksheet-0e304ca5-ecef-4808-b90f-fdb42f892e90)
+
+---
+
+## Visual Data Analysis
+Use formatting, colors, and graphics to make data patterns and trends visible for quick insights.
+
+**Official documentation:** [Use conditional formatting](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+------------------------------------------------------------------------
+
+::: disclaimer
+<p><strong>Images and GIFs Disclaimer:</strong> Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.</p>
+:::
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
