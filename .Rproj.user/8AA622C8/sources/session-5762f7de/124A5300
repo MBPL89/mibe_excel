@@ -3,7 +3,7 @@
     "path": "~/Library/CloudStorage/OneDrive-Personal/Working/Teaching/Business analytcis with Excel/Quarto/reimage2/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "146634741",
+    "hash": "3025091135",
     "contents": "",
     "dirty": false,
     "created": 1772746192247.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "27,0",
+        "cursorPosition": "5,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "2279:1946.5"
+        "rmdVisualModeLocation": "490:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1772796441,
+    "lastKnownWriteTime": 1772824272,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1772796441434,
+    "last_content_update": 1772824272058,
     "read_only": false,
     "read_only_alternatives": []
 }
