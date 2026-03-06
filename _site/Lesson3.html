@@ -8,7 +8,7 @@
 
 <meta name="author" content="Dr.&nbsp;Bartosiak">
 
-<title>Before we start – MIBE Excel Corner</title>
+<title>Lesson 3 – Worksheets and Workbook Management – MIBE Excel Corner</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -196,33 +196,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#main-concepts" id="toc-main-concepts" class="nav-link active" data-scroll-target="#main-concepts">Main Concepts</a>
-  <ul class="collapse">
-  <li><a href="#workbook" id="toc-workbook" class="nav-link" data-scroll-target="#workbook">Workbook</a></li>
-  <li><a href="#cells-and-cell-references" id="toc-cells-and-cell-references" class="nav-link" data-scroll-target="#cells-and-cell-references">Cells and Cell References</a></li>
-  <li><a href="#rows-and-columns" id="toc-rows-and-columns" class="nav-link" data-scroll-target="#rows-and-columns">Rows and Columns</a></li>
-  <li><a href="#copy-and-paste-ctrlc-and-ctrlv" id="toc-copy-and-paste-ctrlc-and-ctrlv" class="nav-link" data-scroll-target="#copy-and-paste-ctrlc-and-ctrlv">Copy and Paste (Ctrl+C and Ctrl+V)</a></li>
-  <li><a href="#hyperlinks" id="toc-hyperlinks" class="nav-link" data-scroll-target="#hyperlinks">Hyperlinks</a></li>
-  <li><a href="#autofill-and-series" id="toc-autofill-and-series" class="nav-link" data-scroll-target="#autofill-and-series">AutoFill and Series</a></li>
-  <li><a href="#format-painter" id="toc-format-painter" class="nav-link" data-scroll-target="#format-painter">Format Painter</a></li>
-  <li><a href="#font-formatting-bold-font-size" id="toc-font-formatting-bold-font-size" class="nav-link" data-scroll-target="#font-formatting-bold-font-size">Font Formatting (Bold, Font Size)</a></li>
-  <li><a href="#date-formatting" id="toc-date-formatting" class="nav-link" data-scroll-target="#date-formatting">Date Formatting</a></li>
-  <li><a href="#keyboard-shortcuts-ctrls-save" id="toc-keyboard-shortcuts-ctrls-save" class="nav-link" data-scroll-target="#keyboard-shortcuts-ctrls-save">Keyboard Shortcuts: Ctrl+S (Save)</a></li>
-  <li><a href="#paste-special" id="toc-paste-special" class="nav-link" data-scroll-target="#paste-special">Paste Special</a></li>
-  <li><a href="#sum-function" id="toc-sum-function" class="nav-link" data-scroll-target="#sum-function">SUM Function</a></li>
-  <li><a href="#autosum" id="toc-autosum" class="nav-link" data-scroll-target="#autosum">AutoSum</a></li>
-  <li><a href="#worksheets-tabs" id="toc-worksheets-tabs" class="nav-link" data-scroll-target="#worksheets-tabs">Worksheets (Tabs)</a></li>
-  <li><a href="#relative-cell-references" id="toc-relative-cell-references" class="nav-link" data-scroll-target="#relative-cell-references">Relative Cell References</a></li>
-  <li><a href="#absolute-cell-references" id="toc-absolute-cell-references" class="nav-link" data-scroll-target="#absolute-cell-references">Absolute Cell References</a></li>
-  <li><a href="#formula-bar" id="toc-formula-bar" class="nav-link" data-scroll-target="#formula-bar">Formula Bar</a></li>
-  <li><a href="#average-function" id="toc-average-function" class="nav-link" data-scroll-target="#average-function">AVERAGE Function</a></li>
-  <li><a href="#borders" id="toc-borders" class="nav-link" data-scroll-target="#borders">Borders</a></li>
-  <li><a href="#percentage-formatting" id="toc-percentage-formatting" class="nav-link" data-scroll-target="#percentage-formatting">Percentage Formatting</a></li>
-  <li><a href="#file-management" id="toc-file-management" class="nav-link" data-scroll-target="#file-management">File Management</a></li>
-  <li><a href="#conditional-formatting" id="toc-conditional-formatting" class="nav-link" data-scroll-target="#conditional-formatting">Conditional Formatting</a></li>
-  <li><a href="#find-and-replace" id="toc-find-and-replace" class="nav-link" data-scroll-target="#find-and-replace">Find and Replace</a></li>
-  <li><a href="#visual-data-analysis" id="toc-visual-data-analysis" class="nav-link" data-scroll-target="#visual-data-analysis">Visual Data Analysis</a></li>
-  </ul></li>
+  <li><a href="#concepts" id="toc-concepts" class="nav-link active" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#readability-and-accessibility-of-results" id="toc-readability-and-accessibility-of-results" class="nav-link" data-scroll-target="#readability-and-accessibility-of-results">Readability and Accessibility of Results</a></li>
+  <li><a href="#exercise-overview" id="toc-exercise-overview" class="nav-link" data-scroll-target="#exercise-overview">Exercise Overview</a></li>
   </ul>
 </nav>
     </div>
@@ -231,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Before we start</h1>
+<h1 class="title">Lesson 3 – Worksheets and Workbook Management</h1>
 </div>
 
 
@@ -254,187 +231,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="main-concepts" class="level1">
-<h1>Main Concepts</h1>
-<section id="workbook" class="level2">
-<h2 class="anchored" data-anchor-id="workbook">Workbook</h2>
-<p>A workbook is the main file in Excel that contains one or more worksheets. When you open Excel, you’re working with a workbook, typically saved with an .xlsx extension. Think of a workbook as a binder that holds multiple pages (worksheets) of data.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca">Basic tasks in Excel</a></p>
-<hr>
+<p>Building on the previous chapters we introduce the concept of formatting Worksheets and managing a Workbook – for both on screen and printed presentation. While it may not be important to focus on the presentation and management of your Workbook when making trivial spreadsheets, it is critical to do so when you have external users to whom you present your work (e.g., a boss). It is also critical to pay attention to presentation when you work with a large amount of data. In this section, we will first practice the analytical skills we acquired last week, we will then turn our attention on formalizing the process of designing a good Workbook.</p>
+<section id="concepts" class="level2">
+<h2 class="anchored" data-anchor-id="concepts">Concepts</h2>
+<ul>
+<li>Readability and Accessibility of Results</li>
+</ul>
 </section>
-<section id="cells-and-cell-references" class="level2">
-<h2 class="anchored" data-anchor-id="cells-and-cell-references">Cells and Cell References</h2>
-<p>A cell is the basic unit of a worksheet, defined by the intersection of a column and a row (e.g., A1, B5). Cells can contain text, numbers, or formulas.</p>
-<p><strong>Official documentation:</strong> - <a href="https://support.microsoft.com/en-us/office/select-cell-contents-in-excel-23f64223-2b6b-453a-8688-248355f10fa9">Cell basics</a> - <a href="https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa">Create or change a cell reference</a> - <a href="https://support.microsoft.com/en-us/office/cell-function-51bd39a5-f338-4dbe-a33f-955d67c2b2cf">CELL function</a></p>
-<hr>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<ul>
+<li>Work in protected view</li>
+<li>Preview before printing</li>
+<li>Set the Print Area</li>
+<li>Merge cells and split merged cells</li>
+<li>Move and copy Worksheets</li>
+<li>Insert and Delete rows and columns</li>
+<li>Modify column widths and row heights</li>
+<li>Freeze and Unfreeze rows and columns</li>
+<li>Hide and Unhide rows and columns</li>
+<li>Move between different Worksheet views</li>
+<li>Add headers and footers</li>
+<li>Change Worksheet orientation</li>
+<li>Scale Worksheet for optimal printing</li>
+<li>Print Worksheets and Workbooks</li>
+</ul>
 </section>
-<section id="rows-and-columns" class="level2">
-<h2 class="anchored" data-anchor-id="rows-and-columns">Rows and Columns</h2>
-<p>Rows run horizontally (numbered 1, 2, 3…), columns vertically (labeled A, B, C…). The intersection point is a cell.</p>
-<p><strong>Official documentation:</strong> <a href="https://learn.microsoft.com/en-us/office/vba/excel/concepts/cells-and-ranges/refer-to-rows-and-columns">Refer to Rows and Columns</a></p>
-<hr>
+<section id="readability-and-accessibility-of-results" class="level2">
+<h2 class="anchored" data-anchor-id="readability-and-accessibility-of-results">Readability and Accessibility of Results</h2>
+<p>We have already introduced the concepts of accessibility and readability in the context of designing Microsoft Word documents. As we said at the time, “you may have never thought about it in these terms, but writing a document is an act of design.” Well, guess what, creating a professional and usable Microsoft Excel Workbook is also an act of design. When sophisticated end-users open Excel to perform some analysis, they have already conceptualized what they want to accomplish – the results of the analysis – and how to accomplish it – the algorithm they develop to analyze the data. We will discuss more fully the process of designing a Worksheet in terms of inputs, processing and outputs, in a later chapter. For now we want to focus on the design of the results sheet. In fact, thinking about who will access the results and what those results should look like is the first step in the design of your Workbook. As with any other report, like the ones you wrote with Microsoft Word, you have to make sure that your results are accessible and readable. In the context of an Excel results page: - Accessibility refers to the visual layout and navigation of your page. You should think about the degree of knowledge your intended audience has about your analysis. If you are sharing your Workbook with your boss for example, you can expect her to be very familiar with the language you use, the data you have processed in your Worksheet, the variables and metrics you use to display your results, the relationships between these metrics, and the objectives of your analysis. For example, if you are working in the finance department of a large Pizza chain, you will likely be processing pizza orders by store, revenues and cost figures, and the like. Your boss would be very familiar with all these. Compare the above situation with one where you are creating a Worksheet that you will be using with potential partners, new employees, investors or customers who are generally unfamiliar with your business. They will likely not have intimate knowledge of your business and you should guide the readers through the analysis. For example, you should make sure to spell out any acronyms, you should visually organize your results in coherent groups, you may consider having a section of the results page with definitions and explanation of metrics. In short, accessibility is about “stepping in your audience’s shoes” and design the visual layout and labeling of your results to be as simple and immediate as possible for them. - Readability refers to the understandability of your results by your intended audience. When thinking about the readability of your results remember what you learned in the context of Microsoft Word. Any element on the results page should have predictable and consistent formatting. You achieve this with the same stylistic elements you have at your disposal in Word. For example, you should select a Theme that will provide consistency of colors and styles to your Worksheet. You should be sure to use consistent formatting for labels and use font size and effects to visually separate them while signaling their relationships – similarly to how you would use styles in Microsoft Word. As in any report, objects and elements should be self-standing. If you have a chart in your results page, you should not assume that the reader knows what it is about. The chart should have a title, the axes should be clearly labeled and have a clear scale and, potentially, a legend. You generally will not use images much, but you may consider having a logo on your results page. While generally what you see on screen is what you get on paper when it comes to Microsoft Word documents, the same cannot be said about Microsoft Excel. Spreadsheets are generally designed for computations on screen and printing to paper is a secondary concern. However, a well designed Worksheet is one where the creator planned for printing by the user. You will often be creating Workbooks for much less sophisticated users (e.g.&nbsp;your boss!) and you should be prepared for them to do things that don’t fully make sense. On that note, you will learn quickly that those unsophisticated users tend to make mistakes and “break” your carefully crafted Workbooks. Thus, you should be able to protect your work and always lock cells that should not be modified.</p>
+<p><strong>Insights</strong></p>
+<ul>
+<li>Using Themes in Microsoft Excel</li>
+<li>Using colors and formatting to guide the reader</li>
+<li>Creating self-standing objects on the results page</li>
+<li>Protecting Workbooks</li>
+<li>Optimizing Workbook design for on screen viewing</li>
+<li>Optimizing Workbook design for printing</li>
+</ul>
 </section>
-<section id="copy-and-paste-ctrlc-and-ctrlv" class="level2">
-<h2 class="anchored" data-anchor-id="copy-and-paste-ctrlc-and-ctrlv">Copy and Paste (Ctrl+C and Ctrl+V)</h2>
-<p><strong>Ctrl+C</strong> copies selected content; <strong>Ctrl+V</strong> pastes it. Works across Excel and most software.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f">Keyboard shortcuts in Excel</a></p>
+<section id="exercise-overview" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-overview">Exercise Overview</h2>
+<p><strong>Objective</strong> Practice the use of basic and intermediate Excel functions. You will be working with a file that has 250 rows, with data about the top 250 restaurant chains in the US.</p>
+<p><strong>Scenario</strong> Cousin Anna liked your effort. She particularly commended your for thinking about separating out your results into a separate worksheet. You began to understand the importance of separating data, computations and presentations. However, she points out that you did not do a lot of important things that characterize a good Excel workbook, such as protecting the worksheet and formatting it for quality printing. Anna sent you a new file to work on, stating: <em>“I think that you are getting the hang of this. Here is a more meaningful and comprehensive dataset. Go at it!”</em></p>
 <hr>
-</section>
-<section id="hyperlinks" class="level2">
-<h2 class="anchored" data-anchor-id="hyperlinks">Hyperlinks</h2>
-<p>Hyperlinks are links in cells that point to websites, files, or workbook locations. Remove them by right-clicking → “Remove Hyperlink”.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/remove-or-turn-off-hyperlinks-027b4e8c-38f8-432c-b57f-6c8b67ebe3b0">Remove or turn off hyperlinks</a></p>
-<hr>
-</section>
-<section id="autofill-and-series" class="level2">
-<h2 class="anchored" data-anchor-id="autofill-and-series">AutoFill and Series</h2>
-<p>AutoFill extends data series (like numbers, dates) by dragging the fill handle (corner of a cell). Excel recognizes patterns and continues sequences.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/fill-data-automatically-in-worksheet-cells-74e31bdd-d993-45da-aa82-35a236c5b5db">Fill data automatically in worksheet cells</a></p>
-<hr>
-</section>
-<section id="format-painter" class="level2">
-<h2 class="anchored" data-anchor-id="format-painter">Format Painter</h2>
-<p>Copies formatting from one cell/range and applies to another. Single-click for one use; double-click to keep active for multiple uses.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40">Use Format Painter</a></p>
-<hr>
-</section>
-<section id="font-formatting-bold-font-size" class="level2">
-<h2 class="anchored" data-anchor-id="font-formatting-bold-font-size">Font Formatting (Bold, Font Size)</h2>
-<p>Font formatting changes text appearance. Ctrl+B makes text bold. Font size increases/decreases text size.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/format-cells-dialog-box-e5f4c1ec-8e2a-442e-bcaf-c51abf40e1e8">Format cells</a></p>
-<hr>
-</section>
-<section id="date-formatting" class="level2">
-<h2 class="anchored" data-anchor-id="date-formatting">Date Formatting</h2>
-<p>Excel stores dates as numbers, displaying them based on chosen format (Long Date, Short Date, Custom). Use Ctrl+1 to format.</p>
-<p><img src="_images/date_format.png" class="img-fluid"></p>
-<p><strong>Official documentation:</strong> - <a href="https://support.microsoft.com/en-us/office/format-numbers-as-dates-or-times-418bd3fe-0577-47c8-8caa-b4d30c528309">Format numbers as dates</a> - <a href="https://support.microsoft.com/en-us/office/number-format-codes-5026bbd6-04bc-48cd-bf33-80f18b4eae68">Number format codes</a></p>
-<hr>
-</section>
-<section id="keyboard-shortcuts-ctrls-save" class="level2">
-<h2 class="anchored" data-anchor-id="keyboard-shortcuts-ctrls-save">Keyboard Shortcuts: Ctrl+S (Save)</h2>
-<p>Ctrl+S saves the workbook. If new, prompts for file name/location.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/save-your-workbook-92e4aae0-452d-497f-a470-570610ff720a">Save your workbook</a></p>
-<hr>
-</section>
-<section id="paste-special" class="level2">
-<h2 class="anchored" data-anchor-id="paste-special">Paste Special</h2>
-<p>Paste Special gives advanced paste options: values only, formulas, formats, and more. Access via Ctrl+Alt+V or right-click.</p>
-<p><strong>Official documentation:</strong> - <a href="https://support.microsoft.com/en-us/office/paste-special-e03db6c7-8295-4529-957d-16ac8a778719">Paste Special</a> - <a href="https://support.microsoft.com/en-us/office/paste-options-8ea795b0-87cd-46af-9b59-ed4d8b1669ad">Paste options</a></p>
-<hr>
-</section>
-<section id="sum-function" class="level2">
-<h2 class="anchored" data-anchor-id="sum-function">SUM Function</h2>
-<p>Adds a range of cells, e.g., <code>=SUM(A1:A10)</code>. Can also sum multiple separate cells or ranges.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89">SUM function</a></p>
-<hr>
-</section>
-<section id="autosum" class="level2">
-<h2 class="anchored" data-anchor-id="autosum">AutoSum</h2>
-<p>AutoSum (Σ) quickly inserts SUM (and other functions) into a selected cell, automatically detecting the range. Shortcut: Alt+=</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-5f6f8a99-3dc5-4e4b-b5f3-ca4d917c9df4">Use AutoSum to sum numbers</a></p>
-<hr>
-</section>
-<section id="worksheets-tabs" class="level2">
-<h2 class="anchored" data-anchor-id="worksheets-tabs">Worksheets (Tabs)</h2>
-<p>A sheet is a single page in a workbook. Tabs at the bottom of Excel let you organize/use multiple sheets in one file.</p>
-<p><strong>Official documentation:</strong> - <a href="https://support.microsoft.com/en-us/office/select-worksheets-096b40c9-0ee7-4980-bac6-cc92aec7b266">Select worksheets</a> - <a href="https://support.microsoft.com/en-us/office/insert-or-delete-a-worksheet-19d3d21e-a3b3-4e13-a422-d1f43f1faaf2">Insert or delete a worksheet</a></p>
-<hr>
-</section>
-<section id="relative-cell-references" class="level2">
-<h2 class="anchored" data-anchor-id="relative-cell-references">Relative Cell References</h2>
-<p>Relative references (e.g., A1) shift automatically when formulas are copied to new locations.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/switch-between-relative-absolute-and-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9">Switch between relative, absolute, and mixed references</a></p>
-<hr>
-</section>
-<section id="absolute-cell-references" class="level2">
-<h2 class="anchored" data-anchor-id="absolute-cell-references">Absolute Cell References</h2>
-<p>Absolute references (e.g., $A$1) stay fixed when formulas are copied. Add $ before letter or number as needed.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/switch-between-relative-absolute-and-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9">Switch between relative, absolute, and mixed references</a></p>
-<hr>
-</section>
-<section id="formula-bar" class="level2">
-<h2 class="anchored" data-anchor-id="formula-bar">Formula Bar</h2>
-<p>The bar above the worksheet shows/edit cell content or formulas, even if the cell displays a result.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/overview-of-formulas-in-excel-ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</a></p>
-<hr>
-</section>
-<section id="average-function" class="level2">
-<h2 class="anchored" data-anchor-id="average-function">AVERAGE Function</h2>
-<p>Calculates the arithmetic mean of specified numbers/range.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6">AVERAGE function</a></p>
-<hr>
-</section>
-<section id="borders" class="level2">
-<h2 class="anchored" data-anchor-id="borders">Borders</h2>
-<p>Add lines around cells to improve visual organization (no effect on calculations).</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a">Apply or remove cell borders</a></p>
-<hr>
-</section>
-<section id="percentage-formatting" class="level2">
-<h2 class="anchored" data-anchor-id="percentage-formatting">Percentage Formatting</h2>
-<p>Displays values as percentages by multiplying by 100 and adding %. Use % button on the ribbon.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/format-numbers-as-percentages-de49167b-f603-4450-bcaa-1ab539c79c1a">Format numbers as percentages</a></p>
-<hr>
-</section>
-<section id="file-management" class="level2">
-<h2 class="anchored" data-anchor-id="file-management">File Management</h2>
-<p>Organize files in folders, use clear names, move from Downloads, and save frequently.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/save-your-workbook-92e4aae0-452d-497f-a470-570610ff720a">Save your workbook</a></p>
-<hr>
-</section>
-<section id="conditional-formatting" class="level2">
-<h2 class="anchored" data-anchor-id="conditional-formatting">Conditional Formatting</h2>
-<p>Apply color, icons, or data bars to cells automatically based on rules (e.g., highlight values &gt;100).</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Use conditional formatting</a></p>
-<hr>
-<section id="highlight-cells-rules" class="level3">
-<h3 class="anchored" data-anchor-id="highlight-cells-rules">Highlight Cells Rules</h3>
-<p>Conditional formatting presets to highlight cells &gt;, &lt;, =, text contains, or duplicates.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Use conditional formatting</a></p>
-<hr>
-</section>
-<section id="manageeditclear-rules" class="level3">
-<h3 class="anchored" data-anchor-id="manageeditclear-rules">Manage/Edit/Clear Rules</h3>
-<p>Conditional formatting rules can be managed, edited, or cleared using the Rules Manager.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/manage-conditional-formatting-rule-precedence-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Manage rule precedence</a></p>
-<hr>
-</section>
-<section id="data-bars" class="level3">
-<h3 class="anchored" data-anchor-id="data-bars">Data Bars</h3>
-<p>Visually represent values using horizontal bars inside cells—a quick way to compare values.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-data-bars-color-scales-and-icon-sets-to-highlight-data-f118d0a6-5921-4e2e-905b-fe00f3378fb9">Use data bars</a></p>
-<hr>
-</section>
-<section id="topbottom-rules" class="level3">
-<h3 class="anchored" data-anchor-id="topbottom-rules">Top/Bottom Rules</h3>
-<p>Highlight top/bottom items, top/bottom %, above/below average.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Use conditional formatting</a></p>
-<hr>
-</section>
-<section id="duplicate-values" class="level3">
-<h3 class="anchored" data-anchor-id="duplicate-values">Duplicate Values</h3>
-<p>Highlight repeated values within a range—useful for identifying data entry errors or duplicates.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Use conditional formatting</a></p>
-<hr>
-</section>
-</section>
-<section id="find-and-replace" class="level2">
-<h2 class="anchored" data-anchor-id="find-and-replace">Find and Replace</h2>
-<p>Locate and replace text or values across cells/workbook. Shortcut: Ctrl+H.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/find-or-replace-text-and-numbers-on-a-worksheet-0e304ca5-ecef-4808-b90f-fdb42f892e90">Find or replace text and numbers</a></p>
-<hr>
-</section>
-<section id="visual-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="visual-data-analysis">Visual Data Analysis</h2>
-<p>Use formatting, colors, and graphics to make data patterns and trends visible for quick insights.</p>
-<p><strong>Official documentation:</strong> <a href="https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">Use conditional formatting</a></p>
-<hr>
-<div class="disclaimer">
-<p>
-<strong>Images and GIFs Disclaimer:</strong> Some of the images and GIFs used on this website are not owned by me. They are used for educational and illustrative purposes only. All rights belong to their respective owners. If you believe any content violates copyright, please contact me for prompt removal.
-</p>
-</div>
 <style>
 .disclaimer {
   font-size: 0.8em;
@@ -493,7 +333,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
