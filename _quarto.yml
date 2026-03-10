@@ -11,6 +11,7 @@ website:
         menu:
         - index.qmd
         - Beforewestart.qmd
+        - Classroomfiles.qmd
       - text: "Lesson 1"
         menu:
         - "Introduction to Formatting"

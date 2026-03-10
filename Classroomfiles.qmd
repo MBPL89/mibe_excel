@@ -1,0 +1,37 @@
+---
+title: "Classroom files"
+author: "Dr. Bartosiak"
+---
+
+Here you will find files used in the classroom examples.
+
+## Basics
+
+[Excel 1](/_files/class/1.xlsx){target="_blank"}
+
+## Statistical Analysis
+
+
+## Data visualization
+
+
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
