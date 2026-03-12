@@ -19,7 +19,7 @@ author: "Dr. Bartosiak"
 
 # Instructions
 
-[Starter Workbook](/_files/starters/key_intromis-1-c_1.xlsx){target="_blank"}
+[Starter Workbook](/_files/starters/starter_intromis-1-c.xlsx){target="_blank"}
 
 ## Tasks and Steps
 

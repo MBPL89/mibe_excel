@@ -15,11 +15,11 @@ author: "Dr. Bartosiak"
 
 ## Answer key
 
-[Answer key](/_files/keys/key_intromis-1-b.xlsx){target="_blank"}
+[Answer key](/_files/keys/key_intromis-1-b_1.xlsx){target="_blank"}
 
 # Instructions
 
-[Starter Workbook](/_files/starters/key_intromis-1-b.xlsx){target="_blank"}
+[Starter Workbook](/_files/starters/starter_intromis-1-b.xlsx){target="_blank"}
 
 ## Tasks and Steps
 
