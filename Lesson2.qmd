@@ -7,34 +7,31 @@ Building on the previous chapter we introduce the amazing world of Microsoft Exc
 
 ## Concepts
 
-  - Understand the difference between data and information
+-   Understand the difference between data and information
 
 ## Skills
 
-  - Find and replace special characters
-  - Compute Min and Max values
-  - Count numeric cells and non-empty cells
-  - Count cells based on logical conditions
-  - Name a range of cells
-  - Perform basic string manipulations such as split and concatenate
-  - Use the logical function IF
-  - Find data using the VLOOKUP function
+-   Find and replace special characters
+-   Compute Min and Max values
+-   Count numeric cells and non-empty cells
+-   Count cells based on logical conditions
+-   Name a range of cells
+-   Perform basic string manipulations such as split and concatenate
+-   Use the logical function IF
+-   Find data using the VLOOKUP function
 
 ## Data and Information
 
-The pervasiveness of computers in organizations and our personal lives has produced a remarkable increase in the amount of data surrounding us, and the data that we generate. To put things in perspective, a modern connected car generates 35Gb of data every hour. A couple of years ago Facebook reported that its users were uploading 350 million new photos each day… that's millions, each day!
-Data is the encoding of raw facts. Data are the millions of bits produced by your connected car, by a customer shopping on a Website, by any of countless transactional information system operating in organizations today. Information, on the other hand, is data in context – data that was manipulated to become intelligible and understandable. While we are surrounded by data, information is actually scarce because there are few people who can analyze data to create information.
-
+The pervasiveness of computers in organizations and our personal lives has produced a remarkable increase in the amount of data surrounding us, and the data that we generate. To put things in perspective, a modern connected car generates 35Gb of data every hour. A couple of years ago Facebook reported that its users were uploading 350 million new photos each day… that's millions, each day! Data is the encoding of raw facts. Data are the millions of bits produced by your connected car, by a customer shopping on a Website, by any of countless transactional information system operating in organizations today. Information, on the other hand, is data in context – data that was manipulated to become intelligible and understandable. While we are surrounded by data, information is actually scarce because there are few people who can analyze data to create information.
 
 **Insights**
 
-  - There is an old principle in data analysis circles: GIGO – Garbage In, Garbage Out. Before analyzing data be sure that it is reliable. Control for measurement, recording, and encoding errors.
-  - Whenever you receive data for analysis get used to performing basic descriptive representations of the data. This process will help you to understand the available attributes and measures available, their formats, and their characteristics. It will also tip you off to potential errors in the data and it will help you avoid GIGO.
-  - Understanding the data from a business perspective will enable you to spot anomalies easily and to produce more robust and reliable insights.
-  - There is no easy formula to become an expert data analyst. But an excitement about the potential of technology, genuine curiosity and the willingness to learn will take you a long way. Great data analysts present the following characteristics:
-    - Technical skill: they are confident in the use of an analytical tool, such as Excel. Furthermore, they have basic mathematics and statistics competencies.
-    - Business knowledge: they are confident in their understanding of the processes that generated the data. Historically, business people did not have any technical expertise and therefore had to rely on technical experts that did not know much about the business operations. This workflow generated many misunderstandings that often led to the production of inaccurate analysis. Today you can perform your own analyses if you know how to use Excel.
-
+-   There is an old principle in data analysis circles: GIGO – Garbage In, Garbage Out. Before analyzing data be sure that it is reliable. Control for measurement, recording, and encoding errors.
+-   Whenever you receive data for analysis get used to performing basic descriptive representations of the data. This process will help you to understand the available attributes and measures available, their formats, and their characteristics. It will also tip you off to potential errors in the data and it will help you avoid GIGO.
+-   Understanding the data from a business perspective will enable you to spot anomalies easily and to produce more robust and reliable insights.
+-   There is no easy formula to become an expert data analyst. But an excitement about the potential of technology, genuine curiosity and the willingness to learn will take you a long way. Great data analysts present the following characteristics:
+    -   Technical skill: they are confident in the use of an analytical tool, such as Excel. Furthermore, they have basic mathematics and statistics competencies.
+    -   Business knowledge: they are confident in their understanding of the processes that generated the data. Historically, business people did not have any technical expertise and therefore had to rely on technical experts that did not know much about the business operations. This workflow generated many misunderstandings that often led to the production of inaccurate analysis. Today you can perform your own analyses if you know how to use Excel.
 
 ## Exercise Overview
 
