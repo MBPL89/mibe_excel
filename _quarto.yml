@@ -23,7 +23,13 @@ website:
       - text: "Lesson 2"
         menu:
         - "Using Functions"
-        - "Coming soon"
+        #- "Coming soon"
+        - Lesson2.qmd
+        - Practice2a.qmd
+        - Practice2b.qmd
+        - Practice2c.qmd
+        - Practice2d.qmd
+        - Practice2e.qmd
       - text: "Lesson 3"
         menu:
         - "Worksheet and Workbook Management"
