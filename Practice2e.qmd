@@ -1,0 +1,72 @@
+---
+title: "Practice 2e - Results reporting"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 2e
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/AIQnvENSYIo title="Practice 2e Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/jBsPiC-WqVo title="Practice 2e Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-2-e_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-2-e.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	After Part 2d, you know the names of the largest and smallest pizza chains, as well as those of the top and worst financial performers. Good job!!
+However, your results are not very readable for an external user. Move to the Results worksheet and:
+
+- In cell A1 type: Results Page.
+- Format cell A1 to bold and 16 points.
+- In cell A5 type: Average number of units
+- In cell A6 type: Minimum number of units
+- In cell A7 type: Maximum number of units
+- In cell A8 type: The chain with the lowest number of units is:
+- In cell A9 type: The chain with the greatest number of units is:
+- In cell A10 type: The chain with the lowest gross sales is:
+- In cell A11 type: The chain with the greatest gross sales is:
+- Insert the appropriate results from the Advanced Calculations worksheets. Use column B and reference the appropriate result next to each label.
+
+Careful! Do not repeat any of the calculations, or manually type the numbers! User cell referencing to point to the data already computed in the Advanced Calculations worksheet. Can you explain why this is the only correct approach? [Mac](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa) [Win](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa)
+
+3.	Make sure the results page is readable and professional.
+- In cell A2, type: Current date.
+- Format cell A2 as Italic.
+- In cell B2, insert today’s date. Make sure that the date automatically updates. [Mac](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) [Win](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)
+- Format the date as Long Date (e.g., Thursday, March 9, 2017) [Mac](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e) [Win](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e)
+- Format the range A5:B11 with All Borders.
+- Ensure all data is readable by appropriately resizing all columns.
+- Separate the note (cell A12) from the last row of the results (row 11). To do so insert two empty rows.
+
+4.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

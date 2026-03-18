@@ -1,0 +1,59 @@
+---
+title: "Practice2d - VLOOKUP"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 2d
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/X1R31pmJanQ title="Practice 2d Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/pIZWdW7WSe4 title="Practice 2d Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-2-d_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-2-d.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In cell C107 insert a VLOOKUP [Mac](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) [Win](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) to find the name of the restaurant ranked #92.
+3.	In cell B108 report the name of the restaurant with the lowest number of units:
+- Use the VLOOKUP function. [Mac](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) [Win](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
+- As you notice there is no way to do this correctly. The reason is that the column with the lookup_value (column B) should be the leftmost column in the range. This is not the case. Let’s fix the problem.
+4.	To correctly perform the task of finding the name of the restaurant with the lowest number of units you need to reorganize the data a bit:
+- Copy column B (Restaurant Name) in column E.
+5.	Now that your data are correctly organized use the VLOOKUP function as follows:
+- In cell F2, report the name of the restaurant with the lowest number of units (hint use the MIN value computed earlier as the lookup value).
+- In cell F3, report the name of the restaurant with the greatest number of units. (hint use the MAX value computed earlier as the lookup value.
+- In cell F4, report the name of the restaurant with the lowest gross sales.
+- In cell F5, report the name of the restaurant with the highest gross sales.
+6.	Resize all columns to make all data visible.
+7.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

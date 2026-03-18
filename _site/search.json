@@ -873,5 +873,110 @@
     "title": "Classroom files",
     "section": "Basics",
     "text": "Basics\nExcel 1"
+  },
+  {
+    "objectID": "Practice2a.html",
+    "href": "Practice2a.html",
+    "title": "Practice 2a - Data Import and Cleaning",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice2a.html#answer-key",
+    "href": "Practice2a.html#answer-key",
+    "title": "Practice 2a - Data Import and Cleaning",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice2a.html#tasks-and-steps",
+    "href": "Practice2a.html#tasks-and-steps",
+    "title": "Practice 2a - Data Import and Cleaning",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nCopy only the top 100 pizza companies from: “PizzaToday”. Make sure to include the header row of the table.\nPlace the data in Sheet1 of the workbook, starting from the first cell (A1). Be efficient and use paste special as Text to complete this task. Mac Win\nAs you notice after pasting, the data needs some adjusting.\n\n\nIf any value is missing in column A complete appropriately. Remember to do so by dragging existing values. This will be faster than manually typing.\nEfficiently remove all the asterisks (*) from column B (Restaurant Name).\n[Discovery Challenge: Replacing Wildcard Characters] Link\n\n\nFormat the first row (table header):\n\n\nFormat as bold.\nSet font size to 16 points.\n\n\nChange the format of column G from Currency to Accounting. Mac Win Use keyboard shortcuts to efficiently select the appropriate cell range (G2:G100).\nYou will need to fix the Gross Sales value of the restaurant called Pizza Pro (cell G37). Can you clearly explain what is wrong? Why was the number misaligned?\nAfter correcting the number in cell G37, make sure it is formatted as Accounting, not as Currency.\nAppropriately expand all columns so that all cell content is visible.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice2d.html",
+    "href": "Practice2d.html",
+    "title": "Practice2d - VLOOKUP",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice2d.html#answer-key",
+    "href": "Practice2d.html#answer-key",
+    "title": "Practice2d - VLOOKUP",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice2d.html#tasks-and-steps",
+    "href": "Practice2d.html#tasks-and-steps",
+    "title": "Practice2d - VLOOKUP",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn cell C107 insert a VLOOKUP Mac Win to find the name of the restaurant ranked #92.\nIn cell B108 report the name of the restaurant with the lowest number of units:\n\n\nUse the VLOOKUP function. Mac Win\nAs you notice there is no way to do this correctly. The reason is that the column with the lookup_value (column B) should be the leftmost column in the range. This is not the case. Let’s fix the problem.\n\n\nTo correctly perform the task of finding the name of the restaurant with the lowest number of units you need to reorganize the data a bit:\n\n\nCopy column B (Restaurant Name) in column E.\n\n\nNow that your data are correctly organized use the VLOOKUP function as follows:\n\n\nIn cell F2, report the name of the restaurant with the lowest number of units (hint use the MIN value computed earlier as the lookup value).\nIn cell F3, report the name of the restaurant with the greatest number of units. (hint use the MAX value computed earlier as the lookup value.\nIn cell F4, report the name of the restaurant with the lowest gross sales.\nIn cell F5, report the name of the restaurant with the highest gross sales.\n\n\nResize all columns to make all data visible.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice2b.html",
+    "href": "Practice2b.html",
+    "title": "Practice 2b - Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice2b.html#answer-key",
+    "href": "Practice2b.html#answer-key",
+    "title": "Practice 2b - Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice2b.html#tasks-and-steps",
+    "href": "Practice2b.html#tasks-and-steps",
+    "title": "Practice 2b - Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nRename Sheet1 as Calculations. Mac Win\nType Total in cell A102 of Calculations:\n\n\nFormat the cell in bold.\nCalculate the total for columns B and C respectively. What is the fastest way to achieve this task? Can you input the formula once and drag it? Mac Win\n\n\nType Average in cell A103 of Calculations:\n\n\nFormat the cell in bold.\nCalculate the average of the values in columns B and C respectively. Mac Win Be sure not to include the totals you computed earlier. If you do the average is not correct.\n\n\nType Min in cell A104 of Calculations:\n\n\nFormat the cell in bold.\nCalculate the minimum values of column B and C. Make sure to use the correct data range. Mac Win\n\n\nType Max in cell A105 of Calculations:\n\n\nFormat the cell in bold.\nCalculate the maximum values of column B and C. Make sure to use the correct data range. Mac Win\n\n\nYou probably notice that there was a faster way to compute these four results. You could create the first set of formulas and drag them under the second column all at once.\nFormat each of the eight computed cells appropriately. What is the most efficient way to do so? Experiment with the Format Painter tool. Mac Win\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice2c.html",
+    "href": "Practice2c.html",
+    "title": "Practice 2c - Advanced Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice2c.html#answer-key",
+    "href": "Practice2c.html#answer-key",
+    "title": "Practice 2c - Advanced Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice2c.html#tasks-and-steps",
+    "href": "Practice2c.html#tasks-and-steps",
+    "title": "Practice 2c - Advanced Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nSplit the text in column Location, so that Cities are in column H and States are in column I. Mac Win\n\n\nName column H as City.\nName column I as State.\nIf they did not automatically format like the other headers, use the Format Painter tool to remedy.\n\n\nCongratulations you have learned how to split text. This is a pretty advanced skill already. However, if required, are you able to aggregate the two columns back into one? In column J use the CONCAT function to combine the values of City and State for each row. Use a semicolon and a space as the separators (e.g., Plano; TX). Mac Win\nName the cell range F2:F101 in the Advanced Calculations worksheet. Use storeUnits as the name. Watch the video if you don’t know how to name cells and ranges. Mac Win Be sure to efficiently select the range as you perform this task. Mac Win\nIn column K use the IF function to achieve the following objective: Mac Win\n\n\nInsert “Yes” for those restaurants that have more units (column F) than the average (F103) and “No” for those that have less than average units.\nCopy the formula efficiently and make sure it only applies where it is meaningful (e.g., exclude totals).\nLooking at the result you realize that typing “No” is redundant. Edit the formula to leave the cell blank for those restaurants with a number of units below the average.\n\n\nIn column L use the IF function to: Mac Win\n\n\nInsert “Yes” for those restaurants that have higher gross sales (column G) than the average (G103).\nInsert “No” for those under the average.\nAsk yourself: Did you do this in the fastest way possible? If you retyped the IF statement from scratch, the answer is no. Dragging and appropriately modifying the statement from column L is the most efficient way. Practice being efficient!\n\n\nInsert a new column before Menu Type (the new empty column should be column M).\n\n\nName the column Restaurant Code. If it did not automatically format like the other headers, use the Format Painter tool to remedy.\nFill the column with the restaurant names formatted in upper case (e.g, PIZZA HUT, DOMINO’S). Make sure to complete this step using the appropriate function instead of doing it manually! Mac Win\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice2e.html",
+    "href": "Practice2e.html",
+    "title": "Practice 2e - Results reporting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice2e.html#answer-key",
+    "href": "Practice2e.html#answer-key",
+    "title": "Practice 2e - Results reporting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice2e.html#tasks-and-steps",
+    "href": "Practice2e.html#tasks-and-steps",
+    "title": "Practice 2e - Results reporting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nAfter Part 2d, you know the names of the largest and smallest pizza chains, as well as those of the top and worst financial performers. Good job!! However, your results are not very readable for an external user. Move to the Results worksheet and:\n\n\nIn cell A1 type: Results Page.\nFormat cell A1 to bold and 16 points.\nIn cell A5 type: Average number of units\nIn cell A6 type: Minimum number of units\nIn cell A7 type: Maximum number of units\nIn cell A8 type: The chain with the lowest number of units is:\nIn cell A9 type: The chain with the greatest number of units is:\nIn cell A10 type: The chain with the lowest gross sales is:\nIn cell A11 type: The chain with the greatest gross sales is:\nInsert the appropriate results from the Advanced Calculations worksheets. Use column B and reference the appropriate result next to each label.\n\nCareful! Do not repeat any of the calculations, or manually type the numbers! User cell referencing to point to the data already computed in the Advanced Calculations worksheet. Can you explain why this is the only correct approach? Mac Win\n\nMake sure the results page is readable and professional.\n\n\nIn cell A2, type: Current date.\nFormat cell A2 as Italic.\nIn cell B2, insert today’s date. Make sure that the date automatically updates. Mac Win\nFormat the date as Long Date (e.g., Thursday, March 9, 2017) Mac Win\nFormat the range A5:B11 with All Borders.\nEnsure all data is readable by appropriately resizing all columns.\nSeparate the note (cell A12) from the last row of the results (row 11). To do so insert two empty rows.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   }
 ]

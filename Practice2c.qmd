@@ -1,0 +1,72 @@
+---
+title: "Practice 2c - Advanced Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 2c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/m-XfKwyWkBQ title="Practice 2c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/chjf8U8Ecmw title="Practice 2c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-2-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-2-c.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.  Split the text in column Location, so that Cities are in column H and States are in column I. [Mac](https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7) [Win](https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7)
+
+- Name column H as City.
+- Name column I as State.
+- If they did not automatically format like the other headers, use the Format Painter tool to remedy.
+
+3.	Congratulations you have learned how to split text. This is a pretty advanced skill already. However, if required, are you able to aggregate the two columns back into one? In column J use the CONCAT function to combine the values of City and State for each row. Use a semicolon and a space as the separators (e.g., Plano; TX). [Mac](https://support.microsoft.com/en-us/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2) [Win](https://support.microsoft.com/en-us/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2)
+4.	Name the cell range F2:F101 in the Advanced Calculations worksheet. Use storeUnits as the name. Watch the video if you don't know how to name cells and ranges. [Mac](https://support.microsoft.com/en-us/office/create-a-named-range-from-selected-cells-in-an-excel-worksheet-fd8905ed-1130-4cca-9bb0-ad02b7e594fd) [Win](https://support.microsoft.com/en-us/office/create-a-named-range-from-selected-cells-in-an-excel-worksheet-fd8905ed-1130-4cca-9bb0-ad02b7e594fd) Be sure to efficiently select the range as you perform this task. [Mac](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f#picktab=macos) [Win](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+5.	In column K use the IF function to achieve the following objective: [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+
+- Insert “Yes” for those restaurants that have more units (column F) than the average (F103) and “No” for those that have less than average units.
+- Copy the formula efficiently and make sure it only applies where it is meaningful (e.g., exclude totals).
+- Looking at the result you realize that typing “No” is redundant. Edit the formula to leave the cell blank for those restaurants with a number of units below the average.
+
+6.	In column L use the IF function to: [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+
+- Insert “Yes” for those restaurants that have higher gross sales (column G) than the average (G103).
+- Insert “No” for those under the average.
+- Ask yourself: Did you do this in the fastest way possible? If you retyped the IF statement from scratch, the answer is no. Dragging and appropriately modifying the statement from column L is the most efficient way. Practice being efficient!
+
+7.	Insert a new column before Menu Type (the new empty column should be column M).
+
+- Name the column Restaurant Code. If it did not automatically format like the other headers, use the Format Painter tool to remedy.
+- Fill the column with the restaurant names formatted in upper case (e.g, PIZZA HUT, DOMINO'S). Make sure to complete this step using the appropriate function instead of doing it manually! [Mac](https://support.microsoft.com/en-us/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6?ui=en-US&rs=en-US&ad=US) [Win](https://support.microsoft.com/en-us/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6?ui=en-US&rs=en-US&ad=US)
+
+8. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

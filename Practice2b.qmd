@@ -1,0 +1,62 @@
+---
+title: "Practice 2b - Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 2b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/5sVQVgIR7QE title="Practice 2b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/CqfecRXmjm4 title="Practice 2b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-2-b_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-2-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	Rename Sheet1 as Calculations. [Mac](https://support.microsoft.com/en-us/office/rename-a-worksheet-3f1f7148-ee83-404d-8ef0-9ff99fbad1f9) [Win](https://support.microsoft.com/en-us/office/rename-a-worksheet-3f1f7148-ee83-404d-8ef0-9ff99fbad1f9)
+3.	Type Total in cell A102 of Calculations:
+- Format the cell in bold.
+- Calculate the total for columns B and C respectively. What is the fastest way to achieve this task? Can you input the formula once and drag it? [Mac](https://support.microsoft.com/en-us/office/switch-between-relative-and-absolute-references-981f5871-7864-42cc-b3f0-41ffa10cc6fc) [Win](https://support.microsoft.com/en-us/office/switch-between-relative-and-absolute-references-981f5871-7864-42cc-b3f0-41ffa10cc6fc)
+4.	Type Average in cell A103 of Calculations:
+- Format the cell in bold.
+- Calculate the average of the values in columns B and C respectively. [Mac](https://support.microsoft.com/en-us/office/calculate-an-average-c68b2803-c6d8-4faf-bea4-02b7c55fe768) [Win](https://support.microsoft.com/en-us/office/calculate-an-average-c68b2803-c6d8-4faf-bea4-02b7c55fe768) Be sure not to include the totals you computed earlier. If you do the average is not correct.
+5.	Type Min in cell A104 of Calculations:
+- Format the cell in bold.
+- Calculate the minimum values of column B and C. Make sure to use the correct data range. [Mac](https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152) [Win](https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152)
+6.	Type Max in cell A105 of Calculations:
+- Format the cell in bold.
+- Calculate the maximum values of column B and C. Make sure to use the correct data range. [Mac](https://support.microsoft.com/en-us/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098) [Win](https://support.microsoft.com/en-us/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098)
+7.	You probably notice that there was a faster way to compute these four results. You could create the first set of formulas and drag them under the second column all at once.
+8.	Format each of the eight computed cells appropriately. What is the most efficient way to do so? Experiment with the Format Painter tool. [Mac](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) [Win](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40)
+9.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

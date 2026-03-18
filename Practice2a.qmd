@@ -1,0 +1,65 @@
+---
+title: "Practice 2a - Data Import and Cleaning"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 2a
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/V-hIb0xE1jk title="Practice 2a Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/HtOb6S5XZ8o title="Practice 2a Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-2-a_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-2-a.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.  Copy only the top 100 pizza companies from: ["PizzaToday"](PizzaToday.qmd){target="_blank"}. Make sure to include the header row of the table.
+3.  Place the data in Sheet1 of the workbook, starting from the first cell (A1). Be efficient and use paste special as Text to complete this task. [Mac](https://support.microsoft.com/en-us/office/copy-and-paste-specific-cell-content-in-excel-for-mac-a956b1c3-cd5a-4245-852c-42e8f83ffe71) [Win](https://support.microsoft.com/en-us/office/move-or-copy-cells-rows-and-columns-3ebbcafd-8566-42d8-8023-a2ec62746cfc)
+4.  As you notice after pasting, the data needs some adjusting.
+
+-   If any value is missing in column A complete appropriately. Remember to do so by dragging existing values. This will be faster than manually typing.
+-   Efficiently remove all the asterisks (*) from column B (Restaurant Name).
+-   [Discovery Challenge: Replacing Wildcard Characters] [Link](https://support.microsoft.com/en-us/office/using-wildcard-characters-in-searches-ef94362e-9999-4350-ad74-4d2371110adb)
+
+
+5.  Format the first row (table header):
+
+-   Format as bold.
+-   Set font size to 16 points.
+
+6.	Change the format of column G from Currency to Accounting. [Mac](https://support.microsoft.com/en-us/office/display-dates-times-currency-fractions-or-percentages-f260abfb-5223-431c-b2ea-cd30bd1c7a55) [Win](https://support.microsoft.com/en-us/office/quick-start-format-numbers-in-a-worksheet-c9fba2a2-7015-4fa5-b4e6-a29cb679e406) Use keyboard shortcuts to efficiently select the appropriate cell range (G2:G100).
+7.	You will need to fix the Gross Sales value of the restaurant called Pizza Pro (cell G37). Can you clearly explain what is wrong? Why was the number misaligned?
+8.	After correcting the number in cell G37, make sure it is formatted as Accounting, not as Currency.
+9.	Appropriately expand all columns so that all cell content is visible.
+10.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
