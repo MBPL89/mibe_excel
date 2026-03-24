@@ -33,7 +33,12 @@ website:
       - text: "Lesson 3"
         menu:
         - "Worksheet and Workbook Management"
-        - "Coming soon"
+        #- "Coming soon"
+        - Lesson3.qmd
+        - Practice3a.qmd
+        - Practice3b.qmd
+        - Practice3c.qmd
+        - Practice3d.qmd
       - text: "Lesson 4"
         menu:
         - "Visualize, Sort, and Filter Data"
