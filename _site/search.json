@@ -978,5 +978,89 @@
     "title": "Practice 2e - Results reporting",
     "section": "Tasks and Steps",
     "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nAfter Part 2d, you know the names of the largest and smallest pizza chains, as well as those of the top and worst financial performers. Good job!! However, your results are not very readable for an external user. Move to the Results worksheet and:\n\n\nIn cell A1 type: Results Page.\nFormat cell A1 to bold and 16 points.\nIn cell A5 type: Average number of units\nIn cell A6 type: Minimum number of units\nIn cell A7 type: Maximum number of units\nIn cell A8 type: The chain with the lowest number of units is:\nIn cell A9 type: The chain with the greatest number of units is:\nIn cell A10 type: The chain with the lowest gross sales is:\nIn cell A11 type: The chain with the greatest gross sales is:\nInsert the appropriate results from the Advanced Calculations worksheets. Use column B and reference the appropriate result next to each label.\n\nCareful! Do not repeat any of the calculations, or manually type the numbers! User cell referencing to point to the data already computed in the Advanced Calculations worksheet. Can you explain why this is the only correct approach? Mac Win\n\nMake sure the results page is readable and professional.\n\n\nIn cell A2, type: Current date.\nFormat cell A2 as Italic.\nIn cell B2, insert today’s date. Make sure that the date automatically updates. Mac Win\nFormat the date as Long Date (e.g., Thursday, March 9, 2017) Mac Win\nFormat the range A5:B11 with All Borders.\nEnsure all data is readable by appropriately resizing all columns.\nSeparate the note (cell A12) from the last row of the results (row 11). To do so insert two empty rows.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice3a.html",
+    "href": "Practice3a.html",
+    "title": "Practice 3a - Data Formatting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice3a.html#answer-key",
+    "href": "Practice3a.html#answer-key",
+    "title": "Practice 3a - Data Formatting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice3a.html#tasks-and-steps",
+    "href": "Practice3a.html#tasks-and-steps",
+    "title": "Practice 3a - Data Formatting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nRename the Data 1 and Data 2 worksheets respectively as All Chains and Pizza Chains.\nApply the formatting below to both the All Chains and Pizza Chains worksheets:\n\n\nRemove all of the asterisks. Use the Replace function to delete simultaneously all of the asterisks in the workbook. Mac Win\nFormat the Sales column (column C) data as Accounting. To do so efficiently select the range of cells using the shortcut keys. Mac Win\nHide the Units column (column D). You should hide the column in both worksheets at once. This is an important skill (imagine if you had 20 worksheets to work with). Mac Win\n\n\nFreeze the Top row in the All Chains worksheet. This feature is really powerful when you have large numbers of rows. Mac Win\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice3c.html",
+    "href": "Practice3c.html",
+    "title": "Practice 3c - VLOOKUP",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice3c.html#answer-key",
+    "href": "Practice3c.html#answer-key",
+    "title": "Practice 3c - VLOOKUP",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice3c.html#tasks-and-steps",
+    "href": "Practice3c.html#tasks-and-steps",
+    "title": "Practice 3c - VLOOKUP",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nIn the Advanced Calculations worksheet perform the following using the VLOOKUP function. Mac Win\n\n\nIn cell G2, report the name of the chain with the lowest number of units.\nIn cell G3, report the name of the chain with the highest number of units.\nIn cell G4, report the name of the chain with the lowest revenue.\nIn cell G5, report the name of the chain with the highest revenue.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice3d.html",
+    "href": "Practice3d.html",
+    "title": "Practice3d - Results reporting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice3d.html#answer-key",
+    "href": "Practice3d.html#answer-key",
+    "title": "Practice3d - Results reporting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice3d.html#tasks-and-steps",
+    "href": "Practice3d.html#tasks-and-steps",
+    "title": "Practice3d - Results reporting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nChange the page orientation of the Results worksheet to Landscape. Mac Win\nMerge cell A1 across the first ten columns of row 1 but keep the content left aligned. Mac Win\nIn cell C3 type: “Tops and Flops”. Format exactly like cell A3.\nReport the results corresponding to all labels (except A13, A16 and C16). Put the result in the cell directly below (e.g., results corresponding to A4 should be in cell A5). All values are in the Calculations worksheet. Do not re-compute them, simply reference the appropriate cell in the Calculations worksheet.\nUse the COUNTIF function Mac Win and the data in the Calculations worksheet to put the correct values corresponding to labels in A13 and A16 in cells A14 and A17. Mac Win\nCompute the value corresponding to label C16. In cell C17 produce a live comparison between the data in the Calculations worksheet and the value in D16. The user will be able to change the value in D16. Your results should update accordingly. Try it and see if it works correctly.\nThe results page needs some more adjustments to be readable and professional looking on paper:\n\n\nAll the labels rows should have 33 points height. Mac Win\nFormat all the label cells in italics.\nUse the Arial font.\nSet the font size to 18 points.\nUse a Bottom border in all the label cells. Mac Win\n\n\nAll the results rows should have 28 points height:\n\n\nFormat all the results cells using the Century Gothic font.\nSet the font size to 22 points.\n\nThis is a lot of formatting. Did you do it efficiently? If not, shame on you! Remember that you can select multiple cells, even if they are not adjacent, and then apply the formatting once.\n\nInsert a footer: Mac Win\n\n\nType “ISDS1102” in the leftmost cell of the footer.\nInsert the Current Date in the middle cell.\nInsert the Page Number in the rightmost cell.\n\n\nMake sure all columns are resized appropriately so all cell content is visible.\nProtect the Calculations worksheet. Mac Win\nPreview how the Results page will look when printed. Mac Win Compare it with the one in the sample file. Set it to print on only one page. Mac Win\nSave the file and close it.\nYou are done with the third Excel practice. Well done!!!\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice3b.html",
+    "href": "Practice3b.html",
+    "title": "Practice 3b - Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice3b.html#answer-key",
+    "href": "Practice3b.html#answer-key",
+    "title": "Practice 3b - Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice3b.html#tasks-and-steps",
+    "href": "Practice3b.html#tasks-and-steps",
+    "title": "Practice 3b - Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the All Chains worksheet:\n\n\nUnfreeze the top row pane. Mac Win\nIn cell G1 type Pizza Chains as column G header. Make sure formatting is consistent with the other headers\nIn column G, use the IF function to report whether the Menu Category (column F) is “Pizza”. If it is, display the term Pizza. Otherwise, if it is any other type, display Other. Mac Win\nIn column G, use the Equal To conditional formatting rule to highlight in green only those cells that contain the terms Pizza. Note: Equal To is a specific type of conditional formatting rule. Mac Win\n\n\nAs you noticed there aren’t many pizza chains in the top 250 restaurants. However, your company will focus on the pizza market. Move to the Calculations worksheet, where you find only the pizza chains and their data and complete the following tasks.\nFormat the labels in the range A24:A26 with the same formatting as cell A23. Be efficient in how you do it.\nIn the range C23:D26, compute the total sum, average, min and max for columns C and D. Again, be efficient in how you do it. Efficiency is about typing the least possible and using what you know about cell referencing to copy formulas appropriately.\nFormat each of the eight computed cells according to the data it contains. What is the most efficient way to do so? Note that column C is formatted differently than D. Experiment with the Format Painter tool. Mac Win\nUse the IF function to compute the values of column E. Mac Win Use data on Sales (column C) for this analysis:\n\n\nInsert “Top Performer” for those chains that are 20% above average.\nInsert “Low Performer” for those chains that are 20% below average.\nInsert “Average” for all the others chains. Hint: A nested IF is required to complete this task.\n\n\nRepeat the above analysis for the data on Units (column D). Place the results in column F. Review the key video if you are not clear on what the final results should look like. Experiment by reusing the formulas from column E instead of rewriting the function.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   }
 ]

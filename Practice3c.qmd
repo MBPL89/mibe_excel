@@ -1,0 +1,54 @@
+---
+title: "Practice 3c - VLOOKUP"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 3c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/Ke1V5pDmA3I title="Practice 3c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/V9oPe65OVOo title="Practice 3c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-3-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-3-c.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	In the Advanced Calculations worksheet perform the following using the VLOOKUP function. [Mac](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) [Win](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
+
+  - In cell G2, report the name of the chain with the lowest number of units.
+  - In cell G3, report the name of the chain with the highest number of units.
+  - In cell G4, report the name of the chain with the lowest revenue.
+  - In cell G5, report the name of the chain with the highest revenue.
+
+3.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

@@ -1,0 +1,55 @@
+---
+title: "Practice 3a - Data Formatting"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 3a
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/bFx8a-sQOgU title="Practice 3a Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/jHj9f46ZPlQ title="Practice 3a Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-3-a_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-3-a.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	Rename the Data 1 and Data 2 worksheets respectively as All Chains and Pizza Chains.
+3.	Apply the formatting below to both the All Chains and Pizza Chains worksheets:
+
+- Remove all of the asterisks. Use the Replace function to delete simultaneously all of the asterisks in the workbook. [Mac](https://support.microsoft.com/en-us/office/find-or-replace-text-and-numbers-on-a-worksheet-0e304ca5-ecef-4808-b90f-fdb42f892e90?ui=en-us&rs=en-us&ad=us) [Win](https://support.microsoft.com/en-us/office/find-or-replace-text-and-numbers-on-a-worksheet-0e304ca5-ecef-4808-b90f-fdb42f892e90)
+- Format the Sales column (column C) data as Accounting. To do so efficiently select the range of cells using the shortcut keys. [Mac](https://support.microsoft.com/en-us/office/display-dates-times-currency-fractions-or-percentages-f260abfb-5223-431c-b2ea-cd30bd1c7a55) [Win](https://support.microsoft.com/en-us/office/quick-start-format-numbers-in-a-worksheet-c9fba2a2-7015-4fa5-b4e6-a29cb679e406)
+- Hide the Units column (column D). You should hide the column in both worksheets at once. This is an important skill (imagine if you had 20 worksheets to work with). [Mac](https://support.microsoft.com/en-us/office/hide-or-show-rows-or-columns-659c2cad-802e-44ee-a614-dde8443579f8) [Win](https://support.microsoft.com/en-us/office/hide-or-show-rows-or-columns-659c2cad-802e-44ee-a614-dde8443579f8)
+
+4.	Freeze the Top row in the All Chains worksheet. This feature is really powerful when you have large numbers of rows. [Mac](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2) [Win](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)
+5. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

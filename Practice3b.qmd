@@ -1,0 +1,66 @@
+---
+title: "Practice 3b - Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 3b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/mqtr74DUTtc title="Practice 3b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/_6rGvslBzVk title="Practice 3b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-3-b_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-3-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the All Chains worksheet:
+
+- Unfreeze the top row pane. [Mac](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2) [Win](https://support.microsoft.com/en-us/office/unfreeze-locked-panes-4230b27b-a5a0-41ae-9a58-7d7fb9e05a8e)
+- In cell G1 type Pizza Chains as column G header. Make sure formatting is consistent with the other headers
+- In column G, use the IF function to report whether the Menu Category (column F) is “Pizza”. If it is, display the term Pizza. Otherwise, if it is any other type, display Other. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- In column G, use the Equal To conditional formatting rule to highlight in green only those cells that contain the terms Pizza. Note: Equal To is a specific type of conditional formatting rule. [Mac](https://support.microsoft.com/en-us/office/highlight-patterns-and-trends-with-conditional-formatting-in-excel-for-mac-eea152f5-2a7d-4c1a-a2da-c5f893adb621) [Win](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
+
+3.	As you noticed there aren’t many pizza chains in the top 250 restaurants. However, your company will focus on the pizza market. Move to the Calculations worksheet, where you find only the pizza chains and their data and complete the following tasks.
+4.	Format the labels in the range A24:A26 with the same formatting as cell A23. Be efficient in how you do it.
+5.	In the range C23:D26, compute the total sum, average, min and max for columns C and D. Again, be efficient in how you do it. Efficiency is about typing the least possible and using what you know about cell referencing to copy formulas appropriately.
+6.	Format each of the eight computed cells according to the data it contains. What is the most efficient way to do so? Note that column C is formatted differently than D. Experiment with the Format Painter tool. [Mac](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) [Win](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40)
+7.	Use the IF function to compute the values of column E. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) Use data on Sales (column C) for this analysis:
+
+- Insert “Top Performer” for those chains that are 20% above average.
+- Insert “Low Performer” for those chains that are 20% below average.
+- Insert “Average” for all the others chains.
+Hint: A nested IF is required to complete this task.
+
+8.	Repeat the above analysis for the data on Units (column D). Place the results in column F. Review the key video if you are not clear on what the final results should look like. Experiment by reusing the formulas from column E instead of rewriting the function.
+9.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

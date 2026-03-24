@@ -1,0 +1,79 @@
+---
+title: "Practice3d - Results reporting"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 3d
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/_4gPBo_8TGI title="Practice 3d Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/0Oc1UR_NDBI title="Practice 3d Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-3-d_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-3-d.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	Change the page orientation of the Results worksheet to Landscape. [Mac](https://support.microsoft.com/en-us/office/print-with-landscape-orientation-in-excel-for-mac-5b26f602-ed29-46bd-992a-52dd9d4770e7?ui=en-US&rs=en-US&ad=US) [Win](https://support.microsoft.com/en-us/office/print-an-excel-worksheet-in-landscape-or-portrait-orientation-1af561b2-5444-4fc1-b24d-9e4d05b9ebf1)
+3.	Merge cell A1 across the first ten columns of row 1 but keep the content left aligned. [Mac](https://support.microsoft.com/en-us/office/merge-and-unmerge-cells-in-excel-5cbd15d5-9375-4540-907f-c673a93fcedf#officeversion=macos) [Win](https://support.microsoft.com/en-us/office/merge-and-unmerge-cells-in-excel-5cbd15d5-9375-4540-907f-c673a93fcedf)
+4.	In cell C3 type: “Tops and Flops”. Format exactly like cell A3.
+5.	Report the results corresponding to all labels (except A13, A16 and C16). Put the result in the cell directly below (e.g., results corresponding to A4 should be in cell A5). All values are in the Calculations worksheet. Do not re-compute them, simply reference the appropriate cell in the Calculations worksheet.
+6.	Use the COUNTIF function [Mac](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34) [Win](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34) and the data in the Calculations worksheet to put the correct values corresponding to labels in A13 and A16 in cells A14 and A17. [Mac](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa#bmcreate_a_cell_reference_to_another_wo) [Win](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa#bmcreate_a_cell_reference_to_another_wo)
+7.	Compute the value corresponding to label C16. In cell C17 produce a live comparison between the data in the Calculations worksheet and the value in D16. The user will be able to change the value in D16. Your results should update accordingly. Try it and see if it works correctly. 
+8.	The results page needs some more adjustments to be readable and professional looking on paper:
+
+  - All the labels rows should have 33 points height. [Mac](https://support.microsoft.com/en-us/office/change-column-width-or-row-height-in-excel-for-mac-581232c8-f6f8-496e-b059-721ce9e836b4) [Win](https://support.microsoft.com/en-us/office/change-the-column-width-and-row-height-72f5e3cc-994d-43e8-ae58-9774a0905f46)
+  - Format all the label cells in italics.
+  - Use the Arial font.
+  - Set the font size to 18 points.
+  - Use a Bottom border in all the label cells. [Mac](https://support.microsoft.com/en-us/office/add-change-or-remove-cell-borders-in-excel-for-mac-319391e1-c300-4aa5-9d23-e1da22682dec) [Win](https://support.microsoft.com/en-us/office/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a)
+  
+9.	All the results rows should have 28 points height:
+
+  - Format all the results cells using the Century Gothic font.
+  - Set the font size to 22 points.
+
+**This is a lot of formatting. Did you do it efficiently? If not, shame on you! Remember that you can select multiple cells, even if they are not adjacent, and then apply the formatting once.**
+
+10.	Insert a footer: [Mac](https://support.microsoft.com/en-us/office/headers-and-footers-in-a-worksheet-cae2a88c-64a7-42ab-96a4-28d2fc16ad31) [Win](https://support.microsoft.com/en-us/office/headers-and-footers-in-a-worksheet-cae2a88c-64a7-42ab-96a4-28d2fc16ad31)
+
+  - Type "ISDS1102" in the leftmost cell of the footer.
+  - Insert the Current Date in the middle cell.
+  - Insert the Page Number in the rightmost cell.
+  
+11.	Make sure all columns are resized appropriately so all cell content is visible.
+12.	Protect the Calculations worksheet. [Mac](https://support.microsoft.com/en-us/office/protect-a-worksheet-in-mac-9ef52175-aaeb-4471-88d7-acdad93819c5) [Win](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+13.	Preview how the Results page will look when printed. [Mac](https://support.microsoft.com/en-us/office/preview-pages-before-you-print-a6d843e2-29e3-49ca-9661-519dcc6c8d7b) [Win](https://support.microsoft.com/en-us/office/preview-worksheet-pages-before-you-print-bcd8f03a-c28d-42a2-9217-aab0e43aa930) Compare it with the one in the sample file. Set it to print on only one page. [Mac](https://support.microsoft.com/en-us/office/scale-a-worksheet-34a91eb5-8b4e-4a8a-ab28-b6492012eaae) [Win](https://support.microsoft.com/en-us/office/scale-a-worksheet-34a91eb5-8b4e-4a8a-ab28-b6492012eaae)
+
+14.  Save the file and close it.
+15.	You are done with the third Excel practice. Well done!!!
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
