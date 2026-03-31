@@ -7,8 +7,9 @@ Here you will find files used in the classroom examples.
 
 ## Basics
 
-[Excel 1](/_files/class/1.xlsx){target="_blank"}
-[Excel 2](/_files/class/2.xlsx){target="_blank"}
+- [Excel 1](/_files/class/1.xlsx){target="_blank"}
+- [Excel 2](/_files/class/2.xlsx){target="_blank"}
+- [Excel 3](/_files/class/3.xlsx){target="_blank"}
 
 ## Statistical Analysis
 

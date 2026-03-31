@@ -42,7 +42,13 @@ website:
       - text: "Lesson 4"
         menu:
         - "Visualize, Sort, and Filter Data"
-        - "Coming soon"
+        #- "Coming soon"
+        - Lesson4.qmd
+        - Practice4a.qmd
+        - Practice4b.qmd
+        - Practice4c.qmd
+        - Practice4d.qmd
+        - Practice4e.qmd
       - text: "Lesson 5"
         menu:
         - "Summarize the Data with Pivot Tables"

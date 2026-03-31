@@ -872,7 +872,7 @@
     "href": "Classroomfiles.html#basics",
     "title": "Classroom files",
     "section": "Basics",
-    "text": "Basics\nExcel 1 Excel 2"
+    "text": "Basics\n\nExcel 1\nExcel 2\nExcel 3"
   },
   {
     "objectID": "Practice2a.html",
@@ -1062,5 +1062,110 @@
     "title": "Practice 3b - Calculations",
     "section": "Tasks and Steps",
     "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the All Chains worksheet:\n\n\nUnfreeze the top row pane. Mac Win\nIn cell G1 type Pizza Chains as column G header. Make sure formatting is consistent with the other headers\nIn column G, use the IF function to report whether the Menu Category (column F) is “Pizza”. If it is, display the term Pizza. Otherwise, if it is any other type, display Other. Mac Win\nIn column G, use the Equal To conditional formatting rule to highlight in green only those cells that contain the terms Pizza. Note: Equal To is a specific type of conditional formatting rule. Mac Win\n\n\nAs you noticed there aren’t many pizza chains in the top 250 restaurants. However, your company will focus on the pizza market. Move to the Calculations worksheet, where you find only the pizza chains and their data and complete the following tasks.\nFormat the labels in the range A24:A26 with the same formatting as cell A23. Be efficient in how you do it.\nIn the range C23:D26, compute the total sum, average, min and max for columns C and D. Again, be efficient in how you do it. Efficiency is about typing the least possible and using what you know about cell referencing to copy formulas appropriately.\nFormat each of the eight computed cells according to the data it contains. What is the most efficient way to do so? Note that column C is formatted differently than D. Experiment with the Format Painter tool. Mac Win\nUse the IF function to compute the values of column E. Mac Win Use data on Sales (column C) for this analysis:\n\n\nInsert “Top Performer” for those chains that are 20% above average.\nInsert “Low Performer” for those chains that are 20% below average.\nInsert “Average” for all the others chains. Hint: A nested IF is required to complete this task.\n\n\nRepeat the above analysis for the data on Units (column D). Place the results in column F. Review the key video if you are not clear on what the final results should look like. Experiment by reusing the formulas from column E instead of rewriting the function.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice4a.html",
+    "href": "Practice4a.html",
+    "title": "Practice 4a - Data Formatting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice4a.html#answer-key",
+    "href": "Practice4a.html#answer-key",
+    "title": "Practice 4a - Data Formatting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice4a.html#tasks-and-steps",
+    "href": "Practice4a.html#tasks-and-steps",
+    "title": "Practice 4a - Data Formatting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Data worksheet, format the header as italics, 18 points.\nCopy the data in the Data worksheet and paste them in cell A1 of the Calculations worksheet. Remember the concept of single source of truth and make sure to use the appropriate paste options to link to the source data.\nNow, you should prevent all editing to the Data worksheet by protecting it. Do not use a password. Mac Win\nYou could also hide the worksheet. Experiment with this option by hiding the Calculations worksheet.\nNow “unhide” the Calculations worksheet.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice4d.html",
+    "href": "Practice4d.html",
+    "title": "Practice4d - Charts",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice4d.html#answer-key",
+    "href": "Practice4d.html#answer-key",
+    "title": "Practice4d - Charts",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice4d.html#tasks-and-steps",
+    "href": "Practice4d.html#tasks-and-steps",
+    "title": "Practice4d - Charts",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Distribution by Menu worksheet, insert a column chart for the data in the range A1:B5:\n\n\nTitle it: “Chains distribution by menu category”\nFill the columns with a color different than the default. Use your artistic sensibility to make a good choice.\nResize the chart to 3 by 4.85 inches.\nPosition the chart starting at cell D1.\n\n\nIn the Distribution by Segment worksheet, insert a bar chart for the data in the range A1:B4:\n\n\nTitle it: “Chains distribution by segment”\nFill the columns with a color different than the default. Use your artistic sensibility to make a good choice.\nResize the chart to 3 by 5.15 inches.\nPosition the chart starting at cell D1.\n\n\nIn the Top Chains by Units worksheet, insert a column chart for the data in the range A2:B12:\n\n\nTitle it: “Top 10 Chains by Units”\nResize the chart to 4.63 by 6.94 inches\nAdd a purple shape outline to your chart (pick from the standard colors section)\nYour outline must have Weight equal to ¼ pt.\n\n\nIn the Top Chains by Sales worksheet, insert a bar chart for the data in the range A1:B5:\n\n\nTitle it “Sales Top 5 Performers”\nResize the chart to 3.69 by 6.37 inches.\nPosition the chart starting at cell D1\nAdd a purple shape outline to your chart (pick from the standard colors section)\nYour outline must have Weight equal to 1 pt.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice4c.html",
+    "href": "Practice4c.html",
+    "title": "Practice 4c - Advanced Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice4c.html#answer-key",
+    "href": "Practice4c.html#answer-key",
+    "title": "Practice 4c - Advanced Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice4c.html#tasks-and-steps",
+    "href": "Practice4c.html#tasks-and-steps",
+    "title": "Practice 4c - Advanced Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nFilter the Calculations worksheet to isolate only data about the pizza chains.\nIn the Advanced Calculations worksheet, use the IF function to compute the values of column F. Use data on gross sales (column C) for this analysis: Mac Win\n\n\nInsert “High Sales” for those chains that are 20% above average.\nInsert “Low Sales” for those chains that are 20% below average.\nInsert “Average Sales” for all the others.\n\n\nIn cell G1 of the Advanced Calculations worksheet type “Above Average Units”. Make sure to format the cell as the other headers.\nUse the IF function to compute the values of column G. Use data on US units (column D) for this analysis: Mac Win\n\n\nInsert “Large Chain” for those chains that are 20% above average.\nInsert “Small Chain” for those chains that are 20% below average.\nInsert “Medium Chain” for all the others chains.\n\n\nIn the Advanced Calculations worksheet, use a VLOOKUP to report: Mac Win\n\n\nIn cell B50, Sbarro’s (B14) number of units.\nIn cell B51, Alluvia’s (B25) number of units.\n\n\nIn the Advanced Calculations worksheet, report in cell J4 the row number of the chain with the lowest number of units (column D). You have to use the MATCH function to complete this task.\nIn cell J5 of the Advanced Calculations worksheet, report the name of the chain positioned in row 23. You have to use the INDEX function to complete this task.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice4b.html",
+    "href": "Practice4b.html",
+    "title": "Practice 4b - Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice4b.html#answer-key",
+    "href": "Practice4b.html#answer-key",
+    "title": "Practice 4b - Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice4b.html#tasks-and-steps",
+    "href": "Practice4b.html#tasks-and-steps",
+    "title": "Practice 4b - Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Calculations worksheet convert the data range A1:F501 to a Table. Mac Win\nCheck if there are duplicate rows in your table. Use the full match option and only remove rows that are identical in all columns. There should be only one in your data. Mac Win\nIn the range C502:D505, compute sum, average, min and max for columns C and D.\n\n\nFormat appropriately the computed cells (that is, format like the type of data you are aggregating). Be efficient in performing this task.\n\n\nType “Pizza Chains” into the first cell of column G. Make sure formatting is consistent with the other headers. If necessary use the Format Painter tool.\nCalculate the following:\n\n\nUse the IF function to compute whether the Menu Category is “Pizza” (insert Pizza) or it is any other type of restaurant (insert Other). You will notice that the formula is automatically propagated to all the rows automatically. This is an advantage of using tables. Mac Win\nIn column G, use the Equal To conditional formatting rule to highlight in green the cells that contain “Pizza”. Note: Equal To is a specific type of conditional formatting rule. Mac Win\n\n\nIn cells K5:K9 calculate the number of chains corresponding to each of the Menu Category labels in cells J5:J9. Mac Win Be efficient in your work by using the appropriate cell referencing. Look at the sample file to make sure you have correctly completed the task.\nType “Top Ranked Burger Chain”, “Top Ranked Mexican Chain”, “Top Ranked Pizza Chain”, “Top Ranked Chicken Chain”, “Top Ranked Sandwich Chain” respectively in cells O5, O6, O7, O8, O9. As a sophisticated user, you know there is a better way than just typing this text given the work you have already done (hint: can you use CONCAT?).\nIn cells K28:K31 calculate the number of chains corresponding to each of the labels in cells J28:J31. Be efficient in how you do this task (COUNTIF anyone?).\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice4e.html",
+    "href": "Practice4e.html",
+    "title": "Practice4e - Results Page",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice4e.html#answer-key",
+    "href": "Practice4e.html#answer-key",
+    "title": "Practice4e - Results Page",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice4e.html#tasks-and-steps",
+    "href": "Practice4e.html#tasks-and-steps",
+    "title": "Practice4e - Results Page",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Results worksheet, change the page orientation to Landscape. Mac Win\nIn row 1, merge the cells across the first seven columns of this row. Keep the text left aligned. Mac Win\nIn cell A14 type: “Tops and Flops”.\nEfficiently format cell A14 exactly like cell A3.\nReport the results corresponding to all labels (except A19). Put the result in the cell directly below (e.g., results corresponding to A6 should be in cell A7). All values are in the Calculations worksheet. Do not re-compute them, simply reference the appropriate cell in the Calculations worksheet. Mac Win\nCompute the value corresponding to label A19. In cell A20 produce a live comparison between the data in the Calculations worksheet and the value in B19. The user will be able to change the value in B19 and your results should update accordingly. Try it and see if it works correctly. Hint: Use the COUNTIF function. Mac Win\nCopy the chart titled “Sales Top 5 Performers” from the Top Chains by Sales worksheet and paste it in cell D3 of the Results worksheet as a Picture. Resize the chart, so that the Results Page fits in only one page. To do so make sure to first scale the page to fit on one sheet.\nCopy the chart titled “Top 10 Chains by units” from the Top Chains by Units worksheet and paste it in cell D14 of the Results worksheet with the Use Destination Theme option. Resize the chart, so that the Results Page fits in only one page.\nYou are probably wondering what it is the difference between the way in which you pasted the charts. You can see the difference if you modify the data in the Top Chains by Sales and Top Chains by Units worksheets. You will notice that in the Results worksheet, one chart updates while the other is static. Make sure that you understand why this happens.\nBefore closing your document protect the Results worksheet. The only cell that should be modifiable by the user is cell B19. Mac Win\nVerify one more time that the Results worksheet will print on only one page. Mac Win\nSave the file and close it.\nYou are done with the fourth Excel practice. Well done!!!\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   }
 ]

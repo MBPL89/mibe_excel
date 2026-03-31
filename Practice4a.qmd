@@ -1,0 +1,52 @@
+---
+title: "Practice 4a - Data Formatting"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 4a
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/PlizbVnydOs title="Practice 4a Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/Uuxbohp1iDU title="Practice 4a Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-4-a_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-4-a.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the Data worksheet, format the header as italics, 18 points.
+3.	Copy the data in the Data worksheet and paste them in cell A1 of the Calculations worksheet. Remember the concept of single source of truth and make sure to use the appropriate paste options to link to the source data.
+4.	Now, you should prevent all editing to the Data worksheet by protecting it. Do not use a password. [Mac](https://support.microsoft.com/en-us/office/protect-a-worksheet-in-mac-9ef52175-aaeb-4471-88d7-acdad93819c5) [Win](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+5.	You could also hide the worksheet. Experiment with this option by hiding the Calculations worksheet.
+6.	Now "unhide" the Calculations worksheet.
+7.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

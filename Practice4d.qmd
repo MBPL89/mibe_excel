@@ -1,0 +1,69 @@
+---
+title: "Practice4d - Charts"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 4d
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/PbWZxFjDtHw title="Practice 4d Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/qb2GwFgA8rg title="Practice 4d Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-4-d_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-4-d.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the Distribution by Menu worksheet, insert a column chart for the data in the range A1:B5:
+  - Title it: “Chains distribution by menu category”
+  - Fill the columns with a color different than the default. Use your artistic sensibility to make a good choice.
+  - Resize the chart to 3 by 4.85 inches.
+  - Position the chart starting at cell D1.
+3.	In the Distribution by Segment worksheet, insert a bar chart for the data in the range A1:B4:
+  - Title it: “Chains distribution by segment”
+  - Fill the columns with a color different than the default. Use your artistic sensibility to make a good choice.
+  - Resize the chart to 3 by 5.15 inches.
+  - Position the chart starting at cell D1.
+4.	In the Top Chains by Units worksheet, insert a column chart for the data in the range A2:B12:
+  - Title it: “Top 10 Chains by Units”
+  - Resize the chart to 4.63 by 6.94 inches
+  - Add a purple shape outline to your chart (pick from the standard colors section)
+  - Your outline must have Weight equal to ¼ pt.
+5.	In the Top Chains by Sales worksheet, insert a bar chart for the data in the range A1:B5:
+  - Title it “Sales Top 5 Performers”
+  - Resize the chart to 3.69 by 6.37 inches.
+  - Position the chart starting at cell D1
+  - Add a purple shape outline to your chart (pick from the standard colors section)
+  - Your outline must have Weight equal to 1 pt.
+
+14. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

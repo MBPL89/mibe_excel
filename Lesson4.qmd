@@ -7,70 +7,61 @@ In this chapter we delve deeper into the many functionalities of Microsoft Excel
 
 ## Concepts
 
-  - Input-Process-Output
-  - Information Presentation
+-   Input-Process-Output
+-   Information Presentation
 
 ## Skills
 
-  - Insert column and bar charts
-  - Resize and move charts
-  - Change charts styles and colors
-  - Change charts type
-  - Filter charts data
-  - Convert data into tables
-  - Remove duplicate rows from tables
-  - Sort data
-  - Filter data
-  - Convert tables to ranges
-
+-   Insert column and bar charts
+-   Resize and move charts
+-   Change charts styles and colors
+-   Change charts type
+-   Filter charts data
+-   Convert data into tables
+-   Remove duplicate rows from tables
+-   Sort data
+-   Filter data
+-   Convert tables to ranges
 
 ## The Input-Process-Output Model in Excel Design
 
-In this practice assignment we reiterate a central concept in computing: Input-Process-Output. Information systems are designed to collect, process, store and distribute information. When you design your Excel workbooks you should conceptualize them as software applications. You should carefully think about the Input, Process and Output elements of your design. It often helps, as you do this, to start the design from the output. In other words, you should envision what your audience will see and how they should interact with your analysis – the presentation of your insights.
-With a clear idea of the output in mind you can work backward to determine what processing you need to do on your data to achieve your objectives. Notice that the input-process-output model does not imply that you must use only one worksheet for each element. In fact, as you become more and more sophisticated in your Excel skills and you tackle increasingly complex analyses in Excel, you will find it useful to have multiple sheets devoted to input data. You will also find is easier to segregate different computations on different sheets (by type of analysis for example), and you may need more than one sheet for results.
-The general structure and basic input-process-output design will always apply. As you conceptualize your Excel workbooks based on this model, keep in mind the following tips:
+In this practice assignment we reiterate a central concept in computing: Input-Process-Output. Information systems are designed to collect, process, store and distribute information. When you design your Excel workbooks you should conceptualize them as software applications. You should carefully think about the Input, Process and Output elements of your design. It often helps, as you do this, to start the design from the output. In other words, you should envision what your audience will see and how they should interact with your analysis – the presentation of your insights. With a clear idea of the output in mind you can work backward to determine what processing you need to do on your data to achieve your objectives. Notice that the input-process-output model does not imply that you must use only one worksheet for each element. In fact, as you become more and more sophisticated in your Excel skills and you tackle increasingly complex analyses in Excel, you will find it useful to have multiple sheets devoted to input data. You will also find is easier to segregate different computations on different sheets (by type of analysis for example), and you may need more than one sheet for results. The general structure and basic input-process-output design will always apply. As you conceptualize your Excel workbooks based on this model, keep in mind the following tips:
 
-  - Segregate and protect your data. It is very easy to introduce errors in your workbooks when you have a lot of data – e.g., 3,000 rows. The reason is that at that scale it is impossible for you to visually inspect your data and make sense of it. So, you should always consider protecting, and even hiding, the data worksheet(s) and reference the raw data from your computation worksheets. If you need to update or change your raw data you can certainly do that, but protecting the worksheet will ensure that you (or one of your users) don’t modify data by mistake.
+-   Segregate and protect your data. It is very easy to introduce errors in your workbooks when you have a lot of data – e.g., 3,000 rows. The reason is that at that scale it is impossible for you to visually inspect your data and make sense of it. So, you should always consider protecting, and even hiding, the data worksheet(s) and reference the raw data from your computation worksheets. If you need to update or change your raw data you can certainly do that, but protecting the worksheet will ensure that you (or one of your users) don’t modify data by mistake.
 
-  - You may be tempted to perform quick filters or visualizations on the raw data. This may be ok if you are just trying to “get a feel for your data.” However, once you are ready to design and implement your workbook, start by segregating and protecting the data.
+-   You may be tempted to perform quick filters or visualizations on the raw data. This may be ok if you are just trying to “get a feel for your data.” However, once you are ready to design and implement your workbook, start by segregating and protecting the data.
 
-  - Maintain a single source of truth (SSOT). This requires that each data element is stored in one, and only one location. If you segregate and protect your data you are on your way to achieving SSOT. Having a SSOT ensures that when your data is updated, or if at any time you need to correct any errors in the data, the change will be automatically and reliably propagated through your whole analysis. If you are not careful to maintain a SSOT you can never be 100% sure that your analysis is correct and up to date.
+-   Maintain a single source of truth (SSOT). This requires that each data element is stored in one, and only one location. If you segregate and protect your data you are on your way to achieving SSOT. Having a SSOT ensures that when your data is updated, or if at any time you need to correct any errors in the data, the change will be automatically and reliably propagated through your whole analysis. If you are not careful to maintain a SSOT you can never be 100% sure that your analysis is correct and up to date.
 
-  - Never “hard code” values in functions or computed cells. If you type numbers in a function the only way to change that number when needed, it is to modify the function in the formula bar. This is another case where you could introduce errors. And of course, if someone needs to use your workbook (e.g., your boss) you don’t want them to mess with your algorithms and your computations! The solution is to use Excel the way it was intended to be used – with relative and absolute cell referencing. You should build all the Excel’s functionality around references to cell locations.
+-   Never “hard code” values in functions or computed cells. If you type numbers in a function the only way to change that number when needed, it is to modify the function in the formula bar. This is another case where you could introduce errors. And of course, if someone needs to use your workbook (e.g., your boss) you don’t want them to mess with your algorithms and your computations! The solution is to use Excel the way it was intended to be used – with relative and absolute cell referencing. You should build all the Excel’s functionality around references to cell locations.
 
-  - A possible exception to the above rule is when you have constants, values that never change. However, even in that case, it is probably best to put these values in a cell – perhaps in a separate sheet called “parameters.” The advantage of doing so is that while these values may indeed never change, they are made explicit and easy to identify. This approach will eliminate problems associated with hard-coding and help your spreadsheets remain dynamic, even as they grow in complexity. It will also enhance the readability and accessibility of your workbook.
+-   A possible exception to the above rule is when you have constants, values that never change. However, even in that case, it is probably best to put these values in a cell – perhaps in a separate sheet called “parameters.” The advantage of doing so is that while these values may indeed never change, they are made explicit and easy to identify. This approach will eliminate problems associated with hard-coding and help your spreadsheets remain dynamic, even as they grow in complexity. It will also enhance the readability and accessibility of your workbook.
 
 **Insights**
 
-  - The Input-Process-Output model
-  - Single source of truth (SSOT)
-  - Segregating and protecting raw data
-  - Eliminating hard coded values
+-   The Input-Process-Output model
+-   Single source of truth (SSOT)
+-   Segregating and protecting raw data
+-   Eliminating hard coded values
 
 ## Information Presentation
 
-In many ways, the visual presentation of your data is an act of storytelling. When designing a chart, you should ask yourself: "what’s the story I am communicating to my audience?" The answer to this question should guide your design choices for turning facts and figures into informative and professional charts.
-In a previous concept, you learned about readability and accessibility as they relate to the design of high quality Excel workbooks. The same concepts apply to charts. As you know already, charts should be self-contained. But there is more to it. Even though Excel offers many predefined chart types and themes, you should think twice before simply selecting something that “looks cool”. Color, for instance, is a powerful element to increase readability, but it is a double-edged sword because it can be very distracting,
-When you are designing your charts, you should ask yourself:
+In many ways, the visual presentation of your data is an act of storytelling. When designing a chart, you should ask yourself: "what’s the story I am communicating to my audience?" The answer to this question should guide your design choices for turning facts and figures into informative and professional charts. In a previous concept, you learned about readability and accessibility as they relate to the design of high quality Excel workbooks. The same concepts apply to charts. As you know already, charts should be self-contained. But there is more to it. Even though Excel offers many predefined chart types and themes, you should think twice before simply selecting something that “looks cool”. Color, for instance, is a powerful element to increase readability, but it is a double-edged sword because it can be very distracting, When you are designing your charts, you should ask yourself:
 
-  - How are you going to present your charts? Will you be projecting your analysis during a meeting? Will you be printing your charts and handing them out? Will you be the only one using the results on your own laptop? Or will you share the file with coworkers?
-These questions are important because a color palette that looks good on a digital support might not be readable on paper, or when projected during a Power Point presentation. Who is the intended audience of your presentation? Is your boss’ colorblind (I for example am slightly colorblind)? It may sound trivial, but Excel provides, by default, colorblind-friendly color palettes. The general rule is simple, be cautious when expressing your artistic side, you are not painting the next Picasso, you are trying to present the results of a data analysis!
+-   How are you going to present your charts? Will you be projecting your analysis during a meeting? Will you be printing your charts and handing them out? Will you be the only one using the results on your own laptop? Or will you share the file with coworkers? These questions are important because a color palette that looks good on a digital support might not be readable on paper, or when projected during a Power Point presentation. Who is the intended audience of your presentation? Is your boss’ colorblind (I for example am slightly colorblind)? It may sound trivial, but Excel provides, by default, colorblind-friendly color palettes. The general rule is simple, be cautious when expressing your artistic side, you are not painting the next Picasso, you are trying to present the results of a data analysis!
 
-  - How are you using your colors to convey meaning? Chances are that you never thought about this before, but color does convey meaning! If you are using color shades to map different levels of a variable, this implicitly conveys hierarchical order.
-Another useful rule of thumb to keep in mind is the minimization of the so called data-ink ratio. This means that you want to eliminate any elements from your design that do not express information about your data. The general rule is: If the element does not convey any information over and above what is already present, remove it!
+-   How are you using your colors to convey meaning? Chances are that you never thought about this before, but color does convey meaning! If you are using color shades to map different levels of a variable, this implicitly conveys hierarchical order. Another useful rule of thumb to keep in mind is the minimization of the so called data-ink ratio. This means that you want to eliminate any elements from your design that do not express information about your data. The general rule is: If the element does not convey any information over and above what is already present, remove it!
 
 Even though Excel tempts you with a variety of background patterns and colors, these ornaments are often uninformative. 3D charts are another example of unnecessary design elements that inexperienced Excel analysts use and abuse. In fact, for the human eye it is harder to compare dimensions of 3D objects versus 2D objects. Moreover, depth does not convey any additional information to the reader. Most of the time when people use a 3D chart they are showing off... too bad that they are just showing their ignorance of good visual design!
 
-
 **Insights**
 
-  - Data visualization is storytelling
-  - Using color in a meaningful way
-  - Avoid pie-charts
-  - Minimizing the data-ink ratio
-  - Delete all element of your chart that do not provide incremental meaning
-  - Select the appropriate chart type
-
+-   Data visualization is storytelling
+-   Using color in a meaningful way
+-   Avoid pie-charts
+-   Minimizing the data-ink ratio
+-   Delete all element of your chart that do not provide incremental meaning
+-   Select the appropriate chart type
 
 ## Exercise Overview
 

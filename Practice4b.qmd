@@ -1,0 +1,63 @@
+---
+title: "Practice 4b - Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 4b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/5mvFwoO_KMg title="Practice 4b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/9LGudqsreUg title="Practice 4b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-4-b_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-4-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the Calculations worksheet convert the data range A1:F501 to a Table. [Mac](https://support.microsoft.com/en-us/office/create-and-format-tables-e81aa349-b006-4f8a-9806-5af9df0ac664#id0ebf=macos) [Win](https://support.microsoft.com/en-us/office/create-and-format-tables-e81aa349-b006-4f8a-9806-5af9df0ac664)
+3.	Check if there are duplicate rows in your table. Use the full match option and only remove rows that are identical in all columns. There should be only one in your data. [Mac](https://support.microsoft.com/en-us/office/resize-a-table-by-adding-or-removing-rows-and-columns-in-excel-e65ae4bb-e44b-43f4-ad8b-7d68784f1165) [Win](https://support.microsoft.com/en-us/office/resize-a-table-by-adding-or-removing-rows-and-columns-in-excel-e65ae4bb-e44b-43f4-ad8b-7d68784f1165)
+4.	In the range C502:D505, compute sum, average, min and max for columns C and D.
+
+- Format appropriately the computed cells (that is, format like the type of data you are aggregating). Be efficient in performing this task.
+
+5.	Type "Pizza Chains" into the first cell of column G. Make sure formatting is consistent with the other headers. If necessary use the Format Painter tool.
+6.	Calculate the following:
+
+- Use the IF function to compute whether the Menu Category is “Pizza” (insert Pizza) or it is any other type of restaurant (insert Other). You will notice that the formula is automatically propagated to all the rows automatically. This is an advantage of using tables. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- In column G, use the Equal To conditional formatting rule to highlight in green the cells that contain “Pizza”. Note: Equal To is a specific type of conditional formatting rule. [Mac](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2) [Win](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)
+
+7.	In cells K5:K9 calculate the number of chains corresponding to each of the Menu Category labels in cells J5:J9. [Mac](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34) [Win](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34) Be efficient in your work by using the appropriate cell referencing. Look at the sample file to make sure you have correctly completed the task.
+8.	Type “Top Ranked Burger Chain”, “Top Ranked Mexican Chain”, “Top Ranked Pizza Chain”, “Top Ranked Chicken Chain”, “Top Ranked Sandwich Chain” respectively in cells O5, O6, O7, O8, O9. As a sophisticated user, you know there is a better way than just typing this text given the work you have already done (hint: can you use CONCAT?).
+9.	In cells K28:K31 calculate the number of chains corresponding to each of the labels in cells J28:J31. Be efficient in how you do this task (COUNTIF anyone?).
+
+10.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

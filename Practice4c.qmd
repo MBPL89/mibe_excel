@@ -1,0 +1,63 @@
+---
+title: "Practice 4c - Advanced Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 4c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/4qR9VdaaHEE title="Practice 4c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/MjQAeJqza3c title="Practice 4c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-4-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-4-c.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	Filter the Calculations worksheet to isolate only data about the pizza chains.
+3.	In the Advanced Calculations worksheet, use the IF function to compute the values of column F. Use data on gross sales (column C) for this analysis: [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- Insert “High Sales” for those chains that are 20% above average.
+- Insert “Low Sales” for those chains that are 20% below average.
+- Insert “Average Sales” for all the others.
+4.	In cell G1 of the Advanced Calculations worksheet type "Above Average Units". Make sure to format the cell as the other headers.
+5.	Use the IF function to compute the values of column G. Use data on US units (column D) for this analysis: [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- Insert “Large Chain” for those chains that are 20% above average.
+- Insert “Small Chain” for those chains that are 20% below average.
+- Insert “Medium Chain” for all the others chains.
+6.	In the Advanced Calculations worksheet, use a VLOOKUP to report: [Mac](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) [Win](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
+- In cell B50, Sbarro’s (B14) number of units.
+- In cell B51, Alluvia’s (B25) number of units.
+7.	In the Advanced Calculations worksheet, report in cell J4 the row number of the chain with the lowest number of units (column D). You have to use the MATCH function to complete this task.
+8.	In cell J5 of the Advanced Calculations worksheet, report the name of the chain positioned in row 23. You have to use the INDEX function to complete this task.
+
+9.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

@@ -1,0 +1,61 @@
+---
+title: "Practice4e - Results Page"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 4e
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/yeX0HrNyywg title="Practice 4e Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/G0jdW6-41K8 title="Practice 4e Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-4-e_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-4-e.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the Results worksheet, change the page orientation to Landscape. [Mac](https://support.microsoft.com/en-us/office/print-with-landscape-orientation-in-excel-for-mac-5b26f602-ed29-46bd-992a-52dd9d4770e7?ui=en-US&rs=en-US&ad=US) [Win](https://support.microsoft.com/en-us/office/print-an-excel-worksheet-in-landscape-or-portrait-orientation-1af561b2-5444-4fc1-b24d-9e4d05b9ebf1)
+3.	In row 1, merge the cells across the first seven columns of this row. Keep the text left aligned. [Mac](https://support.microsoft.com/en-us/office/merge-and-unmerge-cells-in-excel-5cbd15d5-9375-4540-907f-c673a93fcedf#officeversion=macos) [Win](https://support.microsoft.com/en-us/office/merge-and-unmerge-cells-in-excel-5cbd15d5-9375-4540-907f-c673a93fcedf)
+4.	In cell A14 type: "Tops and Flops".
+5.	Efficiently format cell A14 exactly like cell A3.
+6.	Report the results corresponding to all labels (except A19). Put the result in the cell directly below (e.g., results corresponding to A6 should be in cell A7). All values are in the Calculations worksheet. Do not re-compute them, simply reference the appropriate cell in the Calculations worksheet. [Mac](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa#bmcreate_a_cell_reference_to_another_wo) [Win](https://support.microsoft.com/en-us/office/create-or-change-a-cell-reference-c7b8b95d-c594-4488-947e-c835903cebaa#bmcreate_a_cell_reference_to_another_wo)
+7.	Compute the value corresponding to label A19. In cell A20 produce a live comparison between the data in the Calculations worksheet and the value in B19. The user will be able to change the value in B19 and your results should update accordingly. Try it and see if it works correctly. Hint: Use the COUNTIF function. [Mac](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34) [Win](https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34)
+8.	Copy the chart titled “Sales Top 5 Performers” from the Top Chains by Sales worksheet and paste it in cell D3 of the Results worksheet as a Picture. Resize the chart, so that the Results Page fits in only one page. To do so make sure to first scale the page to fit on one sheet.
+9.	Copy the chart titled “Top 10 Chains by units” from the Top Chains by Units worksheet and paste it in cell D14 of the Results worksheet with the Use Destination Theme option. Resize the chart, so that the Results Page fits in only one page.
+10.	You are probably wondering what it is the difference between the way in which you pasted the charts. You can see the difference if you modify the data in the Top Chains by Sales and Top Chains by Units worksheets. You will notice that in the Results worksheet, one chart updates while the other is static. Make sure that you understand why this happens.
+11.	Before closing your document protect the Results worksheet. The only cell that should be modifiable by the user is cell B19. [Mac](https://support.microsoft.com/en-us/office/protect-a-worksheet-in-mac-9ef52175-aaeb-4471-88d7-acdad93819c5) [Win](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+12.	Verify one more time that the Results worksheet will print on only one page. [Mac](https://support.microsoft.com/en-us/office/scale-a-worksheet-34a91eb5-8b4e-4a8a-ab28-b6492012eaae) [Win](https://support.microsoft.com/en-us/office/scale-a-worksheet-34a91eb5-8b4e-4a8a-ab28-b6492012eaae)
+
+14. Save the file and close it.
+
+15. You are done with the fourth Excel practice. Well done!!!
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
