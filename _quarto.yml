@@ -52,7 +52,13 @@ website:
       - text: "Lesson 5"
         menu:
         - "Summarize the Data with Pivot Tables"
-        - "Coming soon"
+        #- "Coming soon"
+        - Lesson5.qmd
+        - Practice5a.qmd
+        - Practice5b.qmd
+        - Practice5c.qmd
+        - Practice5d.qmd
+        - Practice5e.qmd
       - text: "Lesson 6"
         menu:
         - "Comprehensive Analysis"

@@ -1,0 +1,63 @@
+---
+title: "Practice 5b - Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 5b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/f9zRImgSy0w title="Practice 5b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/rQMhwUKN_KY title="Practice 5b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-5-b_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-5-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.	Download and open the starter file.
+2.	Freeze the Top row in the Pizza Sales Calculations worksheet. [Mac](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2) [Win](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)
+3.	Notice that the column ItemsOrdered has up to three items, separated by a comma. Split the ItemsOrdered column in multiple columns, each of them containing only one item. In order to complete this task, you need to:
+
+- Insert three new columns respectively in columns E, F and G.
+- Name the new generated columns respectively as: "Item Ordered 1", "Item Ordered 2" and "Item Ordered 3." … Did you type the three labels, or are you naturally being efficient? If you typed all three be sure to let us know. We will show you how to be efficient!
+- Make sure the labels are formatted like the other headers.
+- Split the text in ItemsOrdered over the three new columns you inserted. [Mac](https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7) [Win](https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7)
+4.	In column M calculate the delivery duration:
+- Name the column as "Delivery Duration".
+- Make sure the label is formatted like the other headers.
+- This variable is equal to the difference between OrderDelivery time and its corresponding OrderReady time. Since Excel computes time as the number of minutes elapsed you have to multiply the difference by 24 (hours in a day) and 60 (minutes in an hour).
+5.	In column N calculate the number of items each order contained:
+- Name the column as "Number of items ordered".
+- Make sure the label is formatted like the other headers.
+- Perform this task efficiently leveraging previous learned functions (we suggest COUNTA).
+
+6. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

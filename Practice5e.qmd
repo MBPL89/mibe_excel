@@ -1,0 +1,88 @@
+---
+title: "Practice 5e - Pivot Tables"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 5e
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/pjqJ_6z0B6g title="Practice 5e Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/vI9B2FAvQqI title="Practice 5e Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-5-e_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-5-e.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	You have computed a lot of data so far, good job. Now you have to present it in a meaningful way. Pivot tables are a handy way to do so.
+3.	Using all the data available in the Pizza Sales Calculations, compute how many orders are in the range of a drone and how many are outside:
+
+- Insert a PivotTable in cell A1 of the Number of Orders worksheet. [Mac](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) [Win](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
+- Produce a count of orders (use the column OrderNumber).
+- Add Drone range as a row.
+- Make sure that your pivot table looks like the one in the sample file.
+
+4.	Using the data available in the Pizza Sales Calculations, analyze how many orders have one, two or three items:
+
+- Insert a PivotTable in cell A4 of the Order by Size worksheet
+- Produce a count of orders.
+- Add the first item ordered as a row (Item Ordered 1).
+- Add the second item ordered as a row (Item Ordered 2).
+- Add the third item ordered as a row (Item Ordered 3).
+- Make sure that your pivot table looks like the one in the sample file.
+
+5.	Use a bar chart to plot the results of your computation above:
+
+- Position the chart starting at cell H2.
+- Title the chart: "Pizza order by size"
+- Fill the bars with a color different than the default. Use your artistic sensibility to make a good choice.
+
+6.	Using the data available in the Pizza Sales Calculations, analyze the number of items in each order. Compare orders for delivery and pick up orders.
+7.	Insert a PivotTable in cell A2 of the Number of Items worksheet
+8.	Produce a count of orders.
+9.	Add the number of items ordered as a column (Number of items ordered)
+10.	Add delivery as a row (Delivery)
+11.	Make sure that your pivot table looks like the one in the sample file. Reflect one minute about the power of Pivot tables and how quickly they allow you to summarize large datasets!
+12.	Insert a column chart to plot the PivotTable results graphically:
+
+- Position the chart starting at cell G4.
+- Fill the columns with a color different than the default. Use your artistic sensibility to make a good choice.
+
+13.	Looking at the last chart you see that it would be clearer if instead of TRUE and FALSE the labels were "Delivery" and "Pickup".
+
+- Modify the data in column G of the Pizza Sales Calculations worksheet.
+- Refresh the Pivot Table on the Number of Items worksheet
+- Verify that the chart has appropriately updated.
+
+14. Save the file and close it.
+
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

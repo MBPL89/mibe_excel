@@ -865,7 +865,7 @@
     "href": "Classroomfiles.html#data-visualization",
     "title": "Classroom files",
     "section": "Data visualization",
-    "text": "Data visualization\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+    "text": "Data visualization\n\nExercises - slides\nExercise 3 - workbook\nExercise 4 - workbook\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   },
   {
     "objectID": "Classroomfiles.html#basics",
@@ -1167,5 +1167,110 @@
     "title": "Practice4e - Results Page",
     "section": "Tasks and Steps",
     "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Results worksheet, change the page orientation to Landscape. Mac Win\nIn row 1, merge the cells across the first seven columns of this row. Keep the text left aligned. Mac Win\nIn cell A14 type: “Tops and Flops”.\nEfficiently format cell A14 exactly like cell A3.\nReport the results corresponding to all labels (except A19). Put the result in the cell directly below (e.g., results corresponding to A6 should be in cell A7). All values are in the Calculations worksheet. Do not re-compute them, simply reference the appropriate cell in the Calculations worksheet. Mac Win\nCompute the value corresponding to label A19. In cell A20 produce a live comparison between the data in the Calculations worksheet and the value in B19. The user will be able to change the value in B19 and your results should update accordingly. Try it and see if it works correctly. Hint: Use the COUNTIF function. Mac Win\nCopy the chart titled “Sales Top 5 Performers” from the Top Chains by Sales worksheet and paste it in cell D3 of the Results worksheet as a Picture. Resize the chart, so that the Results Page fits in only one page. To do so make sure to first scale the page to fit on one sheet.\nCopy the chart titled “Top 10 Chains by units” from the Top Chains by Units worksheet and paste it in cell D14 of the Results worksheet with the Use Destination Theme option. Resize the chart, so that the Results Page fits in only one page.\nYou are probably wondering what it is the difference between the way in which you pasted the charts. You can see the difference if you modify the data in the Top Chains by Sales and Top Chains by Units worksheets. You will notice that in the Results worksheet, one chart updates while the other is static. Make sure that you understand why this happens.\nBefore closing your document protect the Results worksheet. The only cell that should be modifiable by the user is cell B19. Mac Win\nVerify one more time that the Results worksheet will print on only one page. Mac Win\nSave the file and close it.\nYou are done with the fourth Excel practice. Well done!!!\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice5a.html",
+    "href": "Practice5a.html",
+    "title": "Practice 5a - Data import and cleaning",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice5a.html#answer-key",
+    "href": "Practice5a.html#answer-key",
+    "title": "Practice 5a - Data import and cleaning",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice5a.html#tasks-and-steps",
+    "href": "Practice5a.html#tasks-and-steps",
+    "title": "Practice 5a - Data import and cleaning",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload the text file from: “text-data-source”.\nDownload and open the empty starter file.\nImport the data in a new Excel workbook. Remember that the file is pipe (|) separated. Mac Win\nReview the data to make sure it was imported correctly. There should be a header with column names for all 9 columns and a total of 3077 rows. With these much data you need to remember your keyboard shortcuts, so you can move efficiently through the data.\nRename Sheet1 as “Pizza Sales Data”.\nFormat the header (first row) as bold: o Set the font size to 16 points\nPrevent editing of the Pizza Sales Data worksheet by protecting it. Do not use a password. Mac Win\nInsert a new worksheet and rename it as “Pizza Sales Calculations”.\nMake sure the order is correct. Pizza Sales Data should be the first (leftmost) worksheet and Pizza Sales Calculations should be second.\nCopy the data from the Pizza Sales Data worksheet into the Pizza Sales Calculations worksheet. Remember the concept of single source of truth and make sure to use the appropriate paste options to link to the source data rather than replicate it. Mac Win\nFormat the header of the Pizza Sales Calculations worksheet to be the same as the header of the Pizza Sales Data worksheet. Mac Win\nEnsure each column is formatted appropriately for its content. DeliveryDistance is in miles so you should format it with two decimals, OrderPlaced, OrderReady and OrderDelivery are dates (use the Long Date format). TotalPrice (No Taxes) should be Accounting.\nMake sure all text is visible by resizing the columns appropriately.\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice5c.html",
+    "href": "Practice5c.html",
+    "title": "Practice 5c - Efficient information search",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice5c.html#answer-key",
+    "href": "Practice5c.html#answer-key",
+    "title": "Practice 5c - Efficient information search",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice5c.html#tasks-and-steps",
+    "href": "Practice5c.html#tasks-and-steps",
+    "title": "Practice 5c - Efficient information search",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nThe following are pizza weights. Since they are parameters, and not data, you should store them in a separate worksheet. Input the following parameters in the Parameters worksheet:\n\n\nA small pizza weight is 1 lb (type 1 in cell C2).\nA medium pizza weight is 1.7 lbs (type 1.7 in cell C3).\nA large pizza weight is 2.3 lbs (type 2.3 in cell C4).\n\n\nIn the Parameters worksheet insert the following:\n\n\nThe cost of a traditional delivery is $0.14 (in cell C6).\nThe drone range is 3.2 mi (in cell C7).\nThe cost of drone delivery is $0.0312 (in cell C8).\n\n\nMove to the Pizza Sales Calculations worksheet, name columns N, O, P respectively as “Weight Item 1”, “Weight Item 2”, “Weight Item 3”. Again, be efficient!\n\n\nMake sure the label is formatted like the other headers.\n\n\nUse a VLOOKUP to assign the right weight to each pizza. Use appropriate referencing to the weights available in the Parameters worksheet and structure the function for efficient copying to all the 3,000 rows! Mac Win\nReport the missing data in cells X2:X4 of the Pizza Sales Calculations worksheet.\nReport the missing data in cells X5:X7 of the Pizza Sales Calculations worksheet. You may be tempted to do this with a VLOOKUP, but you must use INDEX/MATCH instead. If you don’t know why ask us! You need to report the OrderNumber (column A) of the following: Mac Win\n\n\nThe farthest order in miles.\nThe shortest delivery duration.\nThe highest cost of a traditional delivery.\n\nIf you have trouble completing this task, please look at how the task is completed in the video key.\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice5e.html",
+    "href": "Practice5e.html",
+    "title": "Practice 5e - Pivot Tables",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice5e.html#answer-key",
+    "href": "Practice5e.html#answer-key",
+    "title": "Practice 5e - Pivot Tables",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice5e.html#tasks-and-steps",
+    "href": "Practice5e.html#tasks-and-steps",
+    "title": "Practice 5e - Pivot Tables",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nYou have computed a lot of data so far, good job. Now you have to present it in a meaningful way. Pivot tables are a handy way to do so.\nUsing all the data available in the Pizza Sales Calculations, compute how many orders are in the range of a drone and how many are outside:\n\n\nInsert a PivotTable in cell A1 of the Number of Orders worksheet. Mac Win\nProduce a count of orders (use the column OrderNumber).\nAdd Drone range as a row.\nMake sure that your pivot table looks like the one in the sample file.\n\n\nUsing the data available in the Pizza Sales Calculations, analyze how many orders have one, two or three items:\n\n\nInsert a PivotTable in cell A4 of the Order by Size worksheet\nProduce a count of orders.\nAdd the first item ordered as a row (Item Ordered 1).\nAdd the second item ordered as a row (Item Ordered 2).\nAdd the third item ordered as a row (Item Ordered 3).\nMake sure that your pivot table looks like the one in the sample file.\n\n\nUse a bar chart to plot the results of your computation above:\n\n\nPosition the chart starting at cell H2.\nTitle the chart: “Pizza order by size”\nFill the bars with a color different than the default. Use your artistic sensibility to make a good choice.\n\n\nUsing the data available in the Pizza Sales Calculations, analyze the number of items in each order. Compare orders for delivery and pick up orders.\nInsert a PivotTable in cell A2 of the Number of Items worksheet\nProduce a count of orders.\nAdd the number of items ordered as a column (Number of items ordered)\nAdd delivery as a row (Delivery)\nMake sure that your pivot table looks like the one in the sample file. Reflect one minute about the power of Pivot tables and how quickly they allow you to summarize large datasets!\nInsert a column chart to plot the PivotTable results graphically:\n\n\nPosition the chart starting at cell G4.\nFill the columns with a color different than the default. Use your artistic sensibility to make a good choice.\n\n\nLooking at the last chart you see that it would be clearer if instead of TRUE and FALSE the labels were “Delivery” and “Pickup”.\n\n\nModify the data in column G of the Pizza Sales Calculations worksheet.\nRefresh the Pivot Table on the Number of Items worksheet\nVerify that the chart has appropriately updated.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice5d.html",
+    "href": "Practice5d.html",
+    "title": "Practice 5d - Advanced Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice5d.html#answer-key",
+    "href": "Practice5d.html#answer-key",
+    "title": "Practice 5d - Advanced Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice5d.html#tasks-and-steps",
+    "href": "Practice5d.html#tasks-and-steps",
+    "title": "Practice 5d - Advanced Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn cell Q1 of the Pizza Sales Calculations worksheet type “Total Order Weight”. Make sure the cell formatting is consistent with the one of the other headers.\nUsing SUMIF, in column Q, to compute the total weight of each order (weights are in columns N:P) You must be sure to specify that the logical test is: “&lt;&gt;#N/A”. Do you understand why? If not, ask us! Mac Win\nWeight is not the only variable to take in consideration when dealing with deliveries. The time and the cost efficiencies to deliver orders is where your brilliant idea can create value for pizza chains. In column R, calculate the cost of a traditional delivery using the following parameters:\n\n\nThe cost per minute of a traditional delivery is $0.14.\nThe cost of a traditional delivery is equal to the product between the delivery duration and the cost per minute. However, don’t forget to account for the time necessary to return to the store. Approximate that time by doubling the time.\nMake sure to perform the calculations only for orders delivered, not for customer pickups. We suggest using the IF function. Mac Win\n\n\nDrones have limited range, see cell C8 of the Parameters worksheet. In column S, insert “TRUE” if the delivery distance is below the operating range and “FALSE” otherwise. Mac Win\nCompute the cost of drone delivery and place results in column T. The total cost to operate a drone, per minute, is in cell C9 of the Parameters worksheet. Make sure to perform the calculation only for the delivery orders within the drone range and remember the drone must return to the shop. We suggest you use both functions below to complete this task:\n\n\nIF. Mac Win\nAND. Mac Win\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice5b.html",
+    "href": "Practice5b.html",
+    "title": "Practice 5b - Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice5b.html#answer-key",
+    "href": "Practice5b.html#answer-key",
+    "title": "Practice 5b - Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice5b.html#tasks-and-steps",
+    "href": "Practice5b.html#tasks-and-steps",
+    "title": "Practice 5b - Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nFreeze the Top row in the Pizza Sales Calculations worksheet. Mac Win\nNotice that the column ItemsOrdered has up to three items, separated by a comma. Split the ItemsOrdered column in multiple columns, each of them containing only one item. In order to complete this task, you need to:\n\n\nInsert three new columns respectively in columns E, F and G.\nName the new generated columns respectively as: “Item Ordered 1”, “Item Ordered 2” and “Item Ordered 3.” … Did you type the three labels, or are you naturally being efficient? If you typed all three be sure to let us know. We will show you how to be efficient!\nMake sure the labels are formatted like the other headers.\nSplit the text in ItemsOrdered over the three new columns you inserted. Mac Win\n\n\nIn column M calculate the delivery duration:\n\n\nName the column as “Delivery Duration”.\nMake sure the label is formatted like the other headers.\nThis variable is equal to the difference between OrderDelivery time and its corresponding OrderReady time. Since Excel computes time as the number of minutes elapsed you have to multiply the difference by 24 (hours in a day) and 60 (minutes in an hour).\n\n\nIn column N calculate the number of items each order contained:\n\n\nName the column as “Number of items ordered”.\nMake sure the label is formatted like the other headers.\nPerform this task efficiently leveraging previous learned functions (we suggest COUNTA).\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   }
 ]

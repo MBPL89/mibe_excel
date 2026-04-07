@@ -1,0 +1,61 @@
+---
+title: "Practice 5d - Advanced Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 5d
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/hs0Uu1Y4Klw title="Practice 5d Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/5PjYj4WmLhA title="Practice 5d Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-5-d_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-5-d.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In cell Q1 of the Pizza Sales Calculations worksheet type "Total Order Weight". Make sure the cell formatting is consistent with the one of the other headers.
+3.	Using SUMIF, in column Q, to compute the total weight of each order (weights are in columns N:P) You must be sure to specify that the logical test is: "<>#N/A". Do you understand why? If not, ask us! [Mac](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b) [Win](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
+4.	Weight is not the only variable to take in consideration when dealing with deliveries. The time and the cost efficiencies to deliver orders is where your brilliant idea can create value for pizza chains. In column R, calculate the cost of a traditional delivery using the following parameters:
+
+-  The cost per minute of a traditional delivery is $0.14.
+-  The cost of a traditional delivery is equal to the product between the delivery duration and the cost per minute. However, don’t forget to account for the time necessary to return to the store. Approximate that time by doubling the time.
+-  Make sure to perform the calculations only for orders delivered, not for customer pickups. We suggest using the IF function. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+
+5.	Drones have limited range, see cell C8 of the Parameters worksheet. In column S, insert “TRUE” if the delivery distance is below the operating range and “FALSE” otherwise. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+6.	Compute the cost of drone delivery and place results in column T. The total cost to operate a drone, per minute, is in cell C9 of the Parameters worksheet. Make sure to perform the calculation only for the delivery orders within the drone range and remember the drone must return to the shop. We suggest you use both functions below to complete this task:
+
+-  IF. [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+-  AND. [Mac](https://support.microsoft.com/en-us/office/and-function-5f19b2e8-e1df-4408-897a-ce285a19e9d9) [Win](https://support.microsoft.com/en-us/office/and-function-5f19b2e8-e1df-4408-897a-ce285a19e9d9)
+
+7. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

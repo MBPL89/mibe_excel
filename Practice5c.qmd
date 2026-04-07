@@ -1,0 +1,73 @@
+---
+title: "Practice 5c - Efficient information search"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 5c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/LmLxlo3JpMM title="Practice 5c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/FEoETy2A_nE title="Practice 5c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-5-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-5-c.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	The following are pizza weights. Since they are parameters, and not data, you should store them in a separate worksheet. Input the following parameters in the Parameters worksheet:
+
+- A small pizza weight is 1 lb (type 1 in cell C2).
+- A medium pizza weight is 1.7 lbs (type 1.7 in cell C3).
+- A large pizza weight is 2.3 lbs (type 2.3 in cell C4).
+
+3.	In the Parameters worksheet insert the following:
+
+- The cost of a traditional delivery is $0.14 (in cell C6).
+- The drone range is 3.2 mi (in cell C7).
+- The cost of drone delivery is $0.0312 (in cell C8).
+
+4.	Move to the Pizza Sales Calculations worksheet, name columns N, O, P respectively as "Weight Item 1", "Weight Item 2", "Weight Item 3". Again, be efficient!
+
+-  Make sure the label is formatted like the other headers.
+
+5.	Use a VLOOKUP to assign the right weight to each pizza. Use appropriate referencing to the weights available in the Parameters worksheet and structure the function for efficient copying to all the 3,000 rows! [Mac](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) [Win](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
+6.	Report the missing data in cells X2:X4 of the Pizza Sales Calculations worksheet.
+7.	Report the missing data in cells X5:X7 of the Pizza Sales Calculations worksheet. You may be tempted to do this with a VLOOKUP, but you must use INDEX/MATCH instead. If you don't know why ask us! You need to report the OrderNumber (column A) of the following: [Mac](https://support.microsoft.com/en-us/office/look-up-values-with-vlookup-index-or-match-68297403-7c3c-4150-9e3c-4d348188976b) [Win](https://support.microsoft.com/en-us/office/look-up-values-with-vlookup-index-or-match-68297403-7c3c-4150-9e3c-4d348188976b)
+
+- The farthest order in miles.
+- The shortest delivery duration.
+- The highest cost of a traditional delivery.
+
+If you have trouble completing this task, please look at how the task is completed in the video key.
+
+8.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
