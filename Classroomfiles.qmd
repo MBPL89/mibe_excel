@@ -15,6 +15,7 @@ Here you will find files used in the classroom examples.
 
 
 ## Data visualization
+- [Scatterplot](/_files/class/Scatterplot-conditions.xlsx){target="_blank"}
 - [Exercises - slides](/_files/class/Exercises-slides.pptx){target="_blank"}
 - [Exercise 3 - workbook](/_files/class/Exercise3.xlsx){target="_blank"}
 - [Exercise 4 - workbook](/_files/class/Exercise4.xlsx){target="_blank"}
