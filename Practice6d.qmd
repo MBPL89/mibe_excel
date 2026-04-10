@@ -1,0 +1,72 @@
+---
+title: "Practice 6d - Charts"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 6d
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/qt3e9Xf54fE title="Practice 6d Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/BavJgEgWVjA title="Practice 6d Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-6-d_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-6-d.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	Move to the Parameters worksheet and fill the empty parameter cells (highlighted in yellow):
+
+- Report the corresponding values from the Pivot table available in the Drone Delivery worksheet. Do not perform any repeated calculations. As you probably noticed, Excel automatically inserted a GETPIVOTDATA function to complete this task. Don’t worry, in fact this is a default behavior every time you set a cell equal to a Pivot table cell. If you are interested in deeper understanding of the function you can refer to the following resource. [Mac](https://support.microsoft.com/en-us/office/getpivotdata-function-8c083b99-a922-4ca0-af5e-3af55960761f) [Win](https://support.microsoft.com/en-us/office/getpivotdata-function-8c083b99-a922-4ca0-af5e-3af55960761f)
+- However, be careful in completing this task. You need to filter the orders and include only those that are inside the drone range (DroneRange =TRUE).
+- Make sure all highlighted cells have a value before moving to the next task. Refer to the electronic key video to verify that you have inserted the correct values.
+
+3.	In the Market Size worksheet insert a column chart:
+
+- Use the data in the range A1:B2.
+- Position the chart starting at cell D4.
+- Title it: "Market size".
+- Fill the columns with a color different than the default. Use your artistic sensibility to make a good choice.
+
+Refer to the key video to verify that you have inserted the correct values
+
+4.	In the Pizza Chains by Sales and Units worksheet, insert a column chart to plot the top 10 Pizza chains sales and units:
+
+- Use the data in the range A2:C12.
+- Title it: “Top 10 Pizza chains US sales ($000) and Units”
+- Report the sales on the y axis, the pizza chain name on the x axis and the number of units on a secondary vertical axis
+- Plot the Sales as columns
+- Plot the Units as a line
+- Position the chart starting at cell E3.
+
+
+5.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

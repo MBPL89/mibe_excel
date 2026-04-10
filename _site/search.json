@@ -858,7 +858,7 @@
     "href": "Classroomfiles.html#statistical-analysis",
     "title": "Classroom files",
     "section": "Statistical Analysis",
-    "text": "Statistical Analysis"
+    "text": "Statistical Analysis\n\nStatistical Analysis 1\nStatistical Analysis 2"
   },
   {
     "objectID": "Classroomfiles.html#data-visualization",
@@ -1272,5 +1272,110 @@
     "title": "Practice 5b - Calculations",
     "section": "Tasks and Steps",
     "text": "Tasks and Steps\n\nDownload and open the starter file.\nFreeze the Top row in the Pizza Sales Calculations worksheet. Mac Win\nNotice that the column ItemsOrdered has up to three items, separated by a comma. Split the ItemsOrdered column in multiple columns, each of them containing only one item. In order to complete this task, you need to:\n\n\nInsert three new columns respectively in columns E, F and G.\nName the new generated columns respectively as: “Item Ordered 1”, “Item Ordered 2” and “Item Ordered 3.” … Did you type the three labels, or are you naturally being efficient? If you typed all three be sure to let us know. We will show you how to be efficient!\nMake sure the labels are formatted like the other headers.\nSplit the text in ItemsOrdered over the three new columns you inserted. Mac Win\n\n\nIn column M calculate the delivery duration:\n\n\nName the column as “Delivery Duration”.\nMake sure the label is formatted like the other headers.\nThis variable is equal to the difference between OrderDelivery time and its corresponding OrderReady time. Since Excel computes time as the number of minutes elapsed you have to multiply the difference by 24 (hours in a day) and 60 (minutes in an hour).\n\n\nIn column N calculate the number of items each order contained:\n\n\nName the column as “Number of items ordered”.\nMake sure the label is formatted like the other headers.\nPerform this task efficiently leveraging previous learned functions (we suggest COUNTA).\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice6e.html",
+    "href": "Practice6e.html",
+    "title": "Practice 6e - Results Reporting",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice6e.html#answer-key",
+    "href": "Practice6e.html#answer-key",
+    "title": "Practice 6e - Results Reporting",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice6e.html#tasks-and-steps",
+    "href": "Practice6e.html#tasks-and-steps",
+    "title": "Practice 6e - Results Reporting",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nIn the Results worksheet insert a data validation for cell C3:\n\n\nMake sure that it is possible to enter only decimal numbers between 0.29 and 3.12. Mac Win\nUnlock the cell so users can modify this value even after you protect the result page.\n\n\nIn cell G3 calculate the “Target Number of Units”. To do so, you need to multiply the “Target Market Share Units” value (E3) by the total number of units for pizza chains (C72) available in the Sales and Units Analysis worksheet. Hint: You need to appropriately filter the pivot table in order to access the total number of units only for the pizza chains\nUnlock cell E3.\nProtect the Results worksheet. Test that the chart updates if users modify the quantity of the “Target Market Share Units” (E3).\nSave the file and close it.\nWell done, you have now completed the last Excel practice assignment!!!\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice6a.html",
+    "href": "Practice6a.html",
+    "title": "Practice 6a - Worksheet manipulation",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice6a.html#answer-key",
+    "href": "Practice6a.html#answer-key",
+    "title": "Practice 6a - Worksheet manipulation",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice6a.html#tasks-and-steps",
+    "href": "Practice6a.html#tasks-and-steps",
+    "title": "Practice 6a - Worksheet manipulation",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nPrevent all editing to the Chain Market Data and the Pizza Sales Data worksheets by protecting them. Mac Win\nTransform the table in the Market Calculations and in the Pizza Sales Calculations worksheets into a range. Mac Win\nFreeze the Top row in the Pizza Sales Calculations worksheet. Mac Win\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice6b.html",
+    "href": "Practice6b.html",
+    "title": "Practice 6b - Advanced Calculations",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice6b.html#answer-key",
+    "href": "Practice6b.html#answer-key",
+    "title": "Practice 6b - Advanced Calculations",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice6b.html#tasks-and-steps",
+    "href": "Practice6b.html#tasks-and-steps",
+    "title": "Practice 6b - Advanced Calculations",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nIn the Pizza Sales Calculations worksheet, use VLOOKUP to assign the correct weight to each item in column N, O and P:\n\n\nUse appropriate referencing to the weight parameters (available in A3:C5 of the Parameters worksheet).\nStructure the function for efficient copying in column O and P.\n\n\nModify the VLOOKUP function to replace the “#N/A” with 0. Use the IFERROR function to complete this task. Mac Win\nIn column Q, compute the total weight of each order.\nDrones have limited range. Use the information from your Parameters worksheet, (cell B21) to calculate if the specific delivery is inside or outside the range. Place results in column S. Insert “TRUE” if the delivery distance is below the operating range and “FALSE” if it is above.\nIn column T, compute the drone delivery duration. Use the information about the distance in column I of the Pizza Sales Calculations worksheet and the average speed of the drone in cell B25 of the Parameters worksheet. Be sure to convert the duration into minutes by multiplying your result by 60.\nNow you have all the information you need to calculate the cost of a drone delivery (column U).\n\n\nThe cost of a drone per minute is available in cell B40 of the Parameters worksheet.\nRemember the drone must return to the shop.\nMake sure to perform the calculation only for the delivery orders within the drone’s range. Deliveries outside the range still require a driver.\n\nHint: Use the IF Mac Win and AND Mac Win functions to complete this task.\n\nUse INDEX/MATCH to assign the correct price to each item in column V, W and X:\n\n\nUse appropriate referencing to the item price parameters (available in A3:C5 of the Parameters worksheet).\nStructure the function for efficient copying in column W and X.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice6c.html",
+    "href": "Practice6c.html",
+    "title": "Practice 6c - Pivot Tables",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice6c.html#answer-key",
+    "href": "Practice6c.html#answer-key",
+    "title": "Practice 6c - Pivot Tables",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice6c.html#tasks-and-steps",
+    "href": "Practice6c.html#tasks-and-steps",
+    "title": "Practice 6c - Pivot Tables",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the starter file.\nYou are finally ready to conduct an added value analysis. Remember that Pivot tables are a handy way to display data in a summarized form.\nIn cell A2 of the Gross Sales worksheet insert a Pivot table showing the sum of sales (Sales) for both Pizza restaurants and the Other chains. Use the data in Market Calculations worksheet. If you have trouble in completing this task, please look at the key video. Mac Win\nUsing the data from the Market Calculations worksheet:\n\n\nInsert a PivotTable in cell B5 of the Sales and Units Analysis worksheet.\nProduce the sum of the sales (Sales) and of the units (Units) in the Values area.\nAdd Chain in the Rows area.\nAdd Menu Category, Segment and Pizza chains in the Filters area.\n\n\nUsing the data in Pizza Sales Calculations worksheet:\n\n\nInsert a PivotTable in cell C7 of the Drone Delivery worksheet.\nReport the average cost of a drone delivery (CostDroneDelivery) in the Values area.\nReport the average duration of a drone delivery (DroneDeliveryDuration) in the Values area.\nReport the count of orders (use column ItemOrdered 1), expressed as a number, in the Values area.\nAdd Delivery in the Columns area.\nMove the Values in the Rows area.\nAdd DroneRange in the Filters area.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
+  },
+  {
+    "objectID": "Practice6d.html",
+    "href": "Practice6d.html",
+    "title": "Practice 6d - Charts",
+    "section": "",
+    "text": "TipWindows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipMac\n\n\n\n\n\n\n\n\n\n\n\nAnswer key"
+  },
+  {
+    "objectID": "Practice6d.html#answer-key",
+    "href": "Practice6d.html#answer-key",
+    "title": "Practice 6d - Charts",
+    "section": "",
+    "text": "Answer key"
+  },
+  {
+    "objectID": "Practice6d.html#tasks-and-steps",
+    "href": "Practice6d.html#tasks-and-steps",
+    "title": "Practice 6d - Charts",
+    "section": "Tasks and Steps",
+    "text": "Tasks and Steps\n\nDownload and open the empty starter file.\nMove to the Parameters worksheet and fill the empty parameter cells (highlighted in yellow):\n\n\nReport the corresponding values from the Pivot table available in the Drone Delivery worksheet. Do not perform any repeated calculations. As you probably noticed, Excel automatically inserted a GETPIVOTDATA function to complete this task. Don’t worry, in fact this is a default behavior every time you set a cell equal to a Pivot table cell. If you are interested in deeper understanding of the function you can refer to the following resource. Mac Win\nHowever, be careful in completing this task. You need to filter the orders and include only those that are inside the drone range (DroneRange =TRUE).\nMake sure all highlighted cells have a value before moving to the next task. Refer to the electronic key video to verify that you have inserted the correct values.\n\n\nIn the Market Size worksheet insert a column chart:\n\n\nUse the data in the range A1:B2.\nPosition the chart starting at cell D4.\nTitle it: “Market size”.\nFill the columns with a color different than the default. Use your artistic sensibility to make a good choice.\n\nRefer to the key video to verify that you have inserted the correct values\n\nIn the Pizza Chains by Sales and Units worksheet, insert a column chart to plot the top 10 Pizza chains sales and units:\n\n\nUse the data in the range A2:C12.\nTitle it: “Top 10 Pizza chains US sales ($000) and Units”\nReport the sales on the y axis, the pizza chain name on the x axis and the number of units on a secondary vertical axis\nPlot the Sales as columns\nPlot the Units as a line\nPosition the chart starting at cell E3.\n\n\nSave the file and close it.\n\n\n\n\n\n\n  \n  \n    © 2026. All Rights Reserved.\n  \n  \n\n  \n  \n    Enabled by Dr. Marcin Bartosiak"
   }
 ]

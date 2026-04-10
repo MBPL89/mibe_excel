@@ -1,0 +1,70 @@
+---
+title: "Practice 6b - Advanced Calculations"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 6b
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/iOhJjxG7wB4 title="Practice 6b Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/wna5pN6IMh8 title="Practice 6b Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-6-b_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-6-b.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	In the Pizza Sales Calculations worksheet, use VLOOKUP to assign the correct weight to each item in column N, O and P:
+
+- Use appropriate referencing to the weight parameters (available in A3:C5 of the Parameters worksheet).
+- Structure the function for efficient copying in column O and P.
+
+3.	Modify the VLOOKUP function to replace the "#N/A" with 0. Use the IFERROR function to complete this task. [Mac](https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611) [Win](https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611)
+4.	In column Q, compute the total weight of each order.
+5.	Drones have limited range. Use the information from your Parameters worksheet, (cell B21) to calculate if the specific delivery is inside or outside the range. Place results in column S. Insert "TRUE" if the delivery distance is below the operating range and "FALSE" if it is above.
+6.	In column T, compute the drone delivery duration. Use the information about the distance in column I of the Pizza Sales Calculations worksheet and the average speed of the drone in cell B25 of the Parameters worksheet. Be sure to convert the duration into minutes by multiplying your result by 60.
+7.	Now you have all the information you need to calculate the cost of a drone delivery (column U).
+
+- The cost of a drone per minute is available in cell B40 of the Parameters worksheet.
+- Remember the drone must return to the shop.
+- Make sure to perform the calculation only for the delivery orders within the drone's range. Deliveries outside the range still require a driver.
+
+Hint: Use the IF [Mac](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) [Win](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2) and AND [Mac](https://support.microsoft.com/en-us/office/and-function-5f19b2e8-e1df-4408-897a-ce285a19e9d9) [Win](https://support.microsoft.com/en-us/office/and-function-5f19b2e8-e1df-4408-897a-ce285a19e9d9) functions to complete this task.
+
+8.	Use INDEX/MATCH to assign the correct price to each item in column V, W and X:
+
+- Use appropriate referencing to the item price parameters (available in A3:C5 of the Parameters worksheet).
+- Structure the function for efficient copying in column W and X.
+
+
+9.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

@@ -1,0 +1,50 @@
+---
+title: "Practice 6a - Worksheet manipulation"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 6a
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/m9W9DX3P2O8 title="Practice 6a Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/1W5m5c9XhfE title="Practice 6a Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-6-a_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-6-a.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	Prevent all editing to the Chain Market Data and the Pizza Sales Data worksheets by protecting them. [Mac](https://support.microsoft.com/en-us/office/protect-a-worksheet-in-mac-9ef52175-aaeb-4471-88d7-acdad93819c5) [Win](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+3.	Transform the table in the Market Calculations and in the Pizza Sales Calculations worksheets into a range. [Mac](https://support.microsoft.com/en-us/office/convert-an-excel-table-to-a-range-of-data-0b326ff1-1764-4ebe-84ea-786265d41c77) [Win](https://support.microsoft.com/en-us/office/convert-an-excel-table-to-a-range-of-data-0b326ff1-1764-4ebe-84ea-786265d41c77)
+4.	Freeze the Top row in the Pizza Sales Calculations worksheet. [Mac](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2) [Win](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-the-first-row-or-column-in-excel-for-mac-b8eb717e-9d3e-4354-8c02-d779a4b404b2)
+5. Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

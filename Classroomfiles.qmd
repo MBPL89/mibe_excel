@@ -13,8 +13,11 @@ Here you will find files used in the classroom examples.
 
 ## Statistical Analysis
 
+- [Statistical Analysis 1](/_files/class/Statistical_Analysis_1.xlsx){target="_blank"}
+- [Statistical Analysis 2](/_files/class/Statistical_Analysis_2.xlsx){target="_blank"}
 
 ## Data visualization
+
 - [Scatterplot](/_files/class/Scatterplot-conditions.xlsx){target="_blank"}
 - [Exercises - slides](/_files/class/Exercises-slides.pptx){target="_blank"}
 - [Exercise 3 - workbook](/_files/class/Exercise3.xlsx){target="_blank"}

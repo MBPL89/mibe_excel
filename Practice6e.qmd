@@ -1,0 +1,57 @@
+---
+title: "Practice 6e - Results Reporting"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 6e
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/RRQ7r0YdwJ0 title="Practice 6e Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/JBFX3iWWK08 title="Practice 6e Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-6-e_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-6-e.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the empty starter file.
+2.	In the Results worksheet insert a data validation for cell C3:
+
+- Make sure that it is possible to enter only decimal numbers between 0.29 and 3.12. [Mac](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249) [Win](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)
+- Unlock the cell so users can modify this value even after you protect the result page.
+
+3.	In cell G3 calculate the "Target Number of Units". To do so, you need to multiply the "Target Market Share Units" value (E3) by the total number of units for pizza chains (C72) available in the Sales and Units Analysis worksheet. Hint: You need to appropriately filter the pivot table in order to access the total number of units only for the pizza chains
+4.	Unlock cell E3.
+5.	Protect the Results worksheet. Test that the chart updates if users modify the quantity of the "Target Market Share Units" (E3).
+6.	Save the file and close it.
+7.	Well done, you have now completed the last Excel practice assignment!!!
+
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```

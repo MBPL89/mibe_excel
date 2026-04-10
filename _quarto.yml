@@ -62,7 +62,13 @@ website:
       - text: "Lesson 6"
         menu:
         - "Comprehensive Analysis"
-        - "Coming soon"
+        #- "Coming soon"
+        - Lesson6.qmd
+        - Practice6a.qmd
+        - Practice6b.qmd
+        - Practice6c.qmd
+        - Practice6d.qmd
+        - Practice6e.qmd
         
 format:
   html:

@@ -1,0 +1,67 @@
+---
+title: "Practice 6c - Pivot Tables"
+author: "Dr. Bartosiak"
+---
+
+# Practie video 6c
+
+::: {.callout-tip title="Windows" collapse="true"}
+{{< video https://youtu.be/WvLxktQj9GM title="Practice 6c Windows" >}}
+:::
+
+::: {.callout-tip title="Mac" collapse="true"}
+{{< video https://youtu.be/PhU8Dels98E title="Practice 6c Mac" >}}
+:::
+
+## Answer key
+
+[Answer key](/_files/keys/key_intromis-6-c_1.xlsx){target="_blank"}
+
+# Instructions
+
+[Starter Workbook](/_files/starters/starter_intromis-6-c.xlsx){target="_blank"}
+
+## Tasks and Steps
+
+1.  Download and open the starter file.
+2.	You are finally ready to conduct an added value analysis. Remember that Pivot tables are a handy way to display data in a summarized form.
+3.	In cell A2 of the Gross Sales worksheet insert a Pivot table showing the sum of sales (Sales) for both Pizza restaurants and the Other chains. Use the data in Market Calculations worksheet. If you have trouble in completing this task, please look at the key video. [Mac](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) [Win](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
+4.	Using the data from the Market Calculations worksheet:
+
+- Insert a PivotTable in cell B5 of the Sales and Units Analysis worksheet.
+- Produce the sum of the sales (Sales) and of the units (Units) in the Values area.
+- Add Chain in the Rows area.
+- Add Menu Category, Segment and Pizza chains in the Filters area.
+
+5.	Using the data in Pizza Sales Calculations worksheet:
+
+- Insert a PivotTable in cell C7 of the Drone Delivery worksheet.
+- Report the average cost of a drone delivery (CostDroneDelivery) in the Values area.
+- Report the average duration of a drone delivery (DroneDeliveryDuration) in the Values area.
+- Report the count of orders (use column ItemOrdered 1), expressed as a number, in the Values area.
+- Add Delivery in the Columns area.
+- Move the Values in the Rows area.
+- Add DroneRange in the Filters area.
+
+
+6.  Save the file and close it.
+
+------------------------------------------------------------------------
+
+```{=html}
+<style>
+.disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+</style>
+```
+
+```{=html}
+<div>
+  {{< include footer.html >}}
+</div>
+```
